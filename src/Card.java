@@ -1,3 +1,4 @@
+import java.util.Objects;
 
 public class Card {
 	private char suit;
@@ -22,19 +23,40 @@ public class Card {
 
 	}
 
-	public boolean equals(Object o) {
-		Card c = (Card) o;
-
-		if (this == o) {
-			return true;
+	public boolean isSmallerAndDifferentColor(Card card) {
+		if ((card.getValue() - this.value != 1) || this.color.equals(card.getColor())) {
+			return false;
 		}
+		return true;
+	}
 
-		if (this.suit == c.getSuit() && this.value == c.getValue()) {
-			return true;
+	public boolean isLargerAndSameSuit(Card card) {
+		if ((this.value - card.getValue() != 1) || this.suit != card.getSuit()) {
+			return false;
 		}
+		return true;
+	}
 
-		return false;
+	@Override
+	public Card clone() {
+		return new Card(this.suit, this.value);
+	}
 
+	@Override
+	public int hashCode() {
+		return Objects.hash(color, suit, value);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Card other = (Card) obj;
+		return Objects.equals(color, other.color) && suit == other.suit && value == other.value;
 	}
 
 	public String toString() {

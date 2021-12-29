@@ -27,7 +27,9 @@ public class MyFileReader {
 				for(String c: cards) {
 					char suit = c.charAt(0);
 					int value = Integer.valueOf(c.substring(1));
-					state.getHand().get(i).add(new Card(suit, value));
+					Card card = new Card(suit, value);
+					state.getStacks().get(i).add(card);
+					state.getPair().put(card, "stack");
 				}
 				i++;
 				line = input.readLine();
