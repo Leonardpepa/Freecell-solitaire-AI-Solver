@@ -38,7 +38,7 @@ public class Game {
 					continue;
 				}
 
-				if (move[0].equalsIgnoreCase("foundation")) {
+				if (move[0].equalsIgnoreCase(MyUtils.FOUNDATION)) {
 
 					Stack<Card> foundation = MyUtils.getFoundation(state, move[1].charAt(0));
 					
@@ -49,7 +49,7 @@ public class Game {
 
 					state.moveCardToFoundation(cardToMove, foundation);
 
-				} else if (move[0].equalsIgnoreCase("freecell")) {
+				} else if (move[0].equalsIgnoreCase(MyUtils.FREECELL)) {
 
 					if (!state.canMoveToFreecell(cardToMove)) {
 						Auxiliary.freecellsFullMessage();
@@ -57,20 +57,20 @@ public class Game {
 					}
 					state.moveCardToFreecell(cardToMove);
 
-				} else if (move[0].equalsIgnoreCase("stack")) {
+				} else if (move[0].equalsIgnoreCase(MyUtils.STACK)) {
 
 					Card cardOnStack = MyUtils.getCardByIdentifier(state, move[2].charAt(0),
 							Integer.valueOf(move[2].substring(1)));
 
 					Stack<Card> stack = state.getStacks().get(MyUtils.getStackIdxFromCard(state, cardOnStack));
 
-					if (!state.canMoveToStack(cardToMove, cardOnStack)) {
+					if (!state.canMoveToStack(cardToMove, stack)) {
 						Auxiliary.invalidMoveToStack();
 						continue;
 					}
 					state.moveCardToStack(cardToMove, stack);
 
-				} else if (move[0].equalsIgnoreCase("newstack")) {
+				} else if (move[0].equalsIgnoreCase(MyUtils.NEWSTACK)) {
 
 					state.getStacks().forEach(stack -> {
 						if (stack.isEmpty()) {

@@ -24,17 +24,11 @@ public class Card {
 	}
 
 	public boolean isSmallerAndDifferentColor(Card card) {
-		if ((card.getValue() - this.value != 1) || this.color.equals(card.getColor())) {
-			return false;
-		}
-		return true;
+		return ((this.getValue() + 1) == card.getValue()) && !this.color.equalsIgnoreCase(card.getColor());
 	}
 
 	public boolean isLargerAndSameSuit(Card card) {
-		if ((this.value - card.getValue() != 1) || this.suit != card.getSuit()) {
-			return false;
-		}
-		return true;
+		return (this.value - 1) == card.getValue() && this.suit == card.getSuit(); 
 	}
 
 	@Override

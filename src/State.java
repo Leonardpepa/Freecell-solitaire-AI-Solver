@@ -9,6 +9,8 @@ public class State {
 	private ArrayList<Stack<Card>> stacks;
 	private HashMap<Card, String> pair;
 
+	private String move;
+
 	public float g;
 	public float h;
 	public float f;
@@ -28,6 +30,7 @@ public class State {
 	}
 
 	public void printState() {
+		System.out.println("-------- State -----------");
 		System.out.println("freecells: " + freecells);
 		System.out.println();
 		System.out.print("foundation: ");
@@ -39,6 +42,7 @@ public class State {
 		for (Stack<Card> stack : stacks) {
 			System.out.println(stack);
 		}
+		System.out.println("-------- End State ---------");
 	}
 
 	@Override
@@ -47,26 +51,35 @@ public class State {
 
 		for (Card c : this.freecells) {
 			state.getFreecells().add(c.clone());
+			state.getPair().put(c, MyUtils.FREECELL);
 		}
 
 		for (int i = 0; i < 4; i++) {
 			for (Card c : foundations.get(i)) {
 				state.getFoundations().get(i).add(c.clone());
+				state.getPair().put(c, MyUtils.FOUNDATION);
 			}
 		}
 
 		for (int i = 0; i < 8; i++) {
 			for (Card c : stacks.get(i)) {
 				state.getStacks().get(i).add(c.clone());
+				state.getPair().put(c, MyUtils.STACK);
 			}
 		}
+
 		return state;
 	}
 
+	@Override
 	public boolean equals(Object o) {
+
+		if (o == null) {
+			return false;
+		}
 		State s = (State) o;
 
-		if (this == o) {
+		if (this == s) {
 			return true;
 		}
 
@@ -75,7 +88,7 @@ public class State {
 		}
 
 		for (int i = 0; i < this.freecells.size(); i++) {
-			if (!this.freecells.get(i).equals(s.getFreecells().get(i))) {
+			if (!s.getFreecells().contains(this.freecells.get(i))) {
 				return false;
 			}
 		}
@@ -84,53 +97,52 @@ public class State {
 			if (this.foundations.get(i).size() != s.getFoundations().get(i).size()) {
 				return false;
 			}
-			for (int j = 0; j < this.foundations.get(i).size(); i++) {
-				if (!this.foundations.get(i).get(j).equals(s.getFoundations().get(i).get(j))) {
+
+			for (Card c : this.foundations.get(i)) {
+				if (!s.getFoundations().get(i).contains(c)) {
 					return false;
 				}
 			}
 		}
 
 		for (int i = 0; i < 8; i++) {
-
-			if (this.stacks.get(i).size() != s.getStacks().get(i).size()) {
+			if (this.getStacks().get(i).size() != s.getStacks().get(i).size()) {
 				return false;
 			}
-			for (int j = 0; j < this.stacks.get(i).size(); j++) {
-				if (!this.stacks.get(i).get(j).equals(s.getStacks().get(i).get(j))) {
-					return false;
-				}
+
+			if ((!this.stacks.get(i).isEmpty() && !s.getStacks().get(i).isEmpty())
+					&& !this.stacks.get(i).peek().equals(s.getStacks().get(i).peek())) {
+				return false;
 			}
 		}
-
 		return true;
 	}
 
 	public boolean moveCardToFreecell(Card card) {
 
-		removeCard(card);
+		removeCardFromItsPosition(card);
 
 		freecells.add(card);
-		pair.put(card, "freecell");
+		pair.put(card, MyUtils.FREECELL);
 		return true;
 	}
 
 	// this method is called if stack you want to move your card in empty
 	public boolean moveCardToStack(Card cardToMove, Stack<Card> stack) {
 
-		removeCard(cardToMove);
-		
+		removeCardFromItsPosition(cardToMove);
+
 		stack.add(cardToMove);
-		pair.put(cardToMove, "stack");
+		pair.put(cardToMove, MyUtils.STACK);
 		return true;
 	}
 
 	public boolean moveCardToFoundation(Card cardToMove, Stack<Card> foundation) {
 
-		removeCard(cardToMove);
-		
+		removeCardFromItsPosition(cardToMove);
+
 		foundation.add(cardToMove);
-		pair.put(cardToMove, "foundation");
+		pair.put(cardToMove, MyUtils.FOUNDATION);
 		return true;
 	}
 
@@ -151,9 +163,13 @@ public class State {
 		return false;
 	}
 
-	public boolean canMoveToStack(Card cardToMove, Card cardOnStack) {
+	public boolean canMoveToStack(Card cardToMove, Stack<Card> stack) {
 
-		if (cardToMove.isSmallerAndDifferentColor(cardOnStack)) {
+		if (stack.isEmpty()) {
+			return true;
+		}
+
+		if (cardToMove.isSmallerAndDifferentColor(stack.peek())) {
 			return true;
 		}
 		return false;
@@ -187,14 +203,213 @@ public class State {
 		return true;
 	}
 
-	public void removeCard(Card card) {
-		if (pair.get(card).equals("freecell")) {
+	public void removeCardFromItsPosition(Card card) {
+
+		if (pair.get(card).equalsIgnoreCase(MyUtils.FREECELL)) {
+
 			freecells.remove(card);
-		} else if (pair.get(card).equals("stack")) {
+
+		} else if (pair.get(card).equalsIgnoreCase(MyUtils.STACK)) {
+
 			stacks.forEach(stack -> stack.remove(card));
-		} else if (pair.get(card).equals("foundation")) {
-			foundations.forEach(stack -> stack.remove(card));
+		} else if (pair.get(card).equalsIgnoreCase(MyUtils.FOUNDATION)) {
+
+			foundations.forEach(foundation -> foundation.remove(card));
+
 		}
+
+	}
+
+	public Frontier getChildrenOfState(String method) {
+		Frontier children = new Frontier();
+
+		children.addAll(getMovesFromStackToOtherPosition(method));
+		children.addAll(getMovesFromFreecellsToOtherPosition(method));
+
+		return children;
+	}
+
+	public Frontier getMovesFromFreecellsToOtherPosition(String method) {
+
+		Frontier children = new Frontier();
+
+		for (Card card : this.freecells) {
+			
+			Card c = card.clone();
+			// check card move from freecell to foundation
+			for (int i = 0; i < 4; i++) {
+				if (this.canMoveToFoundation(c, foundations.get(i))) {
+					State childrenState = this.clone();
+					childrenState.moveCardToFoundation(c, childrenState.getFoundations().get(i));
+					childrenState.setParent(this);
+					childrenState.setMove(MyUtils.FOUNDATION + " " + c.toString());
+					if (childrenState.alreadyInHistory()) {
+						childrenState = null;
+						continue;
+					} else {
+						children.add(childrenState);
+						return children;
+					}
+				}
+			}
+
+			// check card move from freecell to stack
+			for (int i = 0; i < 8; i++) {
+				if (this.canMoveToStack(c, stacks.get(i))) {
+					State childrenState = this.clone();
+					childrenState.moveCardToStack(c, childrenState.getStacks().get(i));
+					childrenState.setParent(this);
+					if (this.getStacks().get(i).isEmpty()) {
+						childrenState.setMove(MyUtils.NEWSTACK + " " + c.toString());
+					} else {
+						childrenState.setMove(
+								MyUtils.STACK + " " + c.toString() + " " + this.getStacks().get(i).peek().toString());
+					}
+					if (childrenState.alreadyInHistory()) {
+						childrenState = null;
+						continue;
+					} else {
+						children.add(childrenState);
+					}
+				}
+			}
+
+		}
+		return children;
+	}
+
+	public Frontier getMovesFromStackToOtherPosition(String method) {
+		Frontier children = new Frontier();
+
+		for (int i = 0; i < 8; i++) {
+
+			if (this.stacks.get(i).isEmpty()) {
+				continue;
+			}
+
+			Card cardToMove = this.stacks.get(i).peek().clone();
+
+			// to foundation
+			switch (cardToMove.getSuit()) {
+			case 'D':
+				if (expandToFoundation(children, cardToMove, MyUtils.DIAMONDS)) {
+					return children;
+				}
+				;
+				break;
+			case 'S':
+				if (expandToFoundation(children, cardToMove, MyUtils.SPADES)) {
+					return children;
+				}
+				;
+				break;
+			case 'C':
+				if (expandToFoundation(children, cardToMove, MyUtils.CLUBS)) {
+					return children;
+				}
+				break;
+			case 'H':
+				if (expandToFoundation(children, cardToMove, MyUtils.HEARTS)) {
+					return children;
+				}
+
+				break;
+
+			default:
+				break;
+			}
+
+			// to freecell
+			if (this.canMoveToFreecell(cardToMove)) {
+				State childrenState = this.clone();
+				childrenState.moveCardToFreecell(cardToMove);
+				childrenState.setParent(this);
+				childrenState.setMove(MyUtils.FREECELL + " " + cardToMove.toString());
+				if (childrenState.alreadyInHistory()) {
+					childrenState = null;
+					continue;
+				} else {
+					children.add(childrenState);
+				}
+			}
+
+		}
+
+		return children;
+	}
+
+	public boolean expandToFoundation(Frontier children, Card cardToMove, int suit) {
+		if (this.canMoveToFoundation(cardToMove, this.foundations.get(suit))) {
+			State childrenState = this.clone();
+			childrenState.moveCardToFoundation(cardToMove, childrenState.getFoundations().get(suit));
+			childrenState.setParent(this);
+			childrenState.setMove(MyUtils.FOUNDATION + " " + cardToMove.toString());
+			if (childrenState.alreadyInHistory()) {
+				return false;
+			} else {
+				children.add(childrenState);
+				return true;
+			}
+		}
+		return false;
+	}
+
+//	public Frontier getMoveFromFoundationToOtherPosition(String method) {
+//		Frontier children = new Frontier();
+//
+//		for (int i = 0; i < 4; i++) {
+//
+//			if (this.foundations.get(i).isEmpty()) {
+//				continue;
+//			}
+//			Card c = this.foundations.get(i).peek().clone();
+//
+//			// to freecell
+//			if (this.canMoveToFreecell(c)) {
+//				State childrenState = this.clone();
+//				childrenState.moveCardToFreecell(c);
+//				childrenState.setParent(this);
+//				childrenState.setMove(MyUtils.FREECELL + " " + c.toString());
+//				
+//				if(alreadyInHistory(childrenState)) {
+//					continue;
+//				}else {
+//					children.add(childrenState);					
+//				}
+//				
+//			}
+//
+//			for (int j = 0; j < 8; j++) {
+//				if (this.canMoveToStack(c, this.stacks.get(j))) {
+//					State childrenState = this.clone();
+//					childrenState.moveCardToStack(c, childrenState.getStacks().get(j));
+//					childrenState.setParent(this);
+//
+//					if (this.stacks.get(j).isEmpty()) {
+//						childrenState.setMove(MyUtils.NEWSTACK + " " + c.toString());
+//					} else {
+//
+//						childrenState.setMove(
+//								MyUtils.STACK + " " + c.toString() + " " + this.getStacks().get(j).peek().toString());
+//					}
+//
+//					children.add(childrenState);
+//				}
+//			}
+//
+//		}
+//
+//		return children;
+//	}
+
+	public boolean alreadyInHistory() {
+//		for (State historyState : MyUtils.gameHistory) {
+//			if (this.equals(historyState)) {
+//				return true;
+//			}
+//		}
+//		return false;
+		return MyUtils.gameHistory.contains(this);
 	}
 
 	public ArrayList<Card> getFreecells() {
@@ -259,6 +474,15 @@ public class State {
 
 	public void setParent(State parent) {
 		this.parent = parent;
+		this.g = parent.getG() + 1;
+	}
+
+	public String getMove() {
+		return move;
+	}
+
+	public void setMove(String move) {
+		this.move = move;
 	}
 
 }
