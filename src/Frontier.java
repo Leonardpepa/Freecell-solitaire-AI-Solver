@@ -1,3 +1,5 @@
+import java.time.Duration;
+import java.time.Instant;
 import java.util.TreeSet;
 
 public class Frontier {
@@ -10,6 +12,13 @@ public class Frontier {
 	}
 
 	public void search(State initialState, String method, String outputFile) {
+
+		boolean solutionFound = false;
+
+		Instant start = Instant.now();
+
+		Long timeElapsed = Duration.between(start, Instant.now()).toMillis();
+
 		int numOfNodesExpanded = 0;
 
 		initialState.setMethod(method);
@@ -20,24 +29,34 @@ public class Frontier {
 		System.out.println("Start Searching....");
 		System.out.println("Using algorithm: " + method);
 		System.out.println();
-		while (!nodes.isEmpty()) {
+
+		while (!nodes.isEmpty() && !solutionFound && timeElapsed < 120000) {
 
 			currentNode = nodes.pollFirst();
-
+			currentNode.printState();
 			if (currentNode.isSolved()) {
-				new Solution(currentNode, outputFile);
-				System.out.println("Number of nodes expanded: " + numOfNodesExpanded);
-				System.out.println("Nodes on the frontier: " + nodes.size());
-				break;
+				solutionFound = true;
+				new Solution(currentNode, outputFile);	
+				continue;
 			} else {
-				if (method.equals(MyUtils.BREADTH) && nodes.size() == 0) {
-					nodes.addAll(currentNode.getChildrenOfState(currentNode.getMethod()));
-				} else {
-					nodes.addAll(currentNode.getChildrenOfState(currentNode.getMethod()));
-				}
+				nodes.addAll(currentNode.getChildrenOfState(currentNode.getMethod()));
 				numOfNodesExpanded++;
 			}
+
+			timeElapsed = Duration.between(start, Instant.now()).toMillis();
 		}
+
+		System.out.println();
+
+		if (!solutionFound) {
+			System.out.println("Solution not found");
+		}else{
+			System.out.println("Solution found");
+		}
+
+		System.out.println("Time elapsed: " + timeElapsed + "ms");
+		System.out.println("Nodes expanded: " + numOfNodesExpanded);
+		System.out.println("Nodes in frontier: " + nodes.size());
 
 	}
 

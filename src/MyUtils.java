@@ -8,7 +8,7 @@ public class MyUtils {
 	public static final int CLUBS = 2;
 	public static final int HEARTS = 3;
 
-	public static final String FOUNDATION = "foundation";
+	public static final String FOUNDATION = "source";
 	public static final String STACK = "stack";
 	public static final String FREECELL = "freecell";
 	public static final String NEWSTACK = "newstack";

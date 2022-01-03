@@ -24,7 +24,7 @@ public class State implements Comparable<State> {
 		foundations = new ArrayList<>(4);
 		stacks = new ArrayList<>(8);
 		pair = new HashMap<>();
-
+		
 		for (int i = 0; i < 4; i++) {
 			foundations.add(new Stack<>());
 			stacks.add(new Stack<>());
@@ -268,6 +268,7 @@ public class State implements Comparable<State> {
 
 	public void removeCardFromItsPosition(Card card) {
 
+		
 		if (pair.get(card).equalsIgnoreCase(MyUtils.FREECELL)) {
 
 			freecells.remove(card);
@@ -372,7 +373,7 @@ public class State implements Comparable<State> {
 			}
 			childrenState = null;
 
-			// to stack another stack
+			// from stack to another stack
 			for (int j = 0; j < 8; j++) {
 
 				if (i == j) {
@@ -414,7 +415,6 @@ public class State implements Comparable<State> {
 			}
 
 			// to freecell
-
 			if (this.freecellRule(cardToMove)) {
 				childrenState = this.clone();
 				childrenState.moveCardToFreecell(cardToMove);
@@ -573,7 +573,6 @@ public class State implements Comparable<State> {
 	public void setFoundations(ArrayList<Stack<Card>> foundations) {
 		this.foundations = foundations;
 	}
-
 	public HashMap<Card, String> getPair() {
 		return pair;
 	}
@@ -581,7 +580,6 @@ public class State implements Comparable<State> {
 	public void setPair(HashMap<Card, String> pair) {
 		this.pair = pair;
 	}
-
 	public int getG() {
 		return g;
 	}

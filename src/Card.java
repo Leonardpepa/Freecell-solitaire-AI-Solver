@@ -4,21 +4,42 @@ public class Card {
 	private char suit;
 	private int value;
 	private String color;
+	private String isLocated;
 
 	public Card(char suit, int value) {
 		this.suit = suit;
 		this.value = value;
 
 		switch (suit) {
-		case 'S':
-		case 'C':
-			color = "black";
-			break;
-		case 'H':
-		case 'D':
-			color = "red";
-		default:
-			color = "error";
+			case 'S':
+			case 'C':
+				color = "black";
+				break;
+			case 'H':
+			case 'D':
+				color = "red";
+				break;
+			default:
+				color = "error";
+		}
+
+	}
+
+	public Card(char suit, int value, String isLocated) {
+		this.suit = suit;
+		this.value = value;
+		this.isLocated = isLocated;
+		switch (suit) {
+			case 'S':
+			case 'C':
+				color = "black";
+				break;
+			case 'H':
+			case 'D':
+				color = "red";
+				break;
+			default:
+				color = "error";
 		}
 
 	}
@@ -28,12 +49,12 @@ public class Card {
 	}
 
 	public boolean isLargerAndSameSuit(Card card) {
-		return (this.value - 1) == card.getValue() && this.suit == card.getSuit(); 
+		return (this.value - 1) == card.getValue() && this.suit == card.getSuit();
 	}
 
 	@Override
 	public Card clone() {
-		return new Card(this.suit, this.value);
+		return new Card(this.suit, this.value, this.isLocated);
 	}
 
 	@Override
@@ -79,6 +100,14 @@ public class Card {
 
 	public void setColor(String color) {
 		this.color = color;
+	}
+
+	public String getIsLocated() {
+		return isLocated;
+	}
+
+	public void setIsLocated(String isLocated) {
+		this.isLocated = isLocated;
 	}
 
 }

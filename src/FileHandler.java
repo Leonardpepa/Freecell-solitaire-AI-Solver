@@ -33,9 +33,8 @@ public class FileHandler {
 					cardsN++;
 					char suit = c.charAt(0);
 					int value = Integer.valueOf(c.substring(1));
-					Card card = new Card(suit, value);
+					Card card = new Card(suit, value, "stack");
 					state.getStacks().get(i).add(card);
-					state.getPair().put(card, "stack");
 				}
 				i++;
 				line = input.readLine();
