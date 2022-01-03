@@ -41,8 +41,8 @@ public class Game {
 				if (move[0].equalsIgnoreCase(MyUtils.FOUNDATION)) {
 
 					Stack<Card> foundation = MyUtils.getFoundation(state, move[1].charAt(0));
-					
-					if (!state.canMoveToFoundation(cardToMove, foundation)) {
+
+					if (!state.foundationRule(cardToMove, foundation)) {
 						Auxiliary.InvalidMoveToFoundation();
 						continue;
 					}
@@ -51,7 +51,7 @@ public class Game {
 
 				} else if (move[0].equalsIgnoreCase(MyUtils.FREECELL)) {
 
-					if (!state.canMoveToFreecell(cardToMove)) {
+					if (!state.freecellRule(cardToMove)) {
 						Auxiliary.freecellsFullMessage();
 						continue;
 					}
@@ -64,7 +64,7 @@ public class Game {
 
 					Stack<Card> stack = state.getStacks().get(MyUtils.getStackIdxFromCard(state, cardOnStack));
 
-					if (!state.canMoveToStack(cardToMove, stack)) {
+					if (!state.stackRule(cardToMove, stack)) {
 						Auxiliary.invalidMoveToStack();
 						continue;
 					}

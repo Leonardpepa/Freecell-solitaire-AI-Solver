@@ -1,4 +1,5 @@
 import java.util.Stack;
+import java.util.TreeSet;
 
 public class MyUtils {
 
@@ -17,7 +18,9 @@ public class MyUtils {
 	public static final String BEST = "best";
 	public static final String ASTAR = "astar";
 
-	public static Frontier gameHistory = new Frontier();
+	public static TreeSet<State> gameHistory = new TreeSet<State>();
+	
+	public static int N = 0;
 
 	public static Stack<Card> getFoundation(State state, char value) {
 		Stack<Card> foundation = null;

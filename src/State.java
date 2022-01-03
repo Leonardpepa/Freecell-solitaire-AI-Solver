@@ -1,8 +1,9 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Stack;
+import java.util.TreeSet;
 
-public class State {
+public class State implements Comparable<State> {
 
 	private ArrayList<Card> freecells;
 	private ArrayList<Stack<Card>> foundations;
@@ -11,9 +12,11 @@ public class State {
 
 	private String move;
 
-	public float g;
-	public float h;
-	public float f;
+	private String method;
+
+	public int g;
+	public int h;
+	public int f;
 	private State parent;
 
 	public State() {
@@ -21,6 +24,7 @@ public class State {
 		foundations = new ArrayList<>(4);
 		stacks = new ArrayList<>(8);
 		pair = new HashMap<>();
+
 		for (int i = 0; i < 4; i++) {
 			foundations.add(new Stack<>());
 			stacks.add(new Stack<>());
@@ -43,32 +47,6 @@ public class State {
 			System.out.println(stack);
 		}
 		System.out.println("-------- End State ---------");
-	}
-
-	@Override
-	public State clone() {
-		State state = new State();
-
-		for (Card c : this.freecells) {
-			state.getFreecells().add(c.clone());
-			state.getPair().put(c, MyUtils.FREECELL);
-		}
-
-		for (int i = 0; i < 4; i++) {
-			for (Card c : foundations.get(i)) {
-				state.getFoundations().get(i).add(c.clone());
-				state.getPair().put(c, MyUtils.FOUNDATION);
-			}
-		}
-
-		for (int i = 0; i < 8; i++) {
-			for (Card c : stacks.get(i)) {
-				state.getStacks().get(i).add(c.clone());
-				state.getPair().put(c, MyUtils.STACK);
-			}
-		}
-
-		return state;
 	}
 
 	@Override
@@ -116,6 +94,91 @@ public class State {
 			}
 		}
 		return true;
+
+	}
+
+	@Override
+	public int compareTo(State otherState) {
+
+		if (this.equals(otherState)) {
+			return 0;
+		}
+
+		if (method.equals(MyUtils.BREADTH)) {
+
+			if (this.g > otherState.getG())
+				return 1;
+			else if (this.g < otherState.getG())
+				return -1;
+			else {
+				return 1;
+			}
+
+		} else if (method.equals(MyUtils.DEPTH)) {
+
+			if (this.g > otherState.getG())
+				return -1;
+			else if (this.g < otherState.getG())
+				return 1;
+			else {
+				return 1;
+			}
+
+		} else if (method.equals(MyUtils.BEST)) {
+			if (this.h > otherState.getH())
+				return 1;
+			else if (this.h < otherState.getH())
+				return -1;
+			else {
+				if (this.g < otherState.getG())
+					return -1;
+				return 1;
+			}
+
+		} else {
+			if (this.f > otherState.getF())
+				return 1;
+			else if (this.f < otherState.getF())
+				return -1;
+			else {
+				return 1;
+			}
+
+		}
+	}
+
+	@Override
+	public State clone() {
+		State state = new State();
+
+		state.setMethod(this.getMethod());
+
+		for (Card c : this.freecells) {
+			state.getFreecells().add(c.clone());
+			state.getPair().put(c, MyUtils.FREECELL);
+		}
+
+		for (int i = 0; i < 4; i++) {
+			for (Card c : foundations.get(i)) {
+				state.getFoundations().get(i).add(c.clone());
+				state.getPair().put(c, MyUtils.FOUNDATION);
+			}
+		}
+
+		for (int i = 0; i < 8; i++) {
+			for (Card c : stacks.get(i)) {
+				state.getStacks().get(i).add(c.clone());
+				state.getPair().put(c, MyUtils.STACK);
+			}
+		}
+
+		return state;
+	}
+
+	@Override
+	public String toString() {
+		return "State [freecells=" + freecells + ",\n foundations=" + foundations + ",\n stacks=" + stacks + ",\n move="
+				+ move + ",\n g=" + g + ",\n h=" + h + ",\n f=" + f + ",\n parent=" + parent + "]";
 	}
 
 	public boolean moveCardToFreecell(Card card) {
@@ -146,11 +209,11 @@ public class State {
 		return true;
 	}
 
-	public boolean canMoveToFreecell(Card card) {
+	public boolean freecellRule(Card card) {
 		return freecells.size() < 4 && !freecells.contains(card);
 	}
 
-	public boolean canMoveToFoundation(Card cardToMove, Stack<Card> foundation) {
+	public boolean foundationRule(Card cardToMove, Stack<Card> foundation) {
 
 		if (foundation.isEmpty() && cardToMove.getValue() == 0) {
 			return true;
@@ -163,7 +226,7 @@ public class State {
 		return false;
 	}
 
-	public boolean canMoveToStack(Card cardToMove, Stack<Card> stack) {
+	public boolean stackRule(Card cardToMove, Stack<Card> stack) {
 
 		if (stack.isEmpty()) {
 			return true;
@@ -212,6 +275,7 @@ public class State {
 		} else if (pair.get(card).equalsIgnoreCase(MyUtils.STACK)) {
 
 			stacks.forEach(stack -> stack.remove(card));
+
 		} else if (pair.get(card).equalsIgnoreCase(MyUtils.FOUNDATION)) {
 
 			foundations.forEach(foundation -> foundation.remove(card));
@@ -220,57 +284,65 @@ public class State {
 
 	}
 
-	public Frontier getChildrenOfState(String method) {
-		Frontier children = new Frontier();
+	public TreeSet<State> getChildrenOfState(String method) {
+		TreeSet<State> children = new TreeSet<State>();
 
+		children.addAll(getMoveFromFoundationToOtherPosition(method));
 		children.addAll(getMovesFromStackToOtherPosition(method));
 		children.addAll(getMovesFromFreecellsToOtherPosition(method));
-
 		return children;
 	}
 
-	public Frontier getMovesFromFreecellsToOtherPosition(String method) {
+	public TreeSet<State> getMovesFromFreecellsToOtherPosition(String method) {
 
-		Frontier children = new Frontier();
+		TreeSet<State> children = new TreeSet<State>();
+
+		if (this.freecells.isEmpty()) {
+			return children;
+		}
+
+		HashMap<Card, Boolean> hasMoveToFreecell = new HashMap<Card, Boolean>();
 
 		for (Card card : this.freecells) {
-			
+
 			Card c = card.clone();
+
 			// check card move from freecell to foundation
-			for (int i = 0; i < 4; i++) {
-				if (this.canMoveToFoundation(c, foundations.get(i))) {
-					State childrenState = this.clone();
-					childrenState.moveCardToFoundation(c, childrenState.getFoundations().get(i));
-					childrenState.setParent(this);
-					childrenState.setMove(MyUtils.FOUNDATION + " " + c.toString());
-					if (childrenState.alreadyInHistory()) {
-						childrenState = null;
-						continue;
-					} else {
-						children.add(childrenState);
-						return children;
-					}
-				}
+			State toFoundationState = expandToFoundation(c, MyUtils.getFoundation(this, c.getSuit()));
+
+			if (toFoundationState != null) {
+				children.add(toFoundationState);
+
 			}
+
+			toFoundationState = null;
 
 			// check card move from freecell to stack
 			for (int i = 0; i < 8; i++) {
-				if (this.canMoveToStack(c, stacks.get(i))) {
+
+				if (this.stackRule(c, stacks.get(i))) {
+
+					if (this.stacks.get(i).isEmpty() && hasMoveToFreecell.containsKey(c) && hasMoveToFreecell.get(c)) {
+						continue;
+					}
+
 					State childrenState = this.clone();
 					childrenState.moveCardToStack(c, childrenState.getStacks().get(i));
+
 					childrenState.setParent(this);
+					childrenState.setH(childrenState.heuristicFunction());
+					childrenState.setF(method, childrenState);
+
 					if (this.getStacks().get(i).isEmpty()) {
 						childrenState.setMove(MyUtils.NEWSTACK + " " + c.toString());
+						hasMoveToFreecell.put(c, true);
 					} else {
 						childrenState.setMove(
 								MyUtils.STACK + " " + c.toString() + " " + this.getStacks().get(i).peek().toString());
 					}
-					if (childrenState.alreadyInHistory()) {
-						childrenState = null;
-						continue;
-					} else {
-						children.add(childrenState);
-					}
+					children.add(childrenState);
+					childrenState = null;
+
 				}
 			}
 
@@ -278,8 +350,10 @@ public class State {
 		return children;
 	}
 
-	public Frontier getMovesFromStackToOtherPosition(String method) {
-		Frontier children = new Frontier();
+	public TreeSet<State> getMovesFromStackToOtherPosition(String method) {
+		TreeSet<State> children = new TreeSet<State>();
+
+		HashMap<Card, Boolean> hasMoveToFreecell = new HashMap<Card, Boolean>();
 
 		for (int i = 0; i < 8; i++) {
 
@@ -289,47 +363,132 @@ public class State {
 
 			Card cardToMove = this.stacks.get(i).peek().clone();
 
+			State childrenState = null;
+
 			// to foundation
-			switch (cardToMove.getSuit()) {
-			case 'D':
-				if (expandToFoundation(children, cardToMove, MyUtils.DIAMONDS)) {
-					return children;
-				}
-				;
-				break;
-			case 'S':
-				if (expandToFoundation(children, cardToMove, MyUtils.SPADES)) {
-					return children;
-				}
-				;
-				break;
-			case 'C':
-				if (expandToFoundation(children, cardToMove, MyUtils.CLUBS)) {
-					return children;
-				}
-				break;
-			case 'H':
-				if (expandToFoundation(children, cardToMove, MyUtils.HEARTS)) {
-					return children;
+			childrenState = expandToFoundation(cardToMove, MyUtils.getFoundation(this, cardToMove.getSuit()));
+			if (childrenState != null) {
+				children.add(childrenState);
+			}
+			childrenState = null;
+
+			// to stack another stack
+			for (int j = 0; j < 8; j++) {
+
+				if (i == j) {
+					continue;
 				}
 
-				break;
+				if (this.stacks.get(i).size() == 1 && this.stacks.get(j).isEmpty()) {
+					continue;
+				} else {
 
-			default:
-				break;
+					if (this.stackRule(cardToMove, this.stacks.get(j))) {
+
+						if (this.stacks.get(j).isEmpty() && hasMoveToFreecell.containsKey(cardToMove)
+								&& hasMoveToFreecell.get(cardToMove)) {
+							continue;
+						}
+
+						childrenState = this.clone();
+						childrenState.moveCardToStack(cardToMove, childrenState.getStacks().get(j));
+
+						childrenState.setParent(this);
+						childrenState.setH(childrenState.heuristicFunction());
+						childrenState.setF(method, childrenState);
+
+						if (this.stacks.get(j).isEmpty()) {
+							childrenState.setMove(MyUtils.NEWSTACK + " " + cardToMove.toString());
+							hasMoveToFreecell.put(cardToMove, true);
+						} else {
+							childrenState.setMove(
+									MyUtils.STACK + " " + cardToMove.toString() + " " + this.stacks.get(j).peek());
+						}
+
+						children.add(childrenState);
+						childrenState = null;
+					}
+
+				}
+
 			}
 
 			// to freecell
-			if (this.canMoveToFreecell(cardToMove)) {
-				State childrenState = this.clone();
+
+			if (this.freecellRule(cardToMove)) {
+				childrenState = this.clone();
 				childrenState.moveCardToFreecell(cardToMove);
+
 				childrenState.setParent(this);
+				childrenState.setH(childrenState.heuristicFunction());
+				childrenState.setF(method, childrenState);
+
 				childrenState.setMove(MyUtils.FREECELL + " " + cardToMove.toString());
-				if (childrenState.alreadyInHistory()) {
-					childrenState = null;
+				children.add(childrenState);
+				childrenState = null;
+			}
+
+		}
+
+		return children;
+	}
+
+	public State expandToFoundation(Card cardToMove, Stack<Card> foundation) {
+		if (this.foundationRule(cardToMove, foundation)) {
+			State childrenState = this.clone();
+			childrenState.moveCardToFoundation(cardToMove, MyUtils.getFoundation(childrenState, cardToMove.getSuit()));
+			childrenState.setParent(this);
+			childrenState.setH(childrenState.heuristicFunction());
+			childrenState.setF(method, childrenState);
+			childrenState.setMove(MyUtils.FOUNDATION + " " + cardToMove.toString());
+			return childrenState;
+		}
+		return null;
+	}
+
+	public TreeSet<State> getMoveFromFoundationToOtherPosition(String method) {
+
+		TreeSet<State> children = new TreeSet<State>();
+
+		HashMap<Card, Boolean> hasMoveToFreecell = new HashMap<Card, Boolean>();
+
+		for (int i = 0; i < 4; i++) {
+
+			if (this.foundations.get(i).isEmpty()) {
+				continue;
+			}
+
+			Card cardToMove = this.foundations.get(i).peek().clone();
+
+			for (int j = 0; j < 8; j++) {
+
+				if (this.stacks.get(j).isEmpty()) {
 					continue;
-				} else {
+				}
+
+				if (this.stackRule(cardToMove, this.stacks.get(j))) {
+
+					if (this.stacks.get(j).isEmpty() && hasMoveToFreecell.containsKey(cardToMove)
+							&& hasMoveToFreecell.get(cardToMove)) {
+						continue;
+					}
+
+					State childrenState = this.clone();
+					childrenState.moveCardToStack(cardToMove, childrenState.getStacks().get(j));
+
+					childrenState.setParent(this);
+					childrenState.setH(childrenState.heuristicFunction());
+					childrenState.setF(method, childrenState);
+					if (this.stacks.get(j).isEmpty()) {
+						childrenState.setMove(MyUtils.NEWSTACK + " " + cardToMove.toString());
+						hasMoveToFreecell.put(cardToMove, true);
+					} else {
+
+						childrenState.setMove(MyUtils.STACK + " " + cardToMove.toString() + " "
+								+ this.getStacks().get(j).peek().toString());
+					}
 					children.add(childrenState);
+					childrenState = null;
 				}
 			}
 
@@ -338,78 +497,57 @@ public class State {
 		return children;
 	}
 
-	public boolean expandToFoundation(Frontier children, Card cardToMove, int suit) {
-		if (this.canMoveToFoundation(cardToMove, this.foundations.get(suit))) {
-			State childrenState = this.clone();
-			childrenState.moveCardToFoundation(cardToMove, childrenState.getFoundations().get(suit));
-			childrenState.setParent(this);
-			childrenState.setMove(MyUtils.FOUNDATION + " " + cardToMove.toString());
-			if (childrenState.alreadyInHistory()) {
-				return false;
-			} else {
-				children.add(childrenState);
-				return true;
+	public int heuristicFunction() {
+
+		int cardsNotInFoundationScore = 0;
+		int cardWrongOrderScore = 0;
+
+		for (Card card : this.freecells) {
+			cardsNotInFoundationScore += getWorthOfCardReversed(card);
+		}
+
+		for (Stack<Card> stack : this.stacks) {
+			for (Card card : stack) {
+				cardsNotInFoundationScore += getWorthOfCardReversed(card);
 			}
 		}
-		return false;
+
+		for (Stack<Card> stack : this.stacks) {
+			cardWrongOrderScore += wrongOrderOfCardsPenalty(stack);
+		}
+
+		return (int) Math.round(0.75 * cardsNotInFoundationScore + 0.25 * cardWrongOrderScore);
 	}
 
-//	public Frontier getMoveFromFoundationToOtherPosition(String method) {
-//		Frontier children = new Frontier();
-//
-//		for (int i = 0; i < 4; i++) {
-//
-//			if (this.foundations.get(i).isEmpty()) {
-//				continue;
-//			}
-//			Card c = this.foundations.get(i).peek().clone();
-//
-//			// to freecell
-//			if (this.canMoveToFreecell(c)) {
-//				State childrenState = this.clone();
-//				childrenState.moveCardToFreecell(c);
-//				childrenState.setParent(this);
-//				childrenState.setMove(MyUtils.FREECELL + " " + c.toString());
-//				
-//				if(alreadyInHistory(childrenState)) {
-//					continue;
-//				}else {
-//					children.add(childrenState);					
-//				}
-//				
-//			}
-//
-//			for (int j = 0; j < 8; j++) {
-//				if (this.canMoveToStack(c, this.stacks.get(j))) {
-//					State childrenState = this.clone();
-//					childrenState.moveCardToStack(c, childrenState.getStacks().get(j));
-//					childrenState.setParent(this);
-//
-//					if (this.stacks.get(j).isEmpty()) {
-//						childrenState.setMove(MyUtils.NEWSTACK + " " + c.toString());
-//					} else {
-//
-//						childrenState.setMove(
-//								MyUtils.STACK + " " + c.toString() + " " + this.getStacks().get(j).peek().toString());
-//					}
-//
-//					children.add(childrenState);
-//				}
-//			}
-//
-//		}
-//
-//		return children;
-//	}
+	private int getWorthOfCardReversed(Card card) {
+		return Math.abs(MyUtils.N - card.getValue());
+	}
 
-	public boolean alreadyInHistory() {
-//		for (State historyState : MyUtils.gameHistory) {
-//			if (this.equals(historyState)) {
-//				return true;
-//			}
-//		}
-//		return false;
-		return MyUtils.gameHistory.contains(this);
+	private int wrongOrderOfCardsPenalty(Stack<Card> stack) {
+		int score = 0;
+
+		int difference = 0;
+
+		Card previus = null;
+		for (Card card : stack) {
+			if (previus == null) {
+				previus = card;
+			} else {
+
+				difference = previus.getValue() - card.getValue();
+
+				if (previus.getColor().equals(card.getColor()) || difference != 1) {
+					score++;
+				}
+			}
+		}
+		return score;
+	}
+
+	public void setF(String method, State state) {
+		if (method.equals(MyUtils.BEST) || method.equals(MyUtils.ASTAR)) {
+			setF(state.getH() + state.getG());
+		}
 	}
 
 	public ArrayList<Card> getFreecells() {
@@ -444,27 +582,27 @@ public class State {
 		this.pair = pair;
 	}
 
-	public float getG() {
+	public int getG() {
 		return g;
 	}
 
-	public void setG(float g) {
+	public void setG(int g) {
 		this.g = g;
 	}
 
-	public float getH() {
+	public int getH() {
 		return h;
 	}
 
-	public void setH(float h) {
+	public void setH(int h) {
 		this.h = h;
 	}
 
-	public float getF() {
+	public int getF() {
 		return f;
 	}
 
-	public void setF(float f) {
+	public void setF(int f) {
 		this.f = f;
 	}
 
@@ -485,4 +623,11 @@ public class State {
 		this.move = move;
 	}
 
+	public String getMethod() {
+		return method;
+	}
+
+	public void setMethod(String method) {
+		this.method = method;
+	}
 }

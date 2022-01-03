@@ -3,12 +3,12 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class MyFileReader {
+public class FileHandler {
 
 	public static State readFile(String filename) throws IOException {
-		
+
 		State state = new State();
-		
+
 		File file = new File(filename);
 
 		FileReader reader = null;
@@ -17,14 +17,17 @@ public class MyFileReader {
 		try {
 			reader = new FileReader(file.getCanonicalFile());
 			input = new BufferedReader(reader);
-			
-			String line = input.readLine();
-			
-			int i=0;
 
-			while(line != null) {
+			String line = input.readLine();
+
+			int i = 0;
+
+			int cardsN = 0;
+
+			while (line != null) {
 				String[] cards = line.split(" ");
-				for(String c: cards) {
+				for (String c : cards) {
+					cardsN++;
 					char suit = c.charAt(0);
 					int value = Integer.valueOf(c.substring(1));
 					Card card = new Card(suit, value);
@@ -36,6 +39,8 @@ public class MyFileReader {
 			}
 			
 			
+			MyUtils.N = cardsN / 4;
+
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
