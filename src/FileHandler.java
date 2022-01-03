@@ -1,7 +1,9 @@
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.util.List;
 
 public class FileHandler {
 
@@ -49,6 +51,28 @@ public class FileHandler {
 		}
 
 		return state;
+	}
+
+	public static void writeFile(String filname, List<State> solution){
+		File file = new File(filname);
+		FileWriter fileWriter = null;
+
+		try {
+			fileWriter = new FileWriter(file);
+			fileWriter.write(solution.size() + System.lineSeparator());
+			for(State node: solution){
+				fileWriter.write(node.getMove()+ System.lineSeparator());
+			}
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}finally{
+			try {
+				fileWriter.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
 	}
 
 }

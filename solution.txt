@@ -1,0 +1,23 @@
+22
+foundation D0
+foundation H0
+foundation C0
+foundation C1
+foundation D1
+foundation D2
+foundation C2
+foundation C3
+foundation C4
+newstack S3
+foundation S0
+stack S2 H3
+foundation H1
+foundation H2
+foundation S1
+foundation S2
+foundation S3
+foundation H3
+foundation H4
+foundation S4
+foundation D3
+foundation D4
