@@ -501,7 +501,7 @@ public class State implements Comparable<State> {
 
 		int cardsNotInFoundationScore = 0;
 		int cardWrongOrderScore = 0;
-
+		
 		for (Card card : this.freecells) {
 			cardsNotInFoundationScore += getWorthOfCardReversed(card);
 		}

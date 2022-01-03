@@ -3,6 +3,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 public class FileHandler {
@@ -73,6 +74,42 @@ public class FileHandler {
 				e.printStackTrace();
 			}
 		}
+	}
+
+	public static ArrayList<String> readMoves(String filename){
+		ArrayList<String> moves = new ArrayList<>();
+
+		
+		File file = new File(filename);
+
+		FileReader reader = null;
+		BufferedReader input = null;
+
+		try {
+			reader = new FileReader(file.getCanonicalFile());
+			input = new BufferedReader(reader);
+
+			String line = input.readLine().trim();
+			int n = Integer.valueOf(line);
+			
+			for(int i=0; i<n; i++){
+				line = input.readLine();
+				moves.add(line);
+			}
+			return moves;
+		}catch(Exception e){
+			e.printStackTrace();
+		}finally{
+			try {
+				reader.close();
+				input.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+
+
+		return moves;
 	}
 
 }
