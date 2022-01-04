@@ -81,7 +81,7 @@ public class Game {
 					state.printState();
 				}
 
-			} catch (Exception e) {
+			} catch (NumberFormatException e) {
 				System.err.println("Wrong input pls use the format specified here");
 				Auxiliary.moveHelperMessage();
 				continue;
@@ -108,7 +108,7 @@ public class Game {
 		if (move[0].equalsIgnoreCase(MyUtils.FOUNDATION)) {
 
 			Stack<Card> foundation = MyUtils.getFoundation(state, move[1].charAt(0));
-
+			
 			if (!state.foundationRule(cardToMove, foundation)) {
 				Auxiliary.InvalidMoveToFoundation();
 				return;

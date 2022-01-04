@@ -1,5 +1,7 @@
 import java.time.Duration;
 import java.time.Instant;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.TreeSet;
 
 public class Frontier {
@@ -12,6 +14,9 @@ public class Frontier {
 	}
 
 	public void search(State initialState, String method, String outputFile) {
+
+
+		HashSet<State> visited = new HashSet<>();
 
 		boolean solutionFound = false;
 
@@ -33,7 +38,13 @@ public class Frontier {
 		while (!nodes.isEmpty() && !solutionFound && timeElapsed < 120000) {
 
 			currentNode = nodes.pollFirst();
-			currentNode.printState();
+
+			if(!visited.contains(currentNode)){
+				visited.add(currentNode);
+			}else{
+				continue;
+			}
+
 			if (currentNode.isSolved()) {
 				solutionFound = true;
 				new Solution(currentNode, outputFile);	

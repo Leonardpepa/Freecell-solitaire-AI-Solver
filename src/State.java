@@ -24,7 +24,7 @@ public class State implements Comparable<State> {
 		foundations = new ArrayList<>(4);
 		stacks = new ArrayList<>(8);
 		pair = new HashMap<>();
-		
+
 		for (int i = 0; i < 4; i++) {
 			foundations.add(new Stack<>());
 			stacks.add(new Stack<>());
@@ -130,9 +130,10 @@ public class State implements Comparable<State> {
 			else if (this.h < otherState.getH())
 				return -1;
 			else {
-				if (this.g < otherState.getG())
-					return -1;
-				return 1;
+				if (this.g > otherState.getG()) {
+					return 1;
+				}
+				return -1;
 			}
 
 		} else {
@@ -141,7 +142,10 @@ public class State implements Comparable<State> {
 			else if (this.f < otherState.getF())
 				return -1;
 			else {
-				return 1;
+				if (this.g > otherState.getG()) {
+					return 1;
+				}
+				return -1;
 			}
 
 		}
@@ -150,7 +154,6 @@ public class State implements Comparable<State> {
 	@Override
 	public State clone() {
 		State state = new State();
-
 		state.setMethod(this.getMethod());
 
 		for (Card c : this.freecells) {
@@ -171,7 +174,6 @@ public class State implements Comparable<State> {
 				state.getPair().put(c, MyUtils.STACK);
 			}
 		}
-
 		return state;
 	}
 
@@ -268,7 +270,6 @@ public class State implements Comparable<State> {
 
 	public void removeCardFromItsPosition(Card card) {
 
-		
 		if (pair.get(card).equalsIgnoreCase(MyUtils.FREECELL)) {
 
 			freecells.remove(card);
@@ -501,7 +502,7 @@ public class State implements Comparable<State> {
 
 		int cardsNotInFoundationScore = 0;
 		int cardWrongOrderScore = 0;
-		
+
 		for (Card card : this.freecells) {
 			cardsNotInFoundationScore += getWorthOfCardReversed(card);
 		}
@@ -545,7 +546,7 @@ public class State implements Comparable<State> {
 	}
 
 	public void setF(String method, State state) {
-		if (method.equals(MyUtils.BEST) || method.equals(MyUtils.ASTAR)) {
+		if (method.equals(MyUtils.ASTAR)) {
 			setF(state.getH() + state.getG());
 		}
 	}
@@ -573,6 +574,7 @@ public class State implements Comparable<State> {
 	public void setFoundations(ArrayList<Stack<Card>> foundations) {
 		this.foundations = foundations;
 	}
+
 	public HashMap<Card, String> getPair() {
 		return pair;
 	}
@@ -580,6 +582,7 @@ public class State implements Comparable<State> {
 	public void setPair(HashMap<Card, String> pair) {
 		this.pair = pair;
 	}
+
 	public int getG() {
 		return g;
 	}

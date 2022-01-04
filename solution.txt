@@ -1,23 +1,23 @@
 22
-source D0
-source H0
 source C0
-source C1
+source H0
+source D0
 source D1
 source D2
+source C1
 source C2
 source C3
-source C4
-newstack S3
-source S0
-stack S2 H3
+freecell S2
 source H1
 source H2
+freecell S3
+source S0
 source S1
 source S2
-source S3
 source H3
-source H4
+source S3
 source S4
 source D3
+source C4
 source D4
+source H4

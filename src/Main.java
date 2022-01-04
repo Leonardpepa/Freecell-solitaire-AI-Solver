@@ -9,7 +9,10 @@ public class Main {
 
 			Frontier frontier = new Frontier();
 
-			frontier.search(initialState, "best", "solution.txt");
+			frontier.search(initialState, "astar", "solution.txt");
+
+			// Game game = new Game(initialState);
+			// game.playFromFile(initialState, "solution.txt");
 
 		} catch (IOException e) {
 			e.printStackTrace();
