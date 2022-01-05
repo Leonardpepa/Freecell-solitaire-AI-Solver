@@ -172,7 +172,7 @@ public class State implements Comparable<State> {
 			else if (this.g < otherState.getG())
 				return 1;
 			else {
-				return 1;
+				return -1;
 			}
 
 			// if the algorithm is best first search
