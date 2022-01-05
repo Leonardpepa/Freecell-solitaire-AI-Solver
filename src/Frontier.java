@@ -60,7 +60,7 @@ public class Frontier {
 			if (visited.containsKey(currentNode)) {
 				continue;
 			}
-
+			// else add the current node to visited
 			visited.put(currentNode, true);
 
 			// check if current node is a solution
