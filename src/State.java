@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.Objects;
 import java.util.Stack;
-import java.util.TreeSet;
 
 // CLASS STATE
 // Represents the Tree Node
@@ -370,9 +370,9 @@ public class State implements Comparable<State> {
 	}
 
 	// return all the children of this state
-	public TreeSet<State> getChildrenOfState(String method) {
+	public LinkedList<State> getChildrenOfState(String method) {
 
-		TreeSet<State> children = new TreeSet<State>();
+		LinkedList<State> children = new LinkedList<State>();
 
 		// moves from foundation to other positions
 		children.addAll(getMoveFromFoundationToOtherPosition(method));
@@ -387,9 +387,9 @@ public class State implements Comparable<State> {
 	}
 
 	// return all the moves from freecell to other position
-	public TreeSet<State> getMovesFromFreecellsToOtherPosition(String method) {
+	public LinkedList<State> getMovesFromFreecellsToOtherPosition(String method) {
 
-		TreeSet<State> children = new TreeSet<State>();
+		LinkedList<State> children = new LinkedList<State>();
 
 		// if freecells are empty we return an empty treeset
 		if (this.freecells.isEmpty()) {
@@ -468,9 +468,9 @@ public class State implements Comparable<State> {
 
 	// return the children's with the moves from a stack to another stack empty or
 	// not
-	public TreeSet<State> getMovesFromStackToOtherPosition(String method) {
+	public LinkedList<State> getMovesFromStackToOtherPosition(String method) {
 
-		TreeSet<State> children = new TreeSet<State>();
+		LinkedList<State> children = new LinkedList<State>();
 
 		// for every stack
 		for (int i = 0; i < 8; i++) {
@@ -608,11 +608,11 @@ public class State implements Comparable<State> {
 		return null;
 	}
 
-	// get children that occurred from cards movoes from foundation to other
+	// get children that occurred from cards moves from foundation to other
 	// position
-	public TreeSet<State> getMoveFromFoundationToOtherPosition(String method) {
+	public LinkedList<State> getMoveFromFoundationToOtherPosition(String method) {
 
-		TreeSet<State> children = new TreeSet<State>();
+		LinkedList<State> children = new LinkedList<State>();
 
 		for (int i = 0; i < 4; i++) {
 
