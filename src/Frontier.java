@@ -68,6 +68,7 @@ public class Frontier {
 				// current not that is the solved one
 				// output filename
 				new Solution(currentNode, outputFile);
+				//stop the loop
 				break;
 			} else {
 				// add the children of current node to the TreeSet

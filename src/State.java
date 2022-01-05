@@ -275,7 +275,7 @@ public class State implements Comparable<State> {
 	// return true if it can
 	// false if it can't move
 	public boolean freecellRule(Card card) {
-		return freecells.size() < 4 && !freecells.contains(card);
+		return freecells.size() < 4;
 	}
 
 	// check if a card can move to a foundation that is provided
