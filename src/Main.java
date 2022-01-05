@@ -48,7 +48,7 @@ public class Main {
 
 		// show error message if invalid arguments
 		if (args.length != 3) {
-			JOptionPane.showMessageDialog(null, Auxiliary.getSyntaxError(), "Error| Invalid Arguments",
+			JOptionPane.showMessageDialog(null, Auxiliary.getSyntaxError(), "Error | Invalid Arguments",
 					JOptionPane.ERROR_MESSAGE);
 			Auxiliary.syntaxError();
 			System.exit(1);
