@@ -94,7 +94,7 @@ public class Frontier {
 		}
 
 		// print the result to the console
-		Auxiliary.printResults(solutionFound, timeElapsed / 1000, nodes.size(), numOfNodesExpanded, visited.size());
+		Auxiliary.printResults(solutionFound, (float) (timeElapsed / 1000.0), nodes.size(), numOfNodesExpanded, visited.size());
 
 		// free space
 		nodes = null;

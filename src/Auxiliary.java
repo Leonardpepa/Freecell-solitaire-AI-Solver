@@ -30,7 +30,7 @@ public class Auxiliary {
 	}
 
 	// Prints the results in the console
-	public static void printResults(boolean solutionFound, Long timeElapsed, int nodesIFrontier, int numOfNodesExpanded,
+	public static void printResults(boolean solutionFound, float timeElapsed, int nodesIFrontier, int numOfNodesExpanded,
 			int nodesVisited) {
 		System.out.println();
 
