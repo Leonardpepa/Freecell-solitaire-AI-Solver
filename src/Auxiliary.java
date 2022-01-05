@@ -24,7 +24,7 @@ public class Auxiliary {
 
 	// Prints the results in the console
 	public static void printResults(boolean solutionFound, Long timeElapsed, int nodesIFrontier,
-			int numOfNodesExpanded) {
+			int numOfNodesExpanded, int nodesVisited) {
 		System.out.println();
 
 		if (!solutionFound) {
@@ -34,6 +34,7 @@ public class Auxiliary {
 		}
 
 		System.out.println("Time elapsed: " + timeElapsed + "ms");
+		System.out.println("Nodes visited: " + nodesVisited);
 		System.out.println("Nodes expanded: " + numOfNodesExpanded);
 		System.out.println("Nodes in frontier: " + nodesIFrontier);
 	}

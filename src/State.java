@@ -193,11 +193,7 @@ public class State implements Comparable<State> {
 			else if (this.f < otherState.getF())
 				return -1;
 			else {
-				// if the heuristic value are equal
-				if (this.g > otherState.getG()) {
-					return 1;
-				}
-				return -1;
+				return 1;
 			}
 
 		}

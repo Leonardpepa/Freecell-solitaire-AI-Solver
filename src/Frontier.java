@@ -1,5 +1,6 @@
 import java.time.Duration;
 import java.time.Instant;
+import java.util.HashMap;
 import java.util.TreeSet;
 
 // ClASS FRONTIER
@@ -21,6 +22,9 @@ public class Frontier {
 	// also check's for time to run out
 	// and if solution is found call's the methods to print and write it to the file
 	public void search(State initialState, String method, String outputFile) {
+
+		// data structure to hold the visited nodes
+		HashMap<State, Boolean> visited = new HashMap<State, Boolean>();
 
 		// set the method we are using to the initial state
 		initialState.setMethod(method);
@@ -52,11 +56,12 @@ public class Frontier {
 			// based on the algorithm the TreeSet provides the correct node
 			currentNode = nodes.pollFirst();
 
-			// check if this node its already been encountered by ancestors
-			// if true we continue with the next node
-			if (MyUtils.checkWithParents(currentNode)) {
+			// if its already visited continue with the next one
+			if (visited.containsKey(currentNode)) {
 				continue;
 			}
+
+			visited.put(currentNode, true);
 
 			// check if current node is a solution
 			if (currentNode.isSolved()) {
@@ -84,7 +89,7 @@ public class Frontier {
 		}
 
 		// print the result to the console
-		Auxiliary.printResults(solutionFound, timeElapsed, nodes.size(), numOfNodesExpanded);
+		Auxiliary.printResults(solutionFound, timeElapsed, nodes.size(), numOfNodesExpanded, visited.size());
 
 		// free space
 		nodes = null;

@@ -47,29 +47,6 @@ public class MyUtils {
 
 	}
 
-	// This function checks whether a node in the search tree
-	// holds exactly the same freecell deck with at least one of its
-	// predecessors. This function is used when creating the childs
-	// of an existing search tree node, in order to check for each one of the childs
-	// whether this appears in the path from the root to its parent.
-	// This is a moderate way to detect loops in the search.
-	// Inputs:
-	// Tree node type State
-	// Output:
-	// false --> No coincidence with any predecessor
-	// true --> Loop detection
-	public static boolean checkWithParents(State state) {
-		State parent = state;
-
-		while (parent.getParent() != null) {
-			if (parent.equals(parent.getParent())) {
-				return true;
-			}
-			parent = parent.getParent();
-		}
-		return false;
-	}
-
 	// Method that returns the foundation stack based on the cards suit
 	public static Stack<Card> getFoundation(State state, char value) {
 		Stack<Card> foundation = null;
