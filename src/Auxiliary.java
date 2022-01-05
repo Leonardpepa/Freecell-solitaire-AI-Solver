@@ -6,7 +6,9 @@ public class Auxiliary {
 
 	// Error if invalid arguments
 	public static void syntaxError() {
-		System.out.println("freecell <method> <input-file> <output-file>");
+		System.err.println("Error | Invalid arguments");
+		System.out.println("Run:");
+		System.out.println("java -jar <method> <input-file> <output-file>");
 		System.out.println("where: ");
 		System.out.println("<method> = breadth|depth|best|astar");
 		System.out.println("<input-file> is a file containing a freecell description.");
@@ -15,8 +17,8 @@ public class Auxiliary {
 
 	// Return the error as a string so we can use it in a pop up window
 	public static String getSyntaxError() {
-		return "freecell <method> <input-file> <output-file>\n" + "where: " + "<method> = breadth|depth|best|astar\n"
-				+ "<input-file> is a file containing a freecell description.\n"
+		return "Run: \n java -jar <method> <input-file> <output-file> \n" + "where: " + "<method> = breadth | depth | best | astar \n"
+				+ "<input-file> is a file containing a freecell description. \n"
 				+ "<output-file> is the file where the solution will be written.";
 	}
 
@@ -44,7 +46,7 @@ public class Auxiliary {
 		System.out.println();
 	}
 
-	// If the user accidentally provides wrong algorithm 
+	// If the user accidentally provides wrong algorithm
 	public static void wrongMethod() {
 		System.err.println("Algorithm provided does not exist");
 		System.err.println("Trying astar instead");
