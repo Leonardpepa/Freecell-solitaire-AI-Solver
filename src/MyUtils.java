@@ -1,6 +1,7 @@
 import java.util.Stack;
-import java.util.TreeSet;
 
+// CLASS MYUTILS
+// Store's some helpful variables and functions
 public class MyUtils {
 
 	public static final int DIAMONDS = 0;
@@ -18,10 +19,57 @@ public class MyUtils {
 	public static final String BEST = "best";
 	public static final String ASTAR = "astar";
 
-	public static TreeSet<State> gameHistory = new TreeSet<State>();
-	
+	// Time limit
+	public static final long LIMIT = 30000;
+
+	// N card in a single foundation when game completed
 	public static int N = 0;
 
+	// Returns the method the user chose
+	// if user provides wrong method
+	// uses astar (because is faster)
+	public static String getMethod(String method) {
+
+		switch (method.toLowerCase()) {
+		case BREADTH:
+			return BREADTH;
+		case DEPTH:
+			return DEPTH;
+		case BEST:
+			return BEST;
+		case ASTAR:
+			return ASTAR;
+		default:
+			Auxiliary.wrongMethod();
+			return ASTAR;
+		}
+
+	}
+
+	// This function checks whether a node in the search tree
+	// holds exactly the same freecell deck with at least one of its
+	// predecessors. This function is used when creating the childs
+	// of an existing search tree node, in order to check for each one of the childs
+	// whether this appears in the path from the root to its parent.
+	// This is a moderate way to detect loops in the search.
+	// Inputs:
+	// Tree node type State
+	// Output:
+	// false --> No coincidence with any predecessor
+	// true --> Loop detection
+	public static boolean checkWithParents(State state) {
+		State parent = state;
+
+		while (parent.getParent() != null) {
+			if (parent.equals(parent.getParent())) {
+				return true;
+			}
+			parent = parent.getParent();
+		}
+		return false;
+	}
+
+	// Method that returns the foundation stack based on the cards suit
 	public static Stack<Card> getFoundation(State state, char value) {
 		Stack<Card> foundation = null;
 		switch (value) {
@@ -43,6 +91,11 @@ public class MyUtils {
 		return foundation;
 	}
 
+	// Method that find's the card on the deck and return's the cards instance
+	// input the tree node we need to look for the card
+	// the cards suit, value
+	// output the card's instance if it's on top of a foundation / stack or in a
+	// freecell
 	public static Card getCardByIdentifier(State state, char suit, int value) {
 
 		// create card object with the input
@@ -70,6 +123,8 @@ public class MyUtils {
 		return null;
 	}
 
+	// Returns the index of a stack the is located
+	// only if is located on top of the stack
 	public static int getStackIdxFromCard(State state, Card card) {
 		for (int i = 0; i < 8; i++) {
 			if (state.getStacks().get(i).size() != 0 && state.getStacks().get(i).peek().equals(card)) {
@@ -79,6 +134,8 @@ public class MyUtils {
 		return -1;
 	}
 
+	// Returns the index of a foundation the is located
+	// only if is located on top of the foundation
 	public static int getfoundationIdxFromCard(State state, Card card) {
 		for (int i = 0; i < 8; i++) {
 			if (state.getFoundations().get(i).size() != 0 && state.getFoundations().get(i).peek().equals(card)) {

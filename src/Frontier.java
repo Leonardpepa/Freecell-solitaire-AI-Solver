@@ -1,76 +1,97 @@
 import java.time.Duration;
 import java.time.Instant;
-import java.util.HashSet;
-import java.util.Set;
 import java.util.TreeSet;
 
+// ClASS FRONTIER
 public class Frontier {
 
+	// TreeSet data structure to hold the nodes we need to search
+	// based on the algorithm this data structure sort's its content
 	private TreeSet<State> nodes;
+
+	// current node we search
 	private State currentNode;
 
+	// constructor
 	public Frontier() {
 		nodes = new TreeSet<>();
 	}
 
+	// Search for a solution if exists
+	// also check's for time to run out
+	// and if solution is found call's the methods to print and write it to the file
 	public void search(State initialState, String method, String outputFile) {
 
-
-		HashSet<State> visited = new HashSet<>();
+		// set the method we are using to the initial state
+		initialState.setMethod(method);
 
 		boolean solutionFound = false;
 
+		// start the timer
 		Instant start = Instant.now();
 
+		// get the time now to use it in the while
 		Long timeElapsed = Duration.between(start, Instant.now()).toMillis();
 
+		// numbers of node's that are expanded initialised to 0
+		// increment every time we expand a node
 		int numOfNodesExpanded = 0;
 
-		initialState.setMethod(method);
-
+		// add the initial state to the Tree Set
 		nodes.add(initialState);
 
-		System.out.println();
-		System.out.println("Start Searching....");
-		System.out.println("Using algorithm: " + method);
-		System.out.println();
+		// print message
+		Auxiliary.printStartSearchingMessage(method);
 
-		while (!nodes.isEmpty() && !solutionFound && timeElapsed < 120000) {
+		// while we have nodes in the the Tree Set, we have not find a solution and we
+		// have not exceed the time limit
+		// keep searching
+		while (!nodes.isEmpty() && !solutionFound && timeElapsed < MyUtils.LIMIT) {
 
+			// get the node we have to search next
+			// based on the algorithm the TreeSet provides the correct node
 			currentNode = nodes.pollFirst();
 
-			if(!visited.contains(currentNode)){
-				visited.add(currentNode);
-			}else{
+			// check if this node its already been encountered by ancestors
+			// if true we continue with the next node
+			if (MyUtils.checkWithParents(currentNode)) {
 				continue;
 			}
 
+			// check if current node is a solution
 			if (currentNode.isSolved()) {
+				// update variable
 				solutionFound = true;
-				new Solution(currentNode, outputFile);	
-				continue;
+
+				// create a new solution instance
+				// parameters
+				// current not that is the solved one
+				// output filename
+				new Solution(currentNode, outputFile);
+				break;
 			} else {
+				// add the children of current node to the TreeSet
 				nodes.addAll(currentNode.getChildrenOfState(currentNode.getMethod()));
+				// increment the expanded nodes
 				numOfNodesExpanded++;
 			}
 
-			timeElapsed = Duration.between(start, Instant.now()).toMillis();
+			// check the time but not to often
+			if (numOfNodesExpanded % 2 == 0) {
+				timeElapsed = Duration.between(start, Instant.now()).toMillis();
+			}
 		}
 
-		System.out.println();
+		// print the result to the console
+		Auxiliary.printResults(solutionFound, timeElapsed, nodes.size(), numOfNodesExpanded);
 
-		if (!solutionFound) {
-			System.out.println("Solution not found");
-		}else{
-			System.out.println("Solution found");
-		}
-
-		System.out.println("Time elapsed: " + timeElapsed + "ms");
-		System.out.println("Nodes expanded: " + numOfNodesExpanded);
-		System.out.println("Nodes in frontier: " + nodes.size());
+		// free space
+		nodes = null;
+		currentNode = null;
 
 	}
 
+	// getters and setters
 	public TreeSet<State> getNodes() {
 		return nodes;
 	}
