@@ -455,7 +455,6 @@ public class State implements Comparable<State> {
 						childrenState.setMove(MyUtils.STACK + " " + cardToMove.toString() + " "
 								+ this.getStacks().get(i).peek().toString());
 					}
-					// in the end we add that child to the children tree set
 					children.add(childrenState);
 					childrenState = null;
 
@@ -548,7 +547,6 @@ public class State implements Comparable<State> {
 						childrenState
 								.setMove(MyUtils.STACK + " " + cardToMove.toString() + " " + this.stacks.get(j).peek());
 					}
-					// in the end we add that child to the children tree set
 					children.add(childrenState);
 					childrenState = null;
 				}
@@ -631,17 +629,25 @@ public class State implements Comparable<State> {
 						continue;
 					}
 
+					// make a copy of the state
 					State childrenState = this.clone();
+					// execute the move on that state
 					childrenState.moveCardToStack(cardToMove, childrenState.getStacks().get(j));
-
+					// set its parent
 					childrenState.setParent(this);
+					// set the heuristic value
 					childrenState.setH(childrenState.heuristicFunction());
+					// the f value
 					childrenState.setF(method, childrenState);
+
+					// if the card is moved to an empty stack we make the variable that checks for
+					// that true
+					// also we set the move of this state to new stack
 					if (this.stacks.get(j).isEmpty()) {
 						childrenState.setMove(MyUtils.NEWSTACK + " " + cardToMove.toString());
 						hasMovedToNewStack = true;
 					} else {
-
+						// else we set the the move to stack <card> <card>
 						childrenState.setMove(MyUtils.STACK + " " + cardToMove.toString() + " "
 								+ this.getStacks().get(j).peek().toString());
 					}

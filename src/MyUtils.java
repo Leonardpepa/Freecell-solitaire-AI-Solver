@@ -22,7 +22,8 @@ public class MyUtils {
 	// Time limit
 	public static final long LIMIT = 30000;
 
-	// N card in a single foundation when game completed
+	// N cards in a single foundation when game completed
+	// gets updated when we initialise the initial state
 	public static int N = 0;
 
 	// Returns the method the user chose
