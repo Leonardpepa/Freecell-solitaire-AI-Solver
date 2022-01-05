@@ -40,7 +40,7 @@ public class Auxiliary {
 			System.out.println("Solution found");
 		}
 
-		System.out.println("Time elapsed: " + timeElapsed + "ms");
+		System.out.println("Time elapsed: " + timeElapsed + " seconds");
 		System.out.println("Nodes visited: " + nodesVisited);
 		System.out.println("Nodes expanded: " + numOfNodesExpanded);
 		System.out.println("Nodes in frontier: " + nodesIFrontier);
