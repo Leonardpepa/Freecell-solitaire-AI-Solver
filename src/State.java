@@ -72,7 +72,7 @@ public class State implements Comparable<State> {
 	// Unique generated hash for each state
 	@Override
 	public int hashCode() {
-		return Objects.hash(f, foundations, freecells, g, h, method, move, pair, parent, stacks);
+		return Objects.hash(foundations, freecells, method, stacks);
 	}
 
 	// check for equality between states
