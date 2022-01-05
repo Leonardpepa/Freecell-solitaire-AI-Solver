@@ -530,6 +530,7 @@ public class State implements Comparable<State> {
 					childrenState = this.clone();
 					// execute the move on that state
 					childrenState.moveCardToStack(cardToMove, childrenState.getStacks().get(j));
+
 					// set its parent
 					childrenState.setParent(this);
 
@@ -594,6 +595,7 @@ public class State implements Comparable<State> {
 			State childrenState = this.clone();
 			// execute the move on that state
 			childrenState.moveCardToFreecell(cardToMove);
+
 			// set its parent
 			childrenState.setParent(this);
 			// set the heuristic value
@@ -635,6 +637,7 @@ public class State implements Comparable<State> {
 					State childrenState = this.clone();
 					// execute the move on that state
 					childrenState.moveCardToStack(cardToMove, childrenState.getStacks().get(j));
+
 					// set its parent
 					childrenState.setParent(this);
 					// set the heuristic value
@@ -722,8 +725,8 @@ public class State implements Comparable<State> {
 			setF(state.getH() + state.getG());
 		}
 	}
-	
-	// when setting the parent we set the g  = g+1
+
+	// when setting the parent we set the g = g+1
 	public void setParent(State parent) {
 		this.parent = parent;
 		this.g = parent.getG() + 1;
@@ -788,7 +791,6 @@ public class State implements Comparable<State> {
 	public State getParent() {
 		return parent;
 	}
-
 
 	public String getMove() {
 		return move;

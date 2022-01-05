@@ -1,7 +1,9 @@
 import java.time.Duration;
 import java.time.Instant;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.TreeSet;
+
 /**
  * 
  * @author Leonard Pepa ICS20033
@@ -28,11 +30,11 @@ public class Frontier {
 	// and if solution is found call's the methods to print and write it to the file
 	public void search(State initialState, String method, String outputFile) {
 
-		// data structure to hold the visited nodes
-		HashMap<State, Boolean> visited = new HashMap<State, Boolean>();
-
 		// set the method we are using to the initial state
 		initialState.setMethod(method);
+
+		// data structure to hold the visited nodes
+		HashMap<State, Boolean> visited = new HashMap<State, Boolean>();
 
 		boolean solutionFound = false;
 
@@ -82,7 +84,16 @@ public class Frontier {
 				break;
 			} else {
 				// add the children of current node to the TreeSet
-				nodes.addAll(currentNode.getChildrenOfState(currentNode.getMethod()));
+				LinkedList<State> children = currentNode.getChildrenOfState(method);
+
+				for (State child : children) {
+					// if not already visited
+					if (!visited.containsKey(child)) {
+						// Tree set decides how to put the items based on algorithm
+						nodes.add(child);
+					}
+				}
+
 				// increment the expanded nodes
 				numOfNodesExpanded++;
 			}
@@ -94,7 +105,8 @@ public class Frontier {
 		}
 
 		// print the result to the console
-		Auxiliary.printResults(solutionFound, (float) (timeElapsed / 1000.0), nodes.size(), numOfNodesExpanded, visited.size());
+		Auxiliary.printResults(solutionFound, (float) (timeElapsed / 1000.0), nodes.size(), numOfNodesExpanded,
+				visited.size());
 
 		// free space
 		nodes = null;
