@@ -4,6 +4,12 @@ import java.util.LinkedList;
 import java.util.Objects;
 import java.util.Stack;
 
+/**
+ * 
+ * @author Leonard Pepa ICS20033
+ *
+ */
+
 // CLASS STATE
 // Represents the Tree Node
 // holds information for all the deck
@@ -716,6 +722,12 @@ public class State implements Comparable<State> {
 			setF(state.getH() + state.getG());
 		}
 	}
+	
+	// when setting the parent we set the g  = g+1
+	public void setParent(State parent) {
+		this.parent = parent;
+		this.g = parent.getG() + 1;
+	}
 
 	public ArrayList<Card> getFreecells() {
 		return freecells;
@@ -777,10 +789,6 @@ public class State implements Comparable<State> {
 		return parent;
 	}
 
-	public void setParent(State parent) {
-		this.parent = parent;
-		this.g = parent.getG() + 1;
-	}
 
 	public String getMove() {
 		return move;

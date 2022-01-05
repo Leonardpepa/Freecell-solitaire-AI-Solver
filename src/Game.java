@@ -2,6 +2,12 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Stack;
 
+/**
+ * 
+ * @author Leonard Pepa ICS20033
+ *
+ */
+
 // CLASS GAME
 // This class is created for testing and playing purposes
 // USAGE:

@@ -1,5 +1,11 @@
 import java.util.Stack;
 
+/**
+ * 
+ * @author Leonard Pepa ICS20033
+ *
+ */
+
 // CLASS MYUTILS
 // Store's some helpful variables and functions
 public class MyUtils {

@@ -1,4 +1,9 @@
 import java.util.Objects;
+/**
+ * 
+ * @author Leonard Pepa ICS20033
+ *
+ */
 
 // CARD CLASS
 

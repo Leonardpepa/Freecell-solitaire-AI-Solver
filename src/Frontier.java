@@ -2,6 +2,11 @@ import java.time.Duration;
 import java.time.Instant;
 import java.util.HashMap;
 import java.util.TreeSet;
+/**
+ * 
+ * @author Leonard Pepa ICS20033
+ *
+ */
 
 // ClASS FRONTIER
 public class Frontier {

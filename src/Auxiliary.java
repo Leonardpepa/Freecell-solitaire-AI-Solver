@@ -1,6 +1,11 @@
 
-//	CLASS AUXIALIARY
+/**
+ * 
+ * @author Leonard Pepa ICS20033
+ *
+ */
 
+//	CLASS AUXIALIARY
 //	Is used to provide the user with some messages
 public class Auxiliary {
 

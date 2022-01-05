@@ -8,39 +8,69 @@ import javax.swing.JOptionPane;
  *
  */
 
-//	FREECELL AI SOLVER 
+// FREECELL AI SOLVER 
 
-//	Assignment for the subject Artificial Intelligence from University Of Macedonia
-//	Professor Ioannis Refanidis
+// Assignment for the subject Artificial Intelligence from University Of Macedonia
+// Professor Ioannis Refanidis
 
-//	ALGORITHMS USED
-//	DFS (DEPTH-FIRST-SEARCH)
-//	BFS (BREADTH-FIRST-SEARCH)
-//	BEST (BEST-FIRST-SEARCH)
-//	ASTAR (A* SEARCH)
+// ALGORITHMS USED
+// DFS (DEPTH-FIRST-SEARCH)
+// BFS (BREADTH-FIRST-SEARCH)
+// BEST (BEST-FIRST-SEARCH)
+// ASTAR (A* SEARCH)
 
-// 	RUN
-//	Runs via terminal with commands:
-//	java -jar <name of the app> <algorithm selected breadth/depth/best/astar> <input file> <output file>
-//	The result will be a file with the steps that solve the problem if the algorithm finds a solution in given time 
+// RUN
+// Runs via terminal with commands:
+// java -jar <name of the jar> <algorithm selected breadth/depth/best/astar> <input file> <output file>
+// The result will be a file with the steps that solve the problem if the algorithm finds a solution in given time 
 
-// 	TEST GENERATOR
-// 	a c program named generator.c is provided by Ioannis Refanidis (Professor) to generate freecell decks
-// 	usage of this generator:
-// 	compile with gcc generator.c -o generator
-// 	run with generator.exe <file name> <from (ex: 1)> <to (ex: 10)> 
-// 	the result is the creation of 10 files from name1.txt to name10.txt
+// TEST CASE GENERATOR
+// a c program named generator.c is provided by Ioannis Refanidis (Professor) to generate freecell decks
+// usage of this generator:
+// compile with gcc generator.c -o generator
+// run with generator.exe <file name> <from (ex: 1)> <to (ex: 10)> 
+// the result is the creation of 10 files from name1.txt to name10.txt
 
-//	Deck
+// Deck
 // N number of cards in a single foundation when game completed
 // Total cards N * 4
 // Suits: S (SPADES) D (DIAMONDS) H (HEARTS) C (CLUBS)
 // Card value are from 0 - N * 4
 
 //	Time
-//	all algorithm's run for half a minute because the number of nodes that is created is to high and we encounter java out of memory error 
+//	all algorithm's run for half a minute because the number of nodes that is created is to high and we encounter java out of memory error
 
-//	Main class the starts the programm
+// this program takes care of symmetrical equal positions
+// by storing the freecell cards in one array list 
+// order does not matter because we just check if the card is in freecells and we don't check for its index
+// example of symmetrical positions: 
+// freecells: [D0, S2, D1,C5]
+// freecells: [C5, D0, S2, D1]
+// its the same position because the same cards are in freecels
+
+// other symmetrical positions are when a card is moved from empty stack to another
+// this program does not count this move as valid children 
+// example of symmetrical positions in stacks:
+// stacks: [D0]
+//		   [C1, S1, H4]
+//		   []
+//		   []
+//		   []
+//		   []
+//		   []
+//		   []
+//
+//stacks: []
+//		  [C1, S1, H4]
+//		  []
+//		  [D0]
+//		  []
+//		  []
+//		  []
+//		  []
+// its the same position so we dont count it as a valid child
+
+// Main class the starts the program
 public class Main {
 
 	// Arguments algorith <input file> <output file>

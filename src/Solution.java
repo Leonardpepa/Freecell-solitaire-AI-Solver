@@ -2,6 +2,12 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * 
+ * @author Leonard Pepa ICS20033
+ *
+ */
+
 // CLASS SOLUTION
 // holds the information and methods for the solution of the game
 public class Solution {
