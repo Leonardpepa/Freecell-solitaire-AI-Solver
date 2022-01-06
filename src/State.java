@@ -12,10 +12,10 @@ import java.util.Stack;
 
 // CLASS STATE
 // Represents the Tree Node
-// holds information for all the deck
-// holds the function for the logic of moves
+// contains information for all the cards in the deck
+// contains the logic for the game
 
-// implements the comparable interface so we can choose based on the algorithm how to sort the nodes in the Tree Set
+// implements the comparable interface so the Tree Set can choose how to sort the nodes based on the algorithm 
 public class State implements Comparable<State> {
 
 	// Array list that holds the freecells the order does not matter
@@ -29,7 +29,7 @@ public class State implements Comparable<State> {
 	// helper data structure that contains the information of every cards position
 	private HashMap<Card, String> pair;
 
-	// move that resulted to this state
+	// move that resulted to this node
 	private String move;
 
 	// algorithm is used
@@ -39,11 +39,11 @@ public class State implements Comparable<State> {
 	public int h;
 	public int f;
 
-	// parent of this state
+	// parent of this node
 	private State parent;
 
 	// constructor
-	// initialise the data structures ass needed
+	// initialises the data structures
 	public State() {
 		freecells = new ArrayList<>(4);
 		foundations = new ArrayList<>(4);
@@ -58,7 +58,7 @@ public class State implements Comparable<State> {
 
 	}
 
-	// print the state to the console
+	// print the state of the node to the console
 	public void printState() {
 		System.out.println("-------- State -----------");
 		System.out.println("freecells: " + freecells);
@@ -75,13 +75,13 @@ public class State implements Comparable<State> {
 		System.out.println("-------- End State ---------");
 	}
 
-	// Unique generated hash for each state
+	// Unique generated hash for each node
 	@Override
 	public int hashCode() {
 		return Objects.hash(foundations, freecells, method, stacks);
 	}
 
-	// check for equality between states
+	// check for equality between nodes
 	@Override
 	public boolean equals(Object o) {
 
@@ -95,7 +95,7 @@ public class State implements Comparable<State> {
 			return true;
 		}
 
-		// check if the two states have the same numbers of freecell cards
+		// check if the two nodes have the same numbers of freecell cards
 		if (this.freecells.size() != s.getFreecells().size()) {
 			return false;
 		}
@@ -108,7 +108,7 @@ public class State implements Comparable<State> {
 			}
 		}
 
-		// check if the two states have the same numbers of foundation cards
+		// check if the two nodes have the same numbers of foundation cards
 		// check if the cards in the foundation are the same
 		for (int i = 0; i < 4; i++) {
 			if (this.foundations.get(i).size() != s.getFoundations().get(i).size()) {
@@ -122,7 +122,7 @@ public class State implements Comparable<State> {
 			}
 		}
 
-		// check if the two states have the same numbers of stack cards
+		// check if the two nodes have the same numbers of stack cards
 		// check if the cards in the stack are the same
 		for (int i = 0; i < 8; i++) {
 			if (this.getStacks().get(i).size() != s.getStacks().get(i).size()) {
@@ -140,7 +140,7 @@ public class State implements Comparable<State> {
 
 	// ** This function decides how to compare two nodes based on the algorithm **
 	// ** This function is being used by the Tree Set data structure to sort the
-	// content **
+	// nodes **
 	@Override
 	public int compareTo(State otherState) {
 
@@ -275,14 +275,14 @@ public class State implements Comparable<State> {
 	// check if a card can move to a freecell
 	// order does not matter
 	// return true if it can
-	// false if it can't move
+	// false if can't move
 	public boolean freecellRule(Card card) {
 		return freecells.size() < 4;
 	}
 
 	// check if a card can move to a foundation that is provided
 	// return true if it can
-	// false if it can't move
+	// false if can't move
 	public boolean foundationRule(Card cardToMove, Stack<Card> foundation) {
 
 		// check if the foundation is empty the card need to be A (value 0)
@@ -300,10 +300,10 @@ public class State implements Comparable<State> {
 
 	// check if a card can move to a stack that is provided
 	// return true if it can
-	// false if it can't move
+	// false if can't move
 	public boolean stackRule(Card cardToMove, Stack<Card> stack) {
 
-		// f its empty any card can move to that stack
+		// if its empty any card can move to that stack
 		if (stack.isEmpty()) {
 			return true;
 		}
@@ -314,7 +314,7 @@ public class State implements Comparable<State> {
 		return false;
 	}
 
-	// check if this state is a solution
+	// check if this node is a solution
 	public boolean isSolved() {
 
 		// no cards in a freecell
@@ -329,7 +329,7 @@ public class State implements Comparable<State> {
 			}
 		}
 
-		// check if all the cards follow the precondition
+		// check if all the cards follow the preconditions
 		for (int i = 0; i < 4; i++) {
 			Card previus = null;
 			for (Card c : foundations.get(i)) {
@@ -371,7 +371,7 @@ public class State implements Comparable<State> {
 
 	}
 
-	// return all the children of this state
+	// return all the children of this node
 	public LinkedList<State> getChildrenOfState(String method) {
 
 		LinkedList<State> children = new LinkedList<State>();
@@ -379,10 +379,10 @@ public class State implements Comparable<State> {
 		// moves from foundation to other positions
 		children.addAll(getMoveFromFoundationToOtherPosition(method));
 
-		// moves from stack to other position
+		// moves from stack to other positions
 		children.addAll(getMovesFromStackToOtherPosition(method));
 
-		// moves from freecells to other position
+		// moves from freecells to other positions
 		children.addAll(getMovesFromFreecellsToOtherPosition(method));
 
 		return children;
@@ -393,7 +393,7 @@ public class State implements Comparable<State> {
 
 		LinkedList<State> children = new LinkedList<State>();
 
-		// if freecells are empty we return an empty treeset
+		// if freecells are empty we return an empty list
 		if (this.freecells.isEmpty()) {
 			return children;
 		}
@@ -405,15 +405,16 @@ public class State implements Comparable<State> {
 			Card cardToMove = card.clone();
 
 			// variable to check if this card has moved to new stack
-			// meaning we don't need to make another children of this card moving to another
+			// we don't need to make another children of this card moving to another
 			// new stack
-			// its the same state
+			// its the same node
+			// symmetrical equal nodes
 			boolean hasMovedToNewStack = false;
 
 			// check if card can move from freecell to foundation
 			State childrenState = expandedToFoundation(cardToMove, MyUtils.getFoundation(this, cardToMove.getSuit()));
 
-			// if can we add it to the children
+			// if it can we add it to the children
 			if (childrenState != null) {
 				children.add(childrenState);
 			}
@@ -446,8 +447,8 @@ public class State implements Comparable<State> {
 					// the f value
 					childrenState.setF(method, childrenState);
 
-					// if the card is moved to an empty stack we make the variable that checks for
-					// that true
+					// if the card is moved to a new stack we make the hasMovedToNewStack variable
+					// true
 					// also we set the move of this state to new stack
 					if (this.getStacks().get(i).isEmpty()) {
 						childrenState.setMove(MyUtils.NEWSTACK + " " + cardToMove.toString());
@@ -485,9 +486,10 @@ public class State implements Comparable<State> {
 			Card cardToMove = this.stacks.get(i).peek().clone();
 
 			// variable to check if this card has moved to new stack
-			// meaning we don't need to make another children of this card moving to another
+			// we don't need to make another children of this card moving to another
 			// new stack
-			// its the same state
+			// its the same node
+			// symmetrical equal nodes
 			boolean hasMovedToNewStack = false;
 
 			State childrenState = null;
@@ -539,8 +541,8 @@ public class State implements Comparable<State> {
 					// the f value
 					childrenState.setF(method, childrenState);
 
-					// if the card is moved to an empty stack we make the variable that checks for
-					// that true
+					// if the card is moved to a new stack we make the hasMovedToNewStack variable
+					// true
 					// also we set the move of this state to new stack
 					if (this.stacks.get(j).isEmpty()) {
 						childrenState.setMove(MyUtils.NEWSTACK + " " + cardToMove.toString());
@@ -623,6 +625,12 @@ public class State implements Comparable<State> {
 			}
 
 			Card cardToMove = this.foundations.get(i).peek().clone();
+
+			// variable to check if this card has moved to new stack
+			// we don't need to make another children of this card moving to another
+			// new stack
+			// its the same node
+			// symmetrical equal nodes
 			boolean hasMovedToNewStack = false;
 
 			for (int j = 0; j < 8; j++) {
@@ -645,8 +653,8 @@ public class State implements Comparable<State> {
 					// the f value
 					childrenState.setF(method, childrenState);
 
-					// if the card is moved to an empty stack we make the variable that checks for
-					// that true
+					// if the card is moved to a new stack we make the hasMovedToNewStack variable
+					// true
 					// also we set the move of this state to new stack
 					if (this.stacks.get(j).isEmpty()) {
 						childrenState.setMove(MyUtils.NEWSTACK + " " + cardToMove.toString());

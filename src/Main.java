@@ -35,10 +35,10 @@ import javax.swing.JOptionPane;
 // N number of cards in a single foundation when game completed
 // Total cards N * 4
 // Suits: S (SPADES) D (DIAMONDS) H (HEARTS) C (CLUBS)
-// Card value are from 0 - N * 4
+// Card value are from 0 to (N-1) 
 
 //	Time
-//	all algorithm's run for half a minute because the number of nodes that is created is to high and we encounter java out of memory error
+//	all algorithm's run for a minute because the number of nodes that are created is to high and we encounter java out of memory error
 
 // this program takes care of symmetrical equal positions
 // by storing the freecell cards in one array list 
@@ -48,7 +48,7 @@ import javax.swing.JOptionPane;
 // freecells: [C5, D0, S2, D1]
 // its the same position because the same cards are in freecels
 
-// other symmetrical positions are when a card is moved from empty stack to another
+// other symmetrical positions are when a card is moved from empty stack to another empty stack
 // this program does not count this move as valid children 
 // example of symmetrical positions in stacks:
 // stacks: [D0]
