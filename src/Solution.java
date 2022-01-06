@@ -19,9 +19,11 @@ public class Solution {
 	// parameters
 	// the last state with solved condition
 	// fine name we want to write the solution
-	public Solution(State lastState, String filename) {
+	public Solution(State lastState, String filename, boolean solutionFound) {
 		solution = new ArrayList<>();
-		printSolution(extractSolution(lastState));
+		if (solutionFound) {
+			printSolution(extractSolution(lastState));
+		}
 		writeSolutionToFile(filename);
 	}
 

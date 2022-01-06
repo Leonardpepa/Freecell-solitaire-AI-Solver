@@ -26,7 +26,7 @@ public class MyUtils {
 	public static final String ASTAR = "astar";
 
 	// Time limit
-	public static final long LIMIT = 60000;
+	public static final long LIMIT = 30000;
 
 	// N cards in a single foundation when game completed
 	// gets updated when we initialise the initial state

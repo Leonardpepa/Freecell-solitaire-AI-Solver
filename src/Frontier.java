@@ -74,12 +74,6 @@ public class Frontier {
 			if (currentNode.isSolved()) {
 				// update variable
 				solutionFound = true;
-
-				// create a new solution instance
-				// parameters
-				// current not that is the solved one
-				// output filename
-				new Solution(currentNode, outputFile);
 				// stop the loop
 				break;
 			} else {
@@ -103,6 +97,12 @@ public class Frontier {
 				timeElapsed = Duration.between(start, Instant.now()).toMillis();
 			}
 		}
+
+		// create a new solution instance
+		// parameters
+		// current not that is the solved one
+		// output filename
+		new Solution(currentNode, outputFile, solutionFound);
 
 		// print the result to the console
 		Auxiliary.printResults(solutionFound, (float) (timeElapsed / 1000.0), nodes.size(), numOfNodesExpanded,
