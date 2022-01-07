@@ -703,12 +703,12 @@ public class State implements Comparable<State> {
 			}
 		}
 		
-		return (int) Math.round(0.75 * cardsNotInFoundationScore + 0.25 * cardWrongOrderScore);
+		return (int) Math.round(0.80 * cardsNotInFoundationScore + 0.20 * cardWrongOrderScore);
 	}
 
 	// bigger penalty if the card has small value
 	private int getWorthOfCardReversed(Card card) {
-		return Math.abs(MyUtils.N - card.getValue());
+		return Math.abs((MyUtils.N - 1) - card.getValue());
 	}
 
 	// number of cards being in wrong order
