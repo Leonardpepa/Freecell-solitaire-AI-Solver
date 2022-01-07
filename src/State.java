@@ -626,6 +626,15 @@ public class State implements Comparable<State> {
 
 			Card cardToMove = this.foundations.get(i).peek().clone();
 
+			// move from foundation to freecell
+			State childrenState = expandedToFreecell(cardToMove);
+
+			if (childrenState != null) {
+				children.add(childrenState);
+			}
+
+			childrenState = null;
+			
 			// variable to check if this card has moved to new stack
 			// we don't need to make another children of this card moving to another
 			// new stack
@@ -642,7 +651,7 @@ public class State implements Comparable<State> {
 					}
 
 					// make a copy of the state
-					State childrenState = this.clone();
+					childrenState = this.clone();
 					// execute the move on that state
 					childrenState.moveCardToStack(cardToMove, childrenState.getStacks().get(j));
 
@@ -676,7 +685,7 @@ public class State implements Comparable<State> {
 
 	// heuristic function
 	// calculates the heuristic value
-	// by giving penlaty to each card is not in the foundation and its not in order
+	// by giving penalty to each card is not in the foundation and its not in order
 	// in the stacks
 	public int heuristicFunction() {
 
@@ -688,15 +697,12 @@ public class State implements Comparable<State> {
 		}
 
 		for (Stack<Card> stack : this.stacks) {
+			cardWrongOrderScore += wrongOrderOfCardsPenalty(stack);
 			for (Card card : stack) {
 				cardsNotInFoundationScore += getWorthOfCardReversed(card);
 			}
 		}
-
-		for (Stack<Card> stack : this.stacks) {
-			cardWrongOrderScore += wrongOrderOfCardsPenalty(stack);
-		}
-
+		
 		return (int) Math.round(0.75 * cardsNotInFoundationScore + 0.25 * cardWrongOrderScore);
 	}
 
@@ -709,19 +715,10 @@ public class State implements Comparable<State> {
 	private int wrongOrderOfCardsPenalty(Stack<Card> stack) {
 		int score = 0;
 
-		int difference = 0;
-
-		Card previus = null;
-		for (Card card : stack) {
-			if (previus == null) {
-				previus = card;
-			} else {
-
-				difference = previus.getValue() - card.getValue();
-
-				if (previus.getColor().equals(card.getColor()) || difference != 1) {
-					score++;
-				}
+		for (int i = 0; i < stack.size() - 1; i++) {
+			if (stack.get(i).getValue() - stack.get(i + 1).getValue() != 1
+					|| stack.get(i).getColor() == stack.get(i + 1).getColor()) {
+				score++;
 			}
 		}
 		return score;
