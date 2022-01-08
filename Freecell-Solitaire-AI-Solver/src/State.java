@@ -707,24 +707,17 @@ public class State implements Comparable<State> {
 
 	// number of cards being in wrong order
 	private int wrongOrderOfCardsPenalty(Stack<Card> stack) {
-		int score = 0;
-
-		int difference = 0;
-
-		Card previus = null;
-		for (Card card : stack) {
-			if (previus == null) {
-				previus = card;
-			} else {
-
-				difference = previus.getValue() - card.getValue();
-
-				if (previus.getColor().equals(card.getColor()) || difference != 1) {
-					score++;
+		int penalty = 0;
+		int difference;
+		if(stack.size() > 1) {
+			for(int i=0; i<stack.size()-1; i++) {
+				difference = (stack.get(i).getValue() - stack.get(i+1).getValue());
+				if(!(stack.get(i).getColor() == stack.get(i+1).getColor()) && difference == 1) {
+					penalty++;
 				}
 			}
 		}
-		return score;
+		return penalty;
 	}
 
 	// if method is astar set the f value to the g + h
