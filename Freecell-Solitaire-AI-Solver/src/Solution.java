@@ -51,7 +51,6 @@ public class Solution {
 	// print the solution to the console
 	public void printSolution(List<State> solution) {
 		System.out.println("Total Steps: " + solution.size());
-		solution.forEach(node -> System.out.println(node.getMove()));
 	}
 
 	// write the solution to the file
