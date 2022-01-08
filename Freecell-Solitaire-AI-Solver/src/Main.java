@@ -68,12 +68,12 @@ import javax.swing.JOptionPane;
 //		  []
 //		  []
 //		  []
-// its the same position so we dont count it as a valid child
+// its the same position so we don't count it as a valid child
 
 // Main class the starts the program
 public class Main {
 
-	// Arguments algorith <input file> <output file>
+	// Arguments algorithm <input file> <output file>
 	public static void main(String[] args) {
 
 		// show error message if invalid arguments

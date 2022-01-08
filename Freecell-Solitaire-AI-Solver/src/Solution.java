@@ -13,7 +13,7 @@ import java.util.List;
 public class Solution {
 
 	// array list with the solution
-	private ArrayList<State> solution;
+	private  ArrayList<State> solution;
 
 	// constructor
 	// parameters

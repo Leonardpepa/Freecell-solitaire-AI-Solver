@@ -24,8 +24,8 @@ public class MyUtils {
 	public static final String DEPTH = "depth";
 	public static final String BEST = "best";
 	public static final String ASTAR = "astar";
-
-	// Time limit
+	
+	// Time limit up to 30 seconds
 	public static final long LIMIT = 30000;
 
 	// N cards in a single foundation when game completed
@@ -107,7 +107,7 @@ public class MyUtils {
 		return null;
 	}
 
-	// Returns the index of a stack the is located
+	// Returns the index of a stack the card is located
 	// only if is located on top of the stack
 	public static int getStackIdxFromCard(State state, Card card) {
 		for (int i = 0; i < 8; i++) {
@@ -118,7 +118,7 @@ public class MyUtils {
 		return -1;
 	}
 
-	// Returns the index of a foundation the is located
+	// Returns the index of a foundation the card is located
 	// only if is located on top of the foundation
 	public static int getfoundationIdxFromCard(State state, Card card) {
 		for (int i = 0; i < 8; i++) {

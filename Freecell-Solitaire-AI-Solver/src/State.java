@@ -185,10 +185,10 @@ public class State implements Comparable<State> {
 				return -1;
 			else {
 				// if the heuristic value are equal
-				if (this.g > otherState.getG()) {
-					return 1;
+				if (this.g < otherState.getG()) {
+					return -1;
 				}
-				return -1;
+				return 1;
 			}
 
 			// if the algorithm is astar
@@ -199,6 +199,9 @@ public class State implements Comparable<State> {
 			else if (this.f < otherState.getF())
 				return -1;
 			else {
+				if (this.g < otherState.getG()) {
+					return -1;
+				}
 				return 1;
 			}
 
@@ -626,6 +629,13 @@ public class State implements Comparable<State> {
 
 			Card cardToMove = this.foundations.get(i).peek().clone();
 
+			// move card from foundation to freecell
+			State aState = expandedToFreecell(cardToMove);
+
+			if (aState != null) {
+				children.add(aState);
+			}
+
 			// variable to check if this card has moved to new stack
 			// we don't need to make another children of this card moving to another
 			// new stack
@@ -676,7 +686,7 @@ public class State implements Comparable<State> {
 
 	// heuristic function
 	// calculates the heuristic value
-	// by giving penlaty to each card is not in the foundation and its not in order
+	// by giving penalty to each card is not in the foundation and its not in order
 	// in the stacks
 	public int heuristicFunction() {
 
@@ -697,7 +707,7 @@ public class State implements Comparable<State> {
 			cardWrongOrderScore += wrongOrderOfCardsPenalty(stack);
 		}
 
-		return (int) Math.round(0.75 * cardsNotInFoundationScore + 0.25 * cardWrongOrderScore);
+		return (int) Math.round(0.95 * cardsNotInFoundationScore + 0.05 * cardWrongOrderScore);
 	}
 
 	// bigger penalty if the card has small value
@@ -709,10 +719,10 @@ public class State implements Comparable<State> {
 	private int wrongOrderOfCardsPenalty(Stack<Card> stack) {
 		int penalty = 0;
 		int difference;
-		if(stack.size() > 1) {
-			for(int i=0; i<stack.size()-1; i++) {
-				difference = (stack.get(i).getValue() - stack.get(i+1).getValue());
-				if(!(stack.get(i).getColor() == stack.get(i+1).getColor()) && difference == 1) {
+		if (stack.size() > 1) {
+			for (int i = 0; i < stack.size() - 1; i++) {
+				difference = (stack.get(i).getValue() - stack.get(i + 1).getValue());
+				if (!(stack.get(i).getColor() == stack.get(i + 1).getColor()) && difference == 1) {
 					penalty++;
 				}
 			}

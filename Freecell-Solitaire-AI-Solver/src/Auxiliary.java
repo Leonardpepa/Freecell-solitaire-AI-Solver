@@ -61,6 +61,8 @@ public class Auxiliary {
 		System.err.println("Or terminate the program and provide a correct algorithm");
 	}
 
+	
+	// Not for the assignment
 	// Helper messages for game mode
 	// Game mode is class created for testing purposes (testing manually) and also
 	// playing the game

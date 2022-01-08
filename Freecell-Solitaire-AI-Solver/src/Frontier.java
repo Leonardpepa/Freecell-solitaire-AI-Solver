@@ -56,7 +56,8 @@ public class Frontier {
 
 		// while we have nodes in the the Tree Set, we have not find a solution and we
 		// have not exceed the time limit
-		// keep searching
+		// keep searching										
+		// limit is 30 seconds
 		while (!nodes.isEmpty() && !solutionFound && timeElapsed < MyUtils.LIMIT) {
 
 			// get the node we have to search next

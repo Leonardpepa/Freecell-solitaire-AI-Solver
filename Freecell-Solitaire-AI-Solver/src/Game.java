@@ -10,13 +10,15 @@ import java.util.Stack;
 
 // CLASS GAME
 // This class is created for testing and playing purposes
+// it has no use for the assignment
+
 // USAGE:
 // Instantiate a Game object
 // if you want to play from the command line typing the move you want to make
 // call the gameLoop() function
 //
 // if you want to play the moves the solution file generated 
-//	the call the playFromFile(String filename) pass it the file that contains the solution moves
+// then call the playFromFile(String filename) pass it the file that contains the solution moves
 // format of the file:
 // K the number of moves new line
 // each move on new line
