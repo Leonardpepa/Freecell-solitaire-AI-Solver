@@ -14,7 +14,7 @@ import java.util.TreeSet;
 public class Frontier {
 
 	// TreeSet data structure to hold the nodes we need to search
-	// based on the algorithm this data structure sort's its content
+	// based on the algorithm this data structure sort's its items
 	private TreeSet<State> nodes;
 
 	// current node we search
@@ -41,7 +41,7 @@ public class Frontier {
 		// start the timer
 		Instant start = Instant.now();
 
-		// get the time now to use it in the while
+		// get the time now to use it in the while loop
 		Long timeElapsed = Duration.between(start, Instant.now()).toMillis();
 
 		// numbers of node's that are expanded initialised to 0
@@ -99,9 +99,10 @@ public class Frontier {
 		}
 
 		// create a new solution instance
-		// parameters
-		// current not that is the solved one
+		// parameters:
+		// current node that is the solved one
 		// output filename
+		// and a boolean variable (true if solution found otherwise false)
 		new Solution(currentNode, outputFile, solutionFound);
 
 		// print the result to the console

@@ -180,9 +180,9 @@ public class State implements Comparable<State> {
 			else {
 				// if the heuristic value are equal
 				if (this.g > otherState.getG()) {
-					return -1;
+					return 1;
 				}
-				return 1;
+				return -1;
 			}
 
 			// if the algorithm is astar
@@ -193,10 +193,10 @@ public class State implements Comparable<State> {
 			else if (this.f < otherState.getF())
 				return -1;
 			else {
-				if(this.g > otherState.getG()) {
+				if (this.g > otherState.getG()) {
 					return 1;
 				}
-				return  -1;
+				return -1;
 			}
 
 		}
@@ -623,13 +623,15 @@ public class State implements Comparable<State> {
 
 			Card cardToMove = this.foundations.get(i).peek().clone();
 
-			
+			// move from foundation to freecell
 			State childrenState = expandedToFreecell(cardToMove);
-			
-			if(childrenState != null) {
+
+			if (childrenState != null) {
 				children.add(childrenState);
 			}
-			
+
+			childrenState = null;
+
 			// variable to check if this card has moved to new stack
 			// we don't need to make another children of this card moving to another
 			// new stack
@@ -692,21 +694,18 @@ public class State implements Comparable<State> {
 		}
 
 		for (Stack<Card> stack : this.stacks) {
+			cardWrongOrderScore += wrongOrderOfCardsPenalty(stack);
 			for (Card card : stack) {
 				cardsNotInFoundationScore += getWorthOfCardReversed(card);
 			}
 		}
 
-		for (Stack<Card> stack : this.stacks) {
-			cardWrongOrderScore += wrongOrderOfCardsPenalty(stack);
-		}
-
-		return (int) Math.round(0.75 * cardsNotInFoundationScore + 0.25 * cardWrongOrderScore);
+		return (int) Math.round(0.80 * cardsNotInFoundationScore + 0.20 * cardWrongOrderScore);
 	}
 
 	// bigger penalty if the card has small value
 	private int getWorthOfCardReversed(Card card) {
-		return Math.abs(MyUtils.N - card.getValue());
+		return Math.abs((MyUtils.N - 1) - card.getValue());
 	}
 
 	// number of cards being in wrong order

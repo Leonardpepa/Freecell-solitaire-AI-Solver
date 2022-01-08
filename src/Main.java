@@ -68,12 +68,12 @@ import javax.swing.JOptionPane;
 //		  []
 //		  []
 //		  []
-// its the same position so we dont count it as a valid child
+// its the same position so we don't count it as a valid child
 
 // Main class the starts the program
 public class Main {
 
-	// Arguments algorith <input file> <output file>
+	// Arguments algorithm <input file> <output file>
 	public static void main(String[] args) {
 		
 		// show error message if invalid arguments
@@ -87,7 +87,7 @@ public class Main {
 			// store arguments to variables
 			String method = MyUtils.getMethod(args[0]);
 			String input = args[1];
-			String ouput = args[2];
+			String output = args[2];
 
 			// Reading the file might cause an exception if you provide wrong file name or a
 			// file that is not is the same directory
@@ -101,7 +101,7 @@ public class Main {
 
 				// Start the search passing the state of the deck the algorithm we want to use
 				// and the output filename we want to store the solution if exists
-				frontier.search(initialState, method, ouput);
+				frontier.search(initialState, method, output);
 
 			} catch (IOException e) {
 				e.printStackTrace();
