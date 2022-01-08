@@ -75,7 +75,7 @@ public class Main {
 
 	// Arguments algorith <input file> <output file>
 	public static void main(String[] args) {
-
+		
 		// show error message if invalid arguments
 		if (args.length != 3) {
 			JOptionPane.showMessageDialog(null, Auxiliary.getSyntaxError(), "Error | Invalid Arguments",

@@ -114,12 +114,6 @@ public class State implements Comparable<State> {
 			if (this.foundations.get(i).size() != s.getFoundations().get(i).size()) {
 				return false;
 			}
-
-			for (Card c : this.foundations.get(i)) {
-				if (!s.getFoundations().get(i).contains(c)) {
-					return false;
-				}
-			}
 		}
 
 		// check if the two nodes have the same numbers of stack cards
@@ -186,9 +180,9 @@ public class State implements Comparable<State> {
 			else {
 				// if the heuristic value are equal
 				if (this.g > otherState.getG()) {
-					return 1;
+					return -1;
 				}
-				return -1;
+				return 1;
 			}
 
 			// if the algorithm is astar
@@ -199,7 +193,10 @@ public class State implements Comparable<State> {
 			else if (this.f < otherState.getF())
 				return -1;
 			else {
-				return 1;
+				if(this.g > otherState.getG()) {
+					return 1;
+				}
+				return  -1;
 			}
 
 		}
@@ -626,6 +623,13 @@ public class State implements Comparable<State> {
 
 			Card cardToMove = this.foundations.get(i).peek().clone();
 
+			
+			State childrenState = expandedToFreecell(cardToMove);
+			
+			if(childrenState != null) {
+				children.add(childrenState);
+			}
+			
 			// variable to check if this card has moved to new stack
 			// we don't need to make another children of this card moving to another
 			// new stack
@@ -642,7 +646,7 @@ public class State implements Comparable<State> {
 					}
 
 					// make a copy of the state
-					State childrenState = this.clone();
+					childrenState = this.clone();
 					// execute the move on that state
 					childrenState.moveCardToStack(cardToMove, childrenState.getStacks().get(j));
 
@@ -676,7 +680,7 @@ public class State implements Comparable<State> {
 
 	// heuristic function
 	// calculates the heuristic value
-	// by giving penlaty to each card is not in the foundation and its not in order
+	// by giving penalty to each card is not in the foundation and its not in order
 	// in the stacks
 	public int heuristicFunction() {
 
@@ -707,24 +711,17 @@ public class State implements Comparable<State> {
 
 	// number of cards being in wrong order
 	private int wrongOrderOfCardsPenalty(Stack<Card> stack) {
-		int score = 0;
-
-		int difference = 0;
-
-		Card previus = null;
-		for (Card card : stack) {
-			if (previus == null) {
-				previus = card;
-			} else {
-
-				difference = previus.getValue() - card.getValue();
-
-				if (previus.getColor().equals(card.getColor()) || difference != 1) {
-					score++;
+		int penalty = 0;
+		int difference;
+		if (stack.size() > 1) {
+			for (int i = 0; i < stack.size() - 1; i++) {
+				difference = (stack.get(i).getValue() - stack.get(i + 1).getValue());
+				if (!(stack.get(i).getColor() != (stack.get(i + 1).getColor()) && difference == 1)) {
+					penalty++;
 				}
 			}
 		}
-		return score;
+		return penalty;
 	}
 
 	// if method is astar set the f value to the g + h
