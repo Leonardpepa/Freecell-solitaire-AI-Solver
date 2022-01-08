@@ -1,0 +1,34 @@
+33
+stack C3 H4
+source D0
+source D1
+source D2
+freecell S5
+source D3
+source D4
+source D5
+newstack H5
+source H0
+source H1
+newstack S1
+source H2
+newstack C4
+source H3
+newstack C3
+source H4
+newstack C5
+source C0
+newstack S3
+source C1
+freecell S2
+source C2
+source S0
+source S1
+source S2
+source S3
+source C3
+source C4
+source S4
+source H5
+source C5
+source S5

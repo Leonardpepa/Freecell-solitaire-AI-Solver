@@ -1,0 +1,12232 @@
+12231
+freecell H3
+stack H3 S4
+freecell C0
+source C0
+freecell H5
+freecell H2
+newstack H2
+stack H2 C3
+newstack H5
+freecell C1
+stack C1 H2
+freecell H5
+freecell H4
+newstack H5
+newstack H4
+freecell H5
+freecell H0
+newstack H0
+freecell H4
+newstack H5
+freecell H5
+freecell H0
+stack H0 C1
+newstack H5
+newstack H4
+freecell H5
+freecell H4
+newstack H4
+newstack H5
+freecell H4
+freecell D3
+newstack D3
+freecell H5
+newstack H4
+freecell H4
+freecell D3
+newstack H4
+newstack D3
+freecell H4
+newstack H5
+freecell H5
+freecell D3
+freecell D0
+newstack D3
+newstack D0
+newstack H5
+freecell D0
+source D0
+newstack H4
+freecell H5
+freecell H4
+newstack H5
+newstack H4
+freecell H5
+freecell D3
+newstack H5
+newstack D3
+freecell H4
+freecell D3
+newstack H4
+newstack D3
+freecell H4
+freecell H5
+newstack H4
+newstack H5
+freecell D3
+freecell H4
+freecell H5
+newstack H5
+freecell H3
+newstack H3
+newstack H4
+stack D3 S4
+freecell H4
+freecell H3
+newstack H4
+newstack H3
+freecell H4
+freecell H5
+newstack H4
+newstack H5
+freecell H3
+freecell H5
+newstack H3
+newstack H5
+freecell H3
+freecell H4
+newstack H3
+newstack H4
+freecell H5
+freecell H4
+newstack H5
+newstack H4
+freecell H5
+freecell H3
+newstack H5
+freecell H4
+freecell H5
+newstack H3
+freecell H3
+newstack H4
+freecell H4
+freecell D3
+newstack H4
+newstack D3
+newstack H3
+freecell D3
+newstack H5
+freecell H3
+newstack D3
+freecell D3
+freecell H5
+newstack D3
+newstack H5
+stack H3 S4
+freecell H5
+freecell D3
+freecell H4
+freecell H3
+newstack H3
+newstack H4
+newstack D3
+freecell H4
+newstack H5
+freecell D3
+newstack H4
+freecell H4
+freecell H5
+newstack H4
+newstack H5
+freecell H4
+newstack D3
+freecell H5
+newstack H4
+freecell H4
+freecell D3
+freecell H3
+stack H3 S4
+freecell H0
+source H0
+newstack D3
+newstack H4
+newstack H5
+freecell H4
+freecell H5
+newstack H5
+newstack H4
+freecell H5
+freecell D3
+newstack H5
+newstack D3
+freecell H4
+freecell H5
+newstack H4
+newstack H5
+freecell D3
+freecell H5
+newstack H5
+newstack D3
+freecell H5
+freecell D3
+freecell H4
+freecell H3
+newstack H3
+newstack H4
+newstack D3
+stack D3 S4
+newstack H5
+freecell H4
+freecell H5
+newstack H5
+newstack H4
+freecell H5
+freecell H4
+freecell H3
+newstack H4
+newstack H3
+newstack H5
+freecell H3
+freecell H5
+newstack H5
+newstack H3
+freecell H5
+freecell H4
+newstack H5
+newstack H4
+freecell H3
+freecell H4
+newstack H3
+newstack H4
+freecell H3
+freecell H5
+freecell H4
+freecell D3
+newstack H4
+newstack D3
+newstack H5
+freecell D3
+newstack H3
+freecell H5
+newstack D3
+freecell D3
+freecell H3
+newstack D3
+newstack H3
+freecell D3
+newstack H5
+freecell H3
+newstack D3
+freecell D3
+freecell H5
+freecell H4
+newstack H5
+newstack H4
+newstack D3
+stack H3 S4
+freecell D3
+freecell H5
+freecell H4
+freecell H3
+newstack H3
+newstack H4
+newstack H5
+freecell H4
+newstack D3
+freecell H5
+newstack H4
+freecell H4
+freecell D3
+newstack H5
+newstack D3
+freecell H5
+freecell D3
+freecell H3
+stack H3 S4
+freecell C1
+newstack C1
+newstack D3
+newstack H5
+freecell D3
+newstack H4
+freecell H5
+newstack D3
+freecell D3
+freecell H4
+newstack D3
+newstack H4
+freecell D3
+newstack H5
+freecell H4
+newstack D3
+freecell D3
+freecell H5
+freecell C1
+stack C1 H2
+newstack H5
+freecell H3
+newstack H3
+newstack D3
+freecell H3
+stack H3 S4
+freecell H5
+freecell H3
+newstack H4
+freecell D3
+freecell H4
+newstack D3
+newstack H4
+newstack H3
+freecell H4
+newstack H5
+freecell H3
+newstack H4
+freecell H4
+freecell H5
+newstack H4
+newstack H5
+freecell H4
+newstack H3
+freecell H5
+newstack H4
+freecell H4
+freecell H3
+freecell D3
+newstack H5
+newstack D3
+newstack H3
+freecell D3
+newstack H4
+freecell H3
+freecell H4
+newstack H3
+newstack H4
+freecell H3
+newstack D3
+freecell H4
+freecell D3
+freecell H5
+stack D3 S4
+freecell D3
+newstack S4
+newstack D3
+newstack H5
+stack H4 S5
+stack H3 S4
+freecell H5
+freecell D3
+newstack H5
+newstack D3
+freecell H5
+freecell H3
+newstack H3
+freecell D3
+stack D3 S4
+newstack H5
+freecell H3
+freecell H5
+newstack H5
+newstack H3
+freecell H5
+freecell H3
+freecell D3
+newstack D3
+newstack H3
+freecell D3
+newstack H5
+freecell H3
+newstack D3
+freecell D3
+freecell H5
+newstack D3
+freecell D3
+freecell S4
+newstack D3
+newstack S4
+newstack H5
+stack H3 S4
+freecell H5
+freecell H3
+newstack H3
+freecell S4
+newstack H5
+stack S4 H5
+freecell H3
+stack H3 S4
+freecell D3
+freecell H3
+newstack H3
+newstack D3
+stack D3 S4
+freecell H3
+freecell D3
+freecell S4
+newstack D3
+newstack S4
+stack H3 S4
+freecell H5
+freecell H3
+freecell S4
+newstack H3
+newstack H5
+stack S4 H5
+freecell H3
+stack H3 S4
+freecell D3
+freecell H3
+newstack H3
+stack D3 S4
+newstack D3
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+freecell D3
+newstack S4
+newstack D3
+stack D3 S4
+newstack H5
+freecell D3
+freecell H5
+freecell S4
+newstack H5
+newstack S4
+stack D3 S4
+freecell H5
+freecell D3
+freecell S4
+freecell H3
+newstack S4
+freecell S4
+newstack H5
+newstack S4
+newstack H3
+stack D3 S4
+freecell H3
+freecell D3
+newstack D3
+stack H3 S4
+freecell D3
+freecell H5
+freecell H3
+stack D3 S4
+freecell D3
+stack H3 S4
+freecell H3
+freecell H4
+newstack H4
+newstack H3
+stack D3 S4
+freecell H3
+newstack H5
+freecell H5
+freecell D3
+newstack H5
+stack H3 S4
+freecell H5
+newstack D3
+freecell D3
+freecell H4
+newstack D3
+newstack H4
+freecell H3
+freecell H4
+newstack H3
+freecell H3
+newstack H5
+stack H3 S4
+freecell H5
+freecell H3
+newstack H3
+freecell D3
+stack D3 S4
+newstack H5
+freecell H3
+newstack H4
+freecell H4
+freecell D3
+newstack D3
+stack H3 S4
+freecell D3
+newstack H4
+freecell H4
+freecell H3
+newstack H3
+freecell S4
+stack S4 H5
+newstack H4
+stack D3 S4
+freecell H3
+freecell H4
+stack H4 S5
+newstack H3
+freecell D3
+newstack D3
+freecell H3
+stack H3 S4
+freecell D3
+newstack D3
+freecell H3
+newstack H3
+freecell D3
+stack D3 S4
+freecell H4
+freecell H3
+newstack H3
+newstack H4
+freecell H3
+freecell D3
+newstack D3
+stack H3 S4
+freecell H4
+freecell D3
+newstack H4
+newstack D3
+freecell H4
+freecell H3
+newstack H3
+freecell D3
+newstack H4
+freecell H4
+freecell H3
+stack H3 S4
+freecell S5
+newstack H4
+newstack S5
+freecell H4
+stack H4 S5
+newstack D3
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+freecell D3
+newstack H4
+newstack D3
+freecell H4
+newstack S5
+stack H4 S5
+freecell D3
+freecell H4
+newstack H4
+freecell S5
+freecell H3
+newstack H3
+stack D3 S4
+freecell H4
+newstack S5
+stack H4 S5
+freecell H3
+freecell H4
+newstack H4
+freecell S5
+newstack H3
+freecell H3
+freecell H4
+newstack S5
+newstack H4
+stack H4 S5
+newstack H3
+freecell H4
+freecell H3
+freecell S5
+newstack H3
+freecell H3
+freecell D3
+newstack D3
+newstack H3
+freecell D3
+stack D3 S4
+freecell H1
+stack H1 S2
+newstack S5
+newstack H4
+freecell H3
+freecell H4
+stack H4 S5
+newstack H3
+freecell D3
+newstack D3
+freecell H3
+stack H3 S4
+freecell D3
+newstack D3
+freecell H3
+newstack H3
+freecell D3
+stack D3 S4
+freecell C1
+newstack C1
+stack C1 D2
+freecell H3
+newstack H3
+freecell D3
+newstack D3
+freecell H3
+freecell D3
+newstack D3
+newstack H3
+stack H3 S4
+freecell D3
+freecell H3
+freecell S4
+newstack S4
+newstack H3
+stack D3 S4
+freecell H3
+freecell D3
+newstack D3
+stack H3 S4
+freecell D3
+freecell H5
+newstack D3
+newstack H5
+freecell H3
+freecell H5
+newstack H3
+freecell H3
+freecell S4
+newstack H3
+newstack S4
+freecell H3
+stack H3 S4
+newstack H5
+freecell H3
+freecell S4
+stack S4 H5
+newstack H3
+freecell S4
+freecell H3
+freecell H5
+newstack H3
+newstack H5
+stack S4 H5
+freecell H3
+stack H3 S4
+freecell D3
+freecell H3
+stack D3 S4
+newstack H3
+freecell D3
+newstack D3
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+freecell D3
+newstack S4
+newstack D3
+stack D3 S4
+newstack H5
+freecell D3
+freecell H5
+freecell S4
+newstack H5
+newstack S4
+stack D3 S4
+freecell H5
+freecell D3
+freecell S4
+freecell H3
+newstack S4
+newstack H3
+newstack D3
+stack D3 S4
+newstack H5
+freecell H3
+freecell H5
+newstack H5
+newstack H3
+freecell H5
+freecell H3
+freecell D3
+newstack D3
+newstack H3
+stack H3 S4
+newstack H5
+freecell D3
+freecell H5
+newstack H5
+newstack D3
+freecell H5
+freecell D3
+newstack H4
+newstack D3
+freecell H4
+newstack H5
+freecell D3
+newstack H4
+freecell H4
+freecell H3
+newstack H3
+stack H4 S5
+freecell H3
+newstack D3
+freecell D3
+freecell H5
+newstack D3
+newstack H5
+freecell D3
+newstack H3
+freecell H5
+freecell H3
+freecell S4
+newstack H4
+newstack S4
+newstack H3
+stack D3 S4
+freecell H3
+newstack H5
+freecell H5
+freecell D3
+newstack H5
+stack H3 S4
+freecell H5
+newstack D3
+freecell D3
+freecell H3
+newstack H3
+freecell S4
+newstack D3
+freecell D3
+newstack H5
+stack S4 H5
+stack D3 S4
+freecell H3
+freecell D3
+newstack D3
+stack H3 S4
+freecell D3
+freecell H3
+freecell S4
+newstack H3
+freecell H3
+newstack S4
+stack H3 S4
+freecell H5
+newstack D3
+freecell H3
+freecell D3
+stack D3 S4
+newstack H3
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack H5
+stack S4 H5
+stack D3 S4
+freecell H3
+freecell D3
+newstack D3
+stack H3 S4
+freecell D3
+freecell H3
+freecell S4
+newstack S4
+freecell H5
+newstack D3
+freecell S4
+newstack H5
+freecell D3
+newstack S4
+stack D3 S4
+freecell H5
+freecell D3
+newstack D3
+freecell H4
+stack H4 S5
+newstack H5
+stack H3 S4
+freecell D3
+freecell H3
+newstack H3
+stack D3 S4
+freecell H3
+freecell D3
+freecell S4
+newstack D3
+newstack H3
+freecell H3
+freecell D3
+newstack H3
+newstack D3
+freecell H3
+freecell H5
+newstack H3
+newstack H5
+stack S4 H5
+freecell D3
+stack D3 S4
+freecell H3
+freecell D3
+stack H3 S4
+newstack D3
+freecell H4
+newstack H4
+freecell H3
+freecell H4
+newstack H3
+freecell H3
+freecell S4
+newstack H3
+freecell H3
+newstack S4
+stack H3 S4
+freecell H5
+newstack H4
+freecell H3
+freecell S4
+newstack H3
+freecell H3
+newstack H5
+stack S4 H5
+stack H3 S4
+freecell H4
+freecell H3
+newstack H3
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+newstack H4
+freecell H4
+newstack S4
+freecell S4
+freecell H3
+newstack S4
+newstack H3
+stack H3 S4
+newstack H4
+freecell H3
+freecell H4
+newstack H5
+stack H3 S4
+freecell H5
+freecell H3
+newstack H3
+freecell S4
+stack H4 S5
+freecell H3
+freecell D3
+newstack H4
+newstack D3
+newstack H5
+freecell H5
+newstack H3
+freecell H3
+freecell D3
+newstack H3
+newstack D3
+freecell H3
+newstack H5
+freecell D3
+freecell H5
+newstack H3
+newstack S4
+freecell S4
+newstack H5
+freecell H5
+freecell H3
+stack H4 S5
+newstack H3
+freecell H4
+newstack H4
+newstack H5
+stack S4 H5
+stack D3 S4
+freecell H4
+freecell D3
+newstack D3
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+freecell D3
+newstack S4
+newstack D3
+stack D3 S4
+newstack H5
+freecell D3
+freecell H5
+newstack H4
+stack D3 S4
+freecell H4
+freecell D3
+newstack H4
+freecell H4
+newstack D3
+freecell S4
+newstack H4
+freecell D3
+newstack S4
+stack D3 S4
+freecell H4
+newstack H5
+freecell D3
+freecell S4
+stack S4 H5
+newstack D3
+stack D3 S4
+newstack H4
+freecell D3
+freecell H4
+freecell S4
+newstack S4
+freecell H5
+newstack H4
+freecell S4
+freecell H4
+newstack S4
+newstack H5
+freecell H5
+freecell S4
+newstack H2
+newstack S4
+stack H4 S5
+stack D3 S4
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack H5
+stack S4 H5
+stack D3 S4
+freecell H2
+freecell D3
+freecell S4
+newstack S4
+stack D3 S4
+freecell H5
+newstack H2
+freecell H2
+freecell D3
+newstack D3
+freecell S4
+stack H2 C3
+freecell H3
+newstack S4
+freecell S4
+newstack H5
+freecell D3
+freecell H5
+newstack D3
+freecell D3
+newstack S4
+freecell S4
+newstack D3
+freecell D3
+newstack H4
+newstack D3
+newstack H5
+freecell H5
+freecell D3
+newstack H2
+newstack D3
+freecell H2
+newstack H5
+stack S4 H5
+stack H3 S4
+freecell D3
+newstack H2
+freecell H2
+freecell H3
+newstack H3
+stack D3 S4
+freecell D3
+freecell H3
+newstack D3
+freecell D3
+stack D3 S4
+newstack H2
+freecell H2
+freecell D3
+newstack H2
+freecell H2
+freecell S4
+newstack S4
+stack D3 S4
+freecell D3
+stack H3 S4
+freecell H3
+stack D3 S4
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack H3
+freecell H3
+newstack D3
+freecell D3
+newstack H2
+freecell H2
+newstack D3
+freecell D3
+newstack H3
+freecell H3
+newstack D3
+freecell D3
+newstack C3
+stack H2 C3
+stack S4 H5
+stack D3 S4
+freecell H2
+freecell C3
+stack C3 H4
+newstack H2
+stack H2 C3
+newstack H3
+freecell D3
+freecell H3
+stack H3 S4
+newstack D3
+freecell H2
+freecell D3
+newstack H2
+freecell H2
+freecell H3
+newstack H3
+stack D3 S4
+freecell H3
+freecell D3
+newstack D3
+stack H2 C3
+freecell D3
+freecell S4
+newstack S4
+stack D3 S4
+freecell H5
+newstack H3
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack H5
+stack S4 H5
+stack D3 S4
+freecell H3
+freecell D3
+newstack D3
+stack H3 S4
+freecell D3
+freecell H3
+freecell S4
+newstack S4
+stack H3 S4
+freecell H5
+newstack D3
+freecell D3
+freecell H3
+newstack H3
+stack D3 S4
+freecell H3
+newstack H5
+freecell H5
+freecell D3
+newstack D3
+freecell S4
+newstack H5
+freecell D3
+newstack H3
+freecell H3
+newstack D3
+freecell D3
+freecell H2
+newstack H2
+stack S4 H5
+freecell H2
+newstack D3
+freecell D3
+newstack H3
+freecell H3
+newstack H2
+freecell H2
+freecell S4
+newstack S4
+stack H2 C3
+stack H3 S4
+freecell H5
+newstack D3
+freecell H3
+freecell S4
+newstack H3
+freecell H3
+newstack H5
+freecell H5
+newstack H3
+freecell H3
+freecell H2
+newstack H2
+freecell D3
+newstack H3
+freecell H2
+stack H2 C3
+newstack D3
+freecell H3
+newstack S4
+freecell D3
+newstack H5
+freecell H5
+newstack H3
+freecell H3
+freecell H2
+newstack H2
+stack H3 S4
+freecell H2
+newstack H5
+freecell H5
+newstack D3
+freecell D3
+newstack H5
+freecell H5
+freecell H3
+newstack H3
+stack D3 S4
+freecell H3
+newstack H5
+freecell H5
+newstack H2
+freecell H2
+newstack H5
+freecell H5
+freecell D3
+newstack D3
+freecell S4
+newstack H5
+freecell D3
+newstack S4
+stack D3 S4
+freecell H5
+newstack H2
+freecell D3
+stack H3 S4
+freecell H3
+stack D3 S4
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack H3
+freecell H3
+newstack D3
+freecell D3
+newstack C3
+stack H2 C3
+newstack D3
+freecell H2
+stack C3 H4
+newstack H2
+freecell D3
+newstack H3
+freecell H2
+newstack D3
+freecell D3
+newstack S4
+stack D3 S4
+freecell H3
+stack H2 C3
+freecell D3
+stack H3 S4
+freecell H3
+freecell H2
+stack H3 S4
+newstack D3
+freecell D3
+newstack H5
+freecell H3
+stack D3 S4
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack H3
+freecell H3
+newstack D3
+freecell D3
+newstack C3
+stack S4 H5
+stack D3 S4
+freecell C3
+newstack H3
+freecell H3
+newstack H2
+freecell H2
+newstack H3
+freecell H3
+freecell D3
+newstack D3
+stack H3 S4
+freecell H4
+stack H4 S5
+newstack H2
+stack C3 H4
+freecell D3
+freecell H3
+newstack H3
+stack D3 S4
+freecell H3
+freecell D3
+freecell S4
+newstack S4
+stack D3 S4
+freecell H5
+newstack H3
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack H5
+stack S4 H5
+stack D3 S4
+freecell H3
+freecell D3
+newstack D3
+stack H3 S4
+freecell D3
+freecell H3
+freecell S4
+newstack S4
+stack H3 S4
+freecell H5
+newstack D3
+freecell D3
+freecell H3
+newstack H3
+stack D3 S4
+freecell H3
+newstack H5
+freecell H5
+freecell D3
+newstack D3
+freecell S4
+newstack H5
+stack S4 H5
+freecell H2
+stack H2 C3
+stack H3 S4
+freecell D3
+newstack D3
+freecell H3
+newstack H3
+freecell S4
+freecell H3
+newstack S4
+stack H3 S4
+freecell H5
+freecell H3
+newstack H3
+freecell S4
+newstack H5
+stack S4 H5
+freecell H3
+stack H3 S4
+freecell D3
+freecell H3
+stack D3 S4
+newstack H3
+newstack D3
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+freecell D3
+newstack S4
+newstack D3
+stack D3 S4
+newstack H5
+freecell D3
+freecell H5
+freecell H3
+stack H3 S4
+newstack H5
+newstack D3
+freecell H3
+freecell D3
+stack D3 S4
+newstack H3
+freecell D3
+freecell H3
+freecell S4
+stack S4 H5
+newstack H3
+newstack D3
+stack D3 S4
+freecell H3
+freecell D3
+newstack D3
+newstack H3
+stack H3 S4
+freecell D3
+freecell H2
+newstack H2
+newstack D3
+freecell H2
+stack H2 C3
+freecell H3
+freecell S4
+newstack H3
+freecell D3
+newstack S4
+stack D3 S4
+freecell H3
+freecell D3
+newstack D3
+stack H3 S4
+freecell D3
+freecell H3
+freecell H5
+stack H3 S4
+freecell H3
+newstack H3
+newstack H5
+stack D3 S4
+freecell H5
+freecell D3
+freecell S4
+freecell H3
+newstack S4
+newstack H3
+newstack D3
+stack D3 S4
+newstack H5
+freecell H3
+freecell H5
+newstack H5
+newstack H3
+freecell H5
+freecell H3
+freecell D3
+newstack D3
+newstack H3
+stack H3 S4
+newstack H5
+freecell D3
+freecell H5
+newstack H5
+newstack D3
+freecell H5
+freecell D3
+freecell H2
+newstack H2
+newstack D3
+freecell H2
+newstack H5
+freecell D3
+newstack H2
+freecell H2
+freecell H5
+newstack H2
+newstack H5
+freecell H2
+newstack D3
+freecell H5
+freecell D3
+freecell H3
+newstack H3
+newstack D3
+stack D3 S4
+newstack H5
+freecell H3
+newstack H2
+freecell H5
+newstack H3
+freecell H3
+freecell H2
+newstack H3
+newstack H2
+freecell H3
+newstack H5
+freecell H2
+newstack H3
+freecell H3
+freecell D3
+newstack D3
+stack H2 C3
+freecell D3
+newstack H3
+freecell H3
+freecell S4
+stack S4 H5
+newstack H3
+newstack D3
+stack D3 S4
+freecell H3
+freecell D3
+freecell S4
+newstack D3
+freecell H5
+newstack S4
+newstack H5
+stack H3 S4
+freecell H5
+freecell H3
+newstack H3
+freecell S4
+freecell D3
+newstack S4
+freecell S4
+newstack H5
+newstack S4
+stack S4 H5
+stack D3 S4
+freecell H2
+newstack H2
+freecell H3
+freecell H2
+newstack H3
+newstack H2
+freecell H3
+freecell D3
+newstack D3
+stack H3 S4
+freecell H2
+freecell D3
+newstack H2
+freecell H3
+newstack D3
+freecell D3
+freecell H2
+newstack D3
+newstack H3
+freecell H3
+freecell D3
+stack D3 S4
+freecell C3
+newstack C3
+newstack H3
+stack H2 C3
+freecell H3
+freecell H2
+freecell C3
+newstack H2
+newstack C3
+freecell H2
+newstack H3
+stack H2 C3
+freecell H3
+freecell D3
+newstack D3
+stack H3 S4
+freecell H2
+freecell C3
+newstack H2
+freecell H2
+freecell D3
+newstack H2
+newstack D3
+freecell H2
+newstack C3
+stack H2 C3
+freecell D3
+freecell H2
+newstack H2
+freecell C3
+stack C3 H4
+freecell H3
+newstack H3
+freecell H2
+newstack D3
+freecell D3
+freecell S4
+newstack S4
+stack D3 S4
+freecell H3
+newstack H2
+freecell D3
+stack H3 S4
+freecell H3
+freecell S4
+newstack H3
+stack S4 H5
+freecell H2
+freecell H3
+freecell S4
+newstack S4
+newstack H3
+stack D3 S4
+freecell H3
+newstack H2
+freecell H2
+freecell D3
+newstack D3
+stack H2 C3
+freecell H5
+stack H3 S4
+freecell D3
+freecell H3
+stack D3 S4
+freecell D3
+freecell S4
+newstack D3
+newstack H3
+freecell H3
+freecell D3
+newstack H5
+newstack D3
+newstack H3
+freecell D3
+freecell H3
+freecell H5
+newstack H3
+newstack H5
+newstack D3
+freecell H5
+freecell D3
+freecell H3
+newstack D3
+newstack H3
+freecell D3
+newstack S4
+newstack H5
+freecell H5
+freecell H3
+freecell S4
+newstack H3
+newstack H5
+freecell H5
+freecell H3
+newstack H5
+newstack H3
+stack S4 H5
+freecell C2
+stack C2 H3
+newstack D3
+stack D3 S4
+freecell C2
+newstack C2
+stack C2 D3
+freecell H3
+stack H3 C4
+freecell C2
+newstack C2
+stack C2 H3
+freecell D3
+newstack D3
+freecell S4
+newstack S4
+freecell D3
+stack D3 S4
+freecell H5
+freecell D3
+newstack D3
+newstack H5
+freecell S4
+stack S4 H5
+freecell D3
+stack D3 S4
+freecell H2
+newstack H2
+freecell D3
+newstack D3
+freecell S4
+freecell H5
+newstack S4
+freecell D3
+stack D3 S4
+newstack H5
+freecell D3
+freecell H5
+freecell S4
+newstack H5
+newstack S4
+stack D3 S4
+freecell H5
+freecell D3
+newstack D3
+freecell S4
+newstack H5
+stack S4 H5
+freecell D3
+stack D3 S4
+freecell H2
+stack H2 C3
+freecell D3
+newstack D3
+freecell S4
+newstack S4
+freecell H5
+freecell S4
+freecell D3
+newstack S4
+newstack D3
+newstack H5
+freecell D3
+stack D3 S4
+freecell H5
+newstack H5
+freecell D3
+newstack D3
+freecell H5
+freecell S4
+newstack H5
+newstack S4
+freecell D3
+stack D3 S4
+freecell H5
+freecell H2
+newstack H5
+newstack H2
+freecell D3
+freecell H2
+newstack D3
+freecell D3
+freecell S4
+newstack D3
+newstack S4
+freecell D3
+stack D3 S4
+newstack H2
+freecell D3
+freecell S4
+stack S4 H5
+newstack D3
+stack D3 S4
+freecell H2
+freecell D3
+freecell C3
+newstack C3
+newstack D3
+stack H2 C3
+freecell D3
+stack D3 S4
+freecell H2
+newstack H2
+freecell C3
+freecell H2
+newstack H2
+newstack C3
+freecell H2
+stack H2 C3
+freecell D3
+newstack D3
+freecell H2
+freecell C3
+stack C3 H4
+newstack H2
+freecell D3
+stack D3 S4
+freecell C2
+newstack C2
+freecell H2
+freecell C2
+stack C2 D3
+newstack H2
+freecell C2
+freecell H2
+freecell D3
+newstack D3
+newstack H2
+stack C2 D3
+freecell H2
+stack H2 C3
+freecell C2
+newstack C2
+freecell D3
+stack D3 S4
+freecell H2
+newstack H2
+freecell D3
+freecell C2
+newstack D3
+stack C2 D3
+freecell H2
+stack H2 C3
+freecell C2
+newstack C2
+freecell D3
+freecell C2
+freecell S4
+newstack S4
+newstack C2
+stack D3 S4
+freecell C2
+stack C2 D3
+freecell H5
+freecell C2
+newstack C2
+newstack H5
+freecell D3
+freecell H5
+freecell S4
+newstack H5
+newstack S4
+stack D3 S4
+freecell H5
+freecell D3
+newstack D3
+freecell S4
+newstack H5
+stack S4 H5
+freecell D3
+stack D3 S4
+freecell C2
+stack C2 D3
+freecell H2
+newstack H2
+freecell C2
+newstack C2
+freecell D3
+freecell S4
+freecell H5
+newstack S4
+stack D3 S4
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack H5
+freecell H5
+newstack D3
+freecell D3
+freecell H2
+stack H2 C3
+newstack D3
+newstack H5
+stack S4 H5
+freecell C2
+freecell S4
+newstack S4
+stack C2 D3
+freecell H5
+freecell S4
+newstack H5
+newstack S4
+stack S4 H5
+freecell C2
+newstack C2
+freecell S4
+freecell H5
+newstack S4
+freecell C2
+freecell D3
+newstack C2
+newstack D3
+freecell S4
+newstack H5
+stack S4 H5
+freecell D3
+stack D3 S4
+freecell C2
+stack C2 D3
+freecell H2
+newstack H2
+newstack C2
+freecell D3
+freecell C2
+newstack D3
+stack C2 D3
+freecell S4
+freecell C2
+freecell D3
+newstack C2
+freecell C2
+stack C2 H3
+freecell H5
+newstack D3
+freecell D3
+freecell H2
+newstack D3
+newstack H2
+newstack H5
+stack S4 H5
+freecell H2
+freecell S4
+newstack S4
+freecell H5
+newstack H2
+freecell H2
+freecell S4
+newstack H2
+newstack S4
+freecell H2
+newstack H5
+freecell S4
+newstack H2
+stack S4 H5
+freecell H2
+freecell D3
+freecell S4
+newstack S4
+newstack D3
+stack D3 S4
+newstack H2
+freecell H5
+freecell H2
+newstack H2
+newstack H5
+freecell H2
+freecell H5
+freecell D3
+newstack D3
+newstack H5
+freecell D3
+newstack H2
+freecell H5
+newstack D3
+freecell D3
+freecell H2
+newstack D3
+newstack H2
+freecell S4
+newstack H5
+freecell H2
+freecell D3
+newstack H2
+newstack D3
+freecell H2
+stack S4 H5
+stack H2 C3
+freecell C1
+newstack C1
+freecell D3
+stack D3 S4
+freecell C1
+stack C1 H2
+freecell D3
+newstack D3
+freecell S4
+freecell D3
+newstack S4
+newstack D3
+stack D3 S4
+freecell H5
+freecell D3
+newstack D3
+newstack H5
+freecell S4
+stack S4 H5
+freecell D3
+stack D3 S4
+freecell C1
+newstack C1
+freecell D3
+newstack D3
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+freecell C1
+stack C1 D2
+freecell H2
+freecell D3
+newstack D3
+newstack H5
+freecell H5
+stack H2 C3
+freecell D3
+newstack H5
+freecell H5
+newstack S4
+freecell S4
+newstack H5
+freecell H5
+freecell H2
+newstack H2
+freecell C3
+newstack C3
+newstack H5
+stack S4 H5
+stack D3 S4
+freecell C3
+freecell D3
+freecell S4
+newstack S4
+stack D3 S4
+freecell H5
+newstack C3
+freecell C3
+freecell D3
+newstack D3
+freecell S4
+newstack C3
+freecell D3
+newstack S4
+stack D3 S4
+freecell C3
+newstack H5
+freecell D3
+freecell S4
+stack S4 H5
+newstack D3
+stack D3 S4
+newstack C3
+freecell D3
+freecell C3
+freecell S4
+newstack S4
+freecell H5
+newstack C3
+freecell S4
+freecell C3
+newstack S4
+newstack C3
+freecell S4
+newstack H5
+freecell C3
+newstack D3
+freecell D3
+newstack C3
+freecell C3
+freecell H5
+newstack C3
+newstack H5
+freecell C3
+stack C3 H4
+freecell H2
+newstack D3
+freecell D3
+stack H2 C3
+freecell C2
+newstack C2
+freecell H5
+newstack H5
+freecell C2
+stack C2 H3
+freecell H2
+stack S4 H5
+freecell S4
+newstack S4
+newstack H2
+freecell H5
+freecell H2
+freecell S4
+newstack H5
+stack S4 H5
+freecell C3
+newstack C3
+newstack H2
+freecell C3
+newstack D3
+freecell H2
+freecell D3
+newstack H2
+newstack D3
+freecell H2
+freecell S4
+newstack S4
+freecell D3
+stack D3 S4
+newstack H2
+freecell D3
+freecell H2
+newstack C3
+stack H2 C3
+stack D3 S4
+freecell H2
+freecell C3
+freecell D3
+newstack D3
+freecell S4
+stack S4 H5
+freecell D3
+stack D3 S4
+freecell H4
+newstack C3
+newstack H4
+stack H2 C3
+freecell H4
+freecell H2
+newstack H2
+freecell C3
+newstack H4
+stack C3 H4
+freecell H2
+stack H2 C3
+freecell D3
+newstack D3
+freecell H2
+freecell D3
+newstack H2
+freecell H2
+newstack C3
+stack H2 C3
+stack D3 S4
+freecell H4
+freecell H2
+newstack H2
+freecell C3
+newstack H4
+stack C3 H4
+freecell H2
+stack H2 C3
+freecell D3
+newstack D3
+freecell H2
+freecell C3
+freecell H4
+newstack C3
+stack H2 C3
+freecell H2
+freecell D3
+stack H2 C3
+freecell H2
+freecell C3
+newstack C3
+newstack H2
+stack H2 C3
+newstack D3
+freecell H2
+freecell D3
+freecell C3
+stack D3 S4
+newstack H4
+newstack C3
+freecell H4
+freecell C3
+freecell D3
+newstack C3
+newstack D3
+freecell C3
+newstack H4
+freecell D3
+newstack C3
+freecell C3
+newstack H2
+freecell H2
+newstack D3
+freecell D3
+newstack H2
+freecell H2
+stack D3 S4
+freecell H4
+newstack H2
+freecell H2
+freecell D3
+newstack D3
+newstack H2
+freecell D3
+stack D3 S4
+freecell S5
+newstack H4
+newstack S5
+stack C3 H4
+freecell H2
+stack H2 C3
+freecell S5
+freecell D3
+newstack D3
+newstack S5
+freecell D3
+stack D3 S4
+freecell H2
+newstack H2
+freecell S5
+freecell H2
+freecell D3
+newstack D3
+newstack H2
+freecell D3
+newstack S5
+freecell H2
+newstack D3
+stack H2 C3
+freecell D3
+freecell S5
+freecell S4
+newstack S4
+newstack S5
+stack D3 S4
+freecell S5
+freecell D3
+newstack D3
+freecell S4
+stack S4 H5
+freecell H2
+newstack H2
+freecell D3
+newstack S5
+freecell S5
+freecell H2
+freecell S4
+newstack S4
+newstack H2
+stack D3 S4
+freecell H2
+newstack S5
+freecell S5
+freecell D3
+newstack D3
+freecell S4
+stack S4 H5
+freecell D3
+newstack D3
+newstack S5
+freecell D3
+freecell S5
+newstack S5
+freecell S4
+newstack S4
+stack D3 S4
+stack H2 C3
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+freecell S5
+newstack D3
+newstack S5
+freecell D3
+freecell H5
+newstack D3
+newstack H5
+stack S4 H5
+freecell S5
+freecell S4
+newstack S4
+freecell H5
+newstack S5
+freecell S4
+newstack H5
+stack S4 H5
+freecell S5
+freecell S4
+newstack S4
+freecell H5
+newstack S5
+freecell S5
+freecell S4
+freecell D3
+newstack S4
+newstack D3
+newstack S5
+freecell D3
+newstack H5
+stack D3 S4
+freecell S5
+freecell H5
+newstack S5
+newstack H5
+freecell S5
+freecell D3
+newstack D3
+freecell H5
+freecell D3
+newstack H5
+newstack D3
+freecell H5
+newstack S5
+freecell D3
+newstack H5
+freecell H5
+freecell S4
+freecell S5
+newstack S5
+newstack S4
+newstack H5
+stack D3 S4
+freecell H5
+freecell D3
+newstack D3
+freecell S4
+newstack H5
+stack S4 H5
+freecell D3
+stack D3 S4
+freecell S5
+freecell D3
+freecell S4
+newstack S5
+newstack S4
+stack D3 S4
+freecell H5
+freecell D3
+newstack D3
+freecell S4
+newstack H5
+stack S4 H5
+freecell D3
+stack D3 S4
+freecell S5
+freecell D3
+freecell S4
+newstack S5
+freecell H5
+newstack D3
+freecell D3
+newstack H5
+freecell H5
+freecell S5
+newstack D3
+newstack S5
+freecell D3
+freecell S5
+newstack S4
+stack D3 S4
+freecell H2
+newstack H2
+newstack S5
+freecell H2
+stack H2 C3
+freecell C2
+newstack C2
+freecell S5
+newstack H5
+freecell H5
+freecell C2
+stack C2 D3
+newstack H5
+newstack S5
+freecell H5
+freecell S5
+newstack S5
+newstack H5
+freecell S5
+freecell C2
+freecell H5
+newstack H5
+newstack C2
+freecell H5
+newstack S5
+freecell C2
+newstack H5
+freecell H5
+freecell S5
+newstack H5
+newstack S5
+freecell H5
+freecell D3
+newstack D3
+stack C2 D3
+freecell S5
+newstack H5
+freecell H5
+freecell C2
+newstack C2
+freecell D3
+newstack H5
+freecell C2
+newstack D3
+stack C2 D3
+freecell H5
+newstack S5
+freecell C2
+freecell D3
+newstack C2
+freecell C2
+newstack H5
+freecell H5
+newstack C2
+freecell C2
+freecell S5
+newstack C2
+newstack S5
+freecell C2
+stack C2 H3
+freecell S5
+newstack H5
+freecell H5
+freecell S4
+newstack D3
+freecell D3
+newstack H5
+newstack D3
+newstack S4
+freecell D3
+stack D3 S4
+freecell H5
+freecell D3
+freecell S4
+newstack H5
+freecell H5
+newstack S4
+freecell S4
+newstack H2
+newstack S4
+newstack H5
+stack D3 S4
+freecell H5
+newstack S5
+freecell S5
+freecell D3
+newstack D3
+freecell S4
+newstack S5
+freecell S5
+newstack H5
+stack S4 H5
+freecell D3
+stack D3 S4
+newstack S5
+freecell D3
+freecell S5
+freecell S4
+newstack S4
+stack D3 S4
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack S5
+freecell S5
+freecell H5
+newstack S5
+newstack H5
+stack S4 H5
+stack D3 S4
+freecell S5
+freecell D3
+newstack D3
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+newstack S5
+freecell S5
+newstack S4
+freecell S4
+freecell D3
+newstack S5
+newstack S4
+stack D3 S4
+freecell S5
+freecell D3
+freecell S4
+newstack S5
+newstack H5
+freecell H5
+newstack S4
+freecell S4
+freecell H2
+newstack S4
+newstack H2
+stack D3 S4
+freecell H2
+newstack H5
+freecell H5
+freecell S5
+newstack H5
+newstack S5
+freecell H5
+freecell D3
+newstack D3
+freecell S5
+newstack H5
+freecell H5
+newstack H2
+freecell H2
+newstack H5
+freecell H5
+freecell D3
+newstack H5
+newstack D3
+freecell H5
+newstack H2
+freecell D3
+stack D3 S4
+newstack H5
+freecell H2
+freecell H5
+newstack H5
+newstack H2
+freecell H5
+freecell H2
+freecell D3
+newstack S5
+newstack D3
+freecell S5
+newstack H2
+freecell D3
+newstack S5
+freecell S5
+newstack H5
+freecell H5
+newstack S5
+freecell S5
+freecell H2
+newstack H5
+newstack H2
+freecell H5
+freecell H2
+newstack C3
+newstack H2
+stack D3 S4
+freecell H2
+newstack H5
+stack H2 C3
+freecell H5
+newstack S5
+freecell S5
+newstack H2
+freecell C3
+stack C3 H4
+freecell D3
+newstack S5
+freecell H2
+newstack H5
+freecell H5
+newstack D3
+freecell D3
+newstack H5
+freecell H5
+freecell S5
+newstack H5
+newstack S5
+freecell H5
+freecell S4
+newstack H5
+newstack S4
+freecell S5
+freecell S4
+newstack D3
+newstack S4
+freecell D3
+stack D3 S4
+newstack H2
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack S5
+freecell S5
+newstack D3
+freecell D3
+freecell H2
+stack H2 C3
+freecell H5
+newstack D3
+newstack H5
+freecell D3
+freecell H2
+newstack H2
+freecell H5
+newstack D3
+newstack H5
+freecell D3
+freecell H2
+stack H2 C3
+newstack D3
+freecell H2
+newstack H2
+stack S4 H5
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+newstack S5
+freecell S5
+newstack S4
+freecell S4
+freecell H2
+newstack S4
+newstack H2
+freecell S4
+newstack S5
+freecell H2
+newstack S4
+freecell S4
+newstack H5
+stack S4 H5
+freecell S5
+freecell S4
+newstack S4
+freecell H5
+newstack S5
+freecell S5
+freecell D3
+stack D3 S4
+newstack S5
+newstack H5
+freecell D3
+freecell S4
+stack S4 H5
+stack D3 S4
+newstack H2
+freecell D3
+freecell S4
+freecell H5
+newstack S4
+stack D3 S4
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack H5
+freecell H5
+newstack D3
+freecell D3
+freecell H2
+newstack D3
+newstack H2
+freecell D3
+newstack H5
+stack S4 H5
+stack D3 S4
+freecell H2
+freecell D3
+newstack D3
+freecell S4
+freecell D3
+newstack S4
+stack D3 S4
+freecell H5
+freecell D3
+newstack D3
+freecell S4
+newstack H5
+stack S4 H5
+freecell S5
+stack H2 C3
+freecell S4
+freecell H5
+freecell D3
+newstack D3
+freecell H2
+newstack H5
+newstack H2
+stack S4 H5
+freecell H2
+newstack S5
+freecell S5
+freecell S4
+newstack S4
+freecell H5
+newstack S5
+freecell S4
+freecell D3
+newstack H5
+newstack D3
+freecell S5
+stack H2 C3
+freecell H5
+newstack S5
+freecell S5
+newstack S4
+freecell S4
+freecell H2
+newstack S4
+freecell D3
+newstack D3
+newstack H2
+freecell S4
+newstack S5
+freecell H2
+newstack S4
+freecell S4
+freecell S5
+newstack S4
+newstack S5
+freecell D3
+freecell S5
+stack D3 S4
+freecell D3
+newstack H5
+newstack D3
+freecell H5
+freecell D3
+stack D3 S4
+freecell C3
+newstack C3
+newstack H5
+freecell C3
+stack C3 H4
+freecell D3
+newstack H2
+freecell H5
+freecell H2
+newstack H5
+newstack H2
+freecell H5
+freecell S4
+newstack H5
+newstack S4
+freecell H2
+newstack D3
+freecell D3
+freecell H5
+stack D3 S4
+stack H2 C3
+freecell D3
+freecell H2
+newstack H2
+newstack D3
+freecell S4
+freecell D3
+newstack C3
+newstack D3
+freecell C3
+newstack S4
+freecell D3
+newstack C3
+stack D3 S4
+freecell C3
+newstack H5
+freecell H5
+newstack S5
+freecell S5
+newstack H5
+freecell H5
+freecell D3
+newstack D3
+freecell S4
+newstack H5
+stack S4 H5
+freecell D3
+stack D3 S4
+newstack S5
+freecell D3
+freecell S5
+newstack C3
+stack D3 S4
+freecell C3
+freecell D3
+newstack D3
+freecell S4
+freecell D3
+newstack S4
+stack D3 S4
+freecell H5
+newstack C3
+freecell D3
+freecell S4
+newstack H5
+stack S4 H5
+stack D3 S4
+freecell C3
+newstack S5
+freecell D3
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+newstack D3
+freecell D3
+newstack S4
+freecell S4
+newstack C3
+freecell C3
+newstack S4
+freecell S4
+newstack D3
+freecell D3
+newstack S4
+freecell S4
+stack H4 S5
+newstack S4
+newstack D3
+stack C3 H4
+freecell D3
+stack D3 S4
+newstack H5
+freecell C3
+freecell H5
+newstack C3
+freecell C3
+freecell H4
+newstack H4
+stack C3 H4
+freecell S5
+newstack H5
+freecell C3
+freecell H4
+newstack C3
+freecell C3
+newstack S5
+stack H4 S5
+stack C3 H4
+freecell H5
+freecell C3
+newstack C3
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+newstack H5
+freecell H5
+newstack H4
+freecell H4
+freecell C3
+newstack H4
+newstack C3
+stack C3 H4
+newstack H5
+freecell C3
+freecell H5
+newstack S5
+stack C3 H4
+freecell S5
+newstack C3
+freecell C3
+newstack S5
+freecell S5
+newstack H5
+freecell H5
+freecell H4
+newstack H5
+newstack H4
+freecell H5
+newstack S5
+freecell H4
+newstack H5
+freecell H5
+newstack C3
+freecell C3
+newstack H5
+freecell H5
+freecell S5
+newstack H5
+newstack C3
+freecell C3
+freecell H2
+newstack C3
+newstack H2
+stack H2 C3
+newstack S5
+stack H4 S5
+freecell H5
+freecell H4
+newstack H4
+freecell S5
+newstack H5
+freecell H5
+freecell H2
+newstack H2
+freecell H4
+newstack H5
+freecell H2
+stack H2 C3
+newstack H4
+freecell H5
+newstack S5
+freecell H4
+stack H4 S5
+newstack H5
+freecell H4
+freecell H5
+freecell S5
+freecell H2
+newstack H2
+newstack S5
+stack H4 S5
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+newstack H5
+freecell H5
+newstack H4
+freecell H4
+freecell H2
+stack H2 C3
+freecell D3
+newstack D3
+newstack H4
+freecell D3
+newstack H5
+freecell H4
+newstack D3
+freecell D3
+newstack S5
+stack H4 S5
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+freecell H5
+newstack H4
+newstack H5
+freecell H4
+newstack S5
+stack H4 S5
+freecell H5
+newstack D3
+freecell D3
+freecell H4
+newstack H4
+freecell S5
+newstack D3
+freecell H4
+newstack S5
+stack H4 S5
+freecell D3
+freecell H4
+newstack H4
+freecell S5
+newstack D3
+freecell D3
+newstack H5
+freecell H5
+newstack D3
+freecell D3
+freecell H2
+newstack D3
+freecell D3
+newstack H2
+freecell H4
+newstack D3
+freecell H2
+newstack H4
+freecell H4
+newstack H5
+stack H2 C3
+freecell H5
+newstack S5
+freecell S5
+newstack H5
+freecell H5
+freecell D3
+stack D3 S4
+freecell H2
+newstack S5
+newstack H2
+stack H4 S5
+freecell H2
+newstack H5
+freecell H5
+freecell H4
+newstack H4
+freecell S5
+newstack H5
+freecell H4
+newstack S5
+stack H4 S5
+freecell H5
+freecell H4
+newstack H4
+freecell S5
+newstack H5
+freecell H5
+freecell H4
+newstack D3
+newstack H4
+freecell D3
+stack D3 S4
+freecell C3
+stack C3 H4
+newstack H5
+newstack S5
+stack H2 C3
+freecell S5
+freecell H2
+newstack H2
+freecell C3
+freecell H4
+newstack C3
+freecell C3
+newstack S5
+stack H4 S5
+stack C3 H4
+freecell H2
+stack H2 C3
+freecell H5
+freecell H2
+freecell C3
+newstack C3
+freecell H4
+newstack H4
+freecell S5
+newstack H2
+freecell H2
+newstack H5
+freecell H5
+freecell H4
+newstack H5
+newstack H4
+freecell H5
+freecell C3
+stack C3 H4
+stack H2 C3
+newstack S5
+newstack H5
+freecell H2
+freecell C3
+freecell H4
+stack H4 S5
+newstack C3
+stack H2 C3
+freecell H5
+freecell H2
+newstack H2
+freecell C3
+stack C3 H4
+newstack H5
+freecell H2
+stack H2 C3
+freecell H5
+newstack H5
+freecell H2
+newstack H2
+freecell H5
+freecell H2
+freecell C3
+freecell H4
+newstack H4
+newstack C3
+stack H2 C3
+freecell H4
+newstack H5
+freecell H2
+freecell C3
+newstack H2
+stack H4 S5
+freecell H2
+freecell H5
+newstack H2
+newstack H5
+freecell H2
+newstack C3
+stack H2 C3
+freecell H5
+newstack H2
+freecell C3
+freecell H2
+freecell H4
+newstack H4
+newstack H2
+stack C3 H4
+freecell H2
+stack H2 C3
+newstack H5
+freecell H2
+freecell H5
+freecell C3
+newstack C3
+freecell H4
+stack H4 S5
+freecell C3
+newstack C3
+stack C3 H4
+freecell D3
+newstack D3
+newstack H5
+stack H2 C3
+freecell H5
+freecell D3
+newstack H5
+newstack D3
+freecell H5
+freecell H2
+newstack H2
+freecell D3
+newstack H5
+freecell H5
+stack H2 C3
+freecell S4
+newstack H5
+newstack S4
+newstack D3
+stack D3 S4
+freecell H2
+newstack H2
+freecell D3
+freecell H2
+newstack D3
+freecell D3
+freecell S4
+newstack D3
+newstack S4
+stack H2 C3
+freecell S4
+stack S4 H5
+freecell D3
+freecell H2
+newstack D3
+newstack H2
+freecell D3
+stack D3 S4
+freecell H2
+newstack H2
+stack H2 C3
+freecell C2
+newstack C2
+stack C2 D3
+freecell H2
+newstack H2
+freecell C3
+newstack C3
+freecell H2
+stack H2 C3
+freecell H4
+newstack H4
+freecell H2
+freecell C3
+stack C3 H4
+newstack H2
+stack H2 C3
+freecell S5
+freecell H2
+newstack H2
+newstack S5
+freecell C3
+freecell S5
+newstack C3
+freecell C3
+freecell H4
+newstack C3
+newstack H4
+freecell C3
+stack C3 H4
+newstack S5
+freecell C3
+stack H4 S5
+newstack C3
+stack C3 H4
+freecell H2
+stack H2 C3
+freecell C2
+newstack C2
+freecell H2
+newstack H2
+freecell C3
+freecell H2
+newstack C3
+stack H2 C3
+freecell H4
+freecell H2
+freecell C3
+newstack H2
+freecell H2
+newstack H4
+stack C3 H4
+stack H2 C3
+freecell S5
+freecell H2
+newstack H2
+freecell C3
+freecell H4
+newstack C3
+freecell C3
+newstack S5
+stack H4 S5
+stack C3 H4
+freecell H2
+stack H2 C3
+freecell C2
+stack C2 D3
+freecell H2
+newstack H2
+freecell C3
+newstack C3
+freecell H4
+freecell S5
+freecell C3
+newstack S5
+newstack C3
+freecell S5
+freecell H2
+stack H2 C3
+newstack H4
+newstack S5
+freecell H2
+freecell C3
+stack C3 H4
+newstack H2
+stack H2 C3
+freecell S5
+freecell H2
+newstack H2
+newstack S5
+freecell H2
+stack H2 C3
+freecell C2
+newstack C2
+freecell S5
+freecell C2
+stack C2 H3
+newstack S5
+freecell H2
+newstack H2
+freecell S5
+freecell H2
+newstack H2
+newstack S5
+freecell H2
+freecell S5
+freecell C3
+newstack C3
+newstack S5
+stack H2 C3
+freecell S5
+freecell H2
+freecell C3
+newstack H2
+newstack C3
+freecell H2
+stack H2 C3
+newstack S5
+freecell H2
+freecell C3
+newstack H2
+freecell H2
+freecell S5
+newstack H2
+newstack S5
+freecell H2
+freecell H4
+stack H4 S5
+newstack H2
+stack C3 H4
+newstack C3
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+freecell C3
+newstack H4
+newstack C3
+stack C3 H4
+newstack S5
+freecell C3
+freecell S5
+freecell H4
+newstack S5
+newstack H4
+stack C3 H4
+freecell S5
+freecell C3
+freecell H2
+stack C3 H4
+stack H2 C3
+newstack S5
+freecell H2
+freecell C3
+newstack C3
+stack H2 C3
+freecell H4
+freecell H2
+newstack H2
+stack H4 S5
+stack H2 C3
+freecell D3
+freecell H2
+newstack H2
+freecell C3
+newstack D3
+freecell H2
+newstack C3
+stack H2 C3
+freecell D3
+stack D3 S4
+freecell H2
+newstack H2
+freecell C3
+freecell H2
+newstack C3
+freecell C3
+freecell H4
+newstack H4
+newstack C3
+stack H2 C3
+freecell H4
+freecell H2
+newstack H2
+freecell S5
+freecell C3
+newstack C3
+newstack S5
+stack H4 S5
+freecell H2
+stack H2 C3
+freecell H4
+newstack H4
+freecell S5
+freecell H4
+newstack S5
+newstack H4
+stack H4 S5
+freecell H2
+newstack H2
+freecell H4
+freecell H2
+newstack H4
+freecell H4
+freecell S5
+newstack H4
+newstack S5
+freecell H4
+freecell C3
+stack H4 S5
+stack C3 H4
+stack H2 C3
+freecell D3
+newstack D3
+freecell H2
+newstack H2
+freecell C3
+freecell H4
+freecell S5
+newstack H4
+stack C3 H4
+freecell C3
+freecell H4
+newstack C3
+freecell C3
+newstack S5
+freecell S5
+newstack C3
+freecell C3
+freecell H2
+newstack C3
+newstack H2
+stack H2 C3
+newstack S5
+stack H4 S5
+freecell H2
+freecell H4
+freecell S5
+newstack H4
+stack H2 C3
+freecell H4
+freecell H2
+newstack H2
+freecell C3
+newstack H4
+stack C3 H4
+freecell H2
+stack H2 C3
+newstack S5
+freecell H2
+freecell S5
+freecell C3
+newstack S5
+freecell S5
+newstack C3
+stack H2 C3
+freecell H2
+freecell C3
+freecell H4
+newstack C3
+newstack H4
+freecell C3
+stack C3 H4
+stack H2 C3
+newstack S5
+freecell H2
+freecell C3
+freecell H4
+stack H4 S5
+newstack C3
+stack H2 C3
+freecell H4
+freecell H2
+freecell C3
+newstack H2
+stack H4 S5
+stack C3 H4
+freecell H2
+stack H2 C3
+freecell D3
+stack D3 S4
+freecell H2
+newstack H2
+freecell C3
+newstack C3
+freecell H4
+freecell C3
+freecell S5
+freecell H2
+newstack S5
+newstack H2
+newstack H4
+stack C3 H4
+freecell S5
+freecell C3
+newstack C3
+freecell H4
+freecell H2
+newstack H4
+newstack H2
+freecell H4
+freecell C3
+newstack H4
+newstack C3
+freecell H4
+freecell H2
+stack H2 C3
+freecell D3
+newstack H4
+newstack D3
+freecell H2
+freecell D3
+newstack H2
+freecell H2
+freecell C3
+stack C3 H4
+newstack H2
+newstack D3
+freecell H2
+stack H2 C3
+newstack S5
+freecell D3
+freecell S5
+newstack D3
+newstack S5
+freecell D3
+stack D3 S4
+freecell C1
+newstack C1
+freecell S5
+freecell C1
+stack C1 H2
+newstack S5
+freecell C1
+newstack C1
+source C1
+freecell S5
+freecell H2
+newstack H2
+newstack S5
+freecell H2
+stack H2 C3
+freecell D3
+newstack D3
+freecell S5
+freecell D3
+newstack S5
+newstack D3
+freecell S5
+freecell H2
+newstack H2
+freecell D3
+newstack S5
+freecell S5
+freecell H2
+stack H2 C3
+freecell S4
+newstack S4
+newstack S5
+stack D3 S4
+freecell S5
+freecell D3
+newstack D3
+freecell S4
+newstack S5
+freecell D3
+newstack S4
+stack D3 S4
+freecell S5
+freecell D3
+newstack D3
+freecell S4
+newstack S5
+freecell S5
+freecell D3
+freecell H2
+newstack H2
+newstack D3
+freecell H2
+stack H2 C3
+freecell H5
+newstack S5
+newstack H5
+stack S4 H5
+freecell D3
+stack D3 S4
+freecell H2
+newstack H2
+freecell D3
+freecell H2
+newstack D3
+freecell D3
+freecell S4
+newstack S4
+stack D3 S4
+stack H2 C3
+freecell D3
+freecell S4
+freecell H5
+newstack S4
+newstack H5
+stack D3 S4
+freecell H5
+freecell D3
+newstack D3
+freecell S4
+freecell D3
+newstack D3
+newstack S4
+freecell D3
+stack D3 S4
+freecell H2
+newstack H2
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack H5
+stack S4 H5
+stack D3 S4
+freecell H2
+stack H2 C3
+freecell D3
+newstack D3
+freecell S4
+freecell H5
+freecell D3
+newstack H5
+freecell H5
+freecell H2
+newstack H2
+newstack D3
+freecell D3
+freecell H2
+newstack D3
+newstack H2
+freecell D3
+newstack H5
+freecell H2
+newstack D3
+freecell D3
+freecell H5
+newstack D3
+newstack H5
+stack S4 H5
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+newstack H2
+freecell H2
+newstack S4
+freecell S4
+freecell D3
+newstack S4
+newstack D3
+stack D3 S4
+newstack H2
+freecell D3
+freecell H2
+newstack H5
+freecell H5
+newstack H2
+freecell H2
+freecell S4
+newstack H2
+newstack S4
+freecell H2
+stack H2 C3
+freecell S5
+newstack H5
+freecell H2
+newstack H2
+stack D3 S4
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack S5
+freecell S5
+freecell H2
+newstack S5
+newstack H2
+stack S4 H5
+stack D3 S4
+freecell H2
+freecell S5
+freecell C3
+newstack C3
+newstack S5
+stack H2 C3
+freecell S5
+freecell H2
+newstack H2
+freecell C3
+stack C3 H4
+freecell D3
+newstack D3
+freecell H2
+newstack S5
+freecell S5
+freecell D3
+newstack S5
+newstack D3
+freecell S5
+freecell C3
+newstack C3
+stack H2 C3
+freecell D3
+newstack S5
+freecell S5
+freecell H2
+newstack H2
+freecell C3
+stack C3 H4
+freecell S4
+newstack S4
+stack D3 S4
+freecell H2
+newstack S5
+freecell S5
+freecell D3
+newstack D3
+freecell S4
+newstack S5
+freecell D3
+newstack S4
+stack D3 S4
+freecell S5
+freecell D3
+newstack D3
+freecell S4
+newstack S5
+freecell S5
+newstack H2
+freecell H2
+newstack S5
+freecell S5
+freecell D3
+newstack S5
+newstack D3
+freecell S5
+freecell C3
+newstack C3
+stack H2 C3
+freecell D3
+newstack S5
+freecell S5
+newstack S4
+stack D3 S4
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+freecell H2
+newstack D3
+stack S4 H5
+freecell D3
+newstack H2
+freecell H2
+newstack S5
+freecell S5
+freecell C3
+stack C3 H4
+newstack S5
+freecell C3
+newstack C3
+stack H2 C3
+stack D3 S4
+freecell S5
+freecell H2
+newstack H2
+freecell C3
+newstack S5
+freecell S5
+freecell H2
+newstack S5
+newstack H2
+freecell S5
+freecell H4
+newstack S5
+newstack H4
+stack C3 H4
+freecell H2
+stack H2 C3
+freecell S5
+freecell H2
+newstack H2
+newstack S5
+freecell C3
+freecell S5
+newstack C3
+freecell C3
+freecell H4
+newstack C3
+newstack H4
+freecell C3
+stack C3 H4
+newstack S5
+freecell C3
+freecell H4
+stack H4 S5
+newstack C3
+stack C3 H4
+freecell H2
+stack H2 C3
+freecell D3
+newstack D3
+freecell H2
+newstack H2
+freecell C3
+freecell H2
+newstack C3
+stack H2 C3
+freecell H4
+freecell H2
+freecell C3
+newstack H4
+stack C3 H4
+stack H2 C3
+freecell S5
+freecell H2
+newstack H2
+freecell C3
+freecell H4
+newstack C3
+freecell C3
+newstack S5
+stack H4 S5
+stack C3 H4
+freecell H2
+stack H2 C3
+freecell D3
+stack D3 S4
+freecell H2
+newstack H2
+freecell C3
+newstack C3
+freecell H4
+freecell S5
+freecell C3
+newstack S5
+newstack C3
+freecell S5
+freecell H2
+stack H2 C3
+newstack S5
+newstack H4
+freecell H2
+freecell C3
+freecell H4
+stack H4 S5
+newstack C3
+newstack H2
+stack H2 C3
+freecell H4
+newstack H4
+freecell H2
+freecell H4
+newstack H2
+freecell H2
+freecell C3
+newstack H2
+newstack C3
+stack H4 S5
+freecell C3
+stack C3 H4
+freecell H2
+stack H2 C3
+freecell D3
+newstack D3
+freecell H2
+newstack H2
+freecell D3
+stack D3 S4
+freecell C3
+freecell H2
+newstack H4
+freecell S5
+stack C3 H4
+freecell C3
+freecell H4
+newstack C3
+newstack H4
+newstack S5
+stack H2 C3
+freecell S5
+freecell H4
+newstack S5
+newstack H4
+stack H4 S5
+freecell H2
+newstack H2
+freecell H4
+freecell H2
+newstack H4
+freecell H4
+freecell S5
+newstack H2
+newstack S5
+stack H4 S5
+freecell H2
+stack H2 C3
+freecell H4
+freecell S5
+freecell H2
+newstack H4
+newstack H2
+freecell H4
+freecell H2
+newstack H2
+newstack H4
+freecell H2
+stack H2 C3
+freecell D3
+newstack D3
+freecell H4
+newstack S5
+stack H4 S5
+freecell D3
+freecell H4
+newstack H4
+freecell S5
+newstack D3
+freecell D3
+freecell H4
+newstack S5
+newstack H4
+stack H4 S5
+newstack D3
+freecell H4
+freecell D3
+freecell S5
+newstack D3
+freecell D3
+freecell H2
+newstack H2
+newstack D3
+freecell H2
+stack H2 C3
+freecell S4
+newstack S4
+freecell D3
+stack D3 S4
+newstack S5
+stack H4 S5
+freecell D3
+freecell H4
+freecell S5
+newstack H4
+stack D3 S4
+freecell H4
+freecell D3
+newstack D3
+freecell S4
+stack S4 H5
+freecell D3
+freecell H2
+newstack H2
+newstack D3
+freecell H2
+newstack H4
+freecell D3
+newstack H2
+freecell H2
+newstack S5
+freecell S5
+newstack H2
+freecell H2
+freecell H4
+newstack H2
+newstack H4
+freecell H2
+stack H2 C3
+freecell H4
+freecell H2
+newstack S5
+newstack H2
+stack H4 S5
+freecell H2
+newstack D3
+freecell D3
+freecell H4
+newstack D3
+freecell D3
+newstack H2
+freecell H2
+newstack D3
+freecell D3
+freecell S5
+newstack D3
+newstack S5
+stack H4 S5
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+newstack H2
+freecell H2
+newstack H4
+freecell H4
+freecell D3
+stack D3 S4
+freecell C3
+newstack H4
+newstack S5
+newstack C3
+freecell S5
+freecell H4
+newstack S5
+stack H4 S5
+stack H2 C3
+freecell D3
+newstack D3
+freecell H2
+freecell C3
+newstack H2
+freecell H2
+freecell D3
+newstack H2
+newstack D3
+stack C3 H4
+freecell D3
+freecell C3
+newstack C3
+freecell H2
+freecell C3
+newstack C3
+newstack H2
+stack H2 C3
+newstack D3
+freecell H4
+freecell D3
+newstack H4
+freecell H4
+freecell H2
+newstack H2
+freecell C3
+newstack H4
+stack C3 H4
+freecell H2
+stack H2 C3
+newstack D3
+freecell H2
+freecell D3
+freecell C3
+newstack C3
+stack H2 C3
+freecell H2
+freecell C3
+newstack D3
+freecell D3
+newstack H2
+freecell H2
+newstack D3
+freecell D3
+freecell S5
+newstack D3
+newstack S5
+stack C3 H4
+stack H2 C3
+freecell S5
+freecell H2
+newstack H2
+freecell C3
+freecell H2
+freecell H4
+newstack C3
+newstack H4
+stack H2 C3
+freecell H4
+newstack S5
+stack H4 S5
+freecell H2
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+newstack H2
+freecell H2
+newstack S5
+freecell S5
+newstack H2
+freecell H2
+stack H2 C3
+freecell D3
+stack D3 S4
+freecell H2
+freecell C3
+newstack D3
+newstack H2
+newstack C3
+freecell H2
+newstack H4
+stack H2 C3
+freecell H4
+freecell H2
+freecell C3
+newstack H4
+newstack S5
+freecell S5
+newstack C3
+freecell C3
+stack C3 H4
+freecell D3
+stack H2 C3
+freecell H2
+newstack H2
+newstack D3
+freecell C3
+freecell D3
+newstack C3
+freecell C3
+newstack S5
+stack C3 H4
+freecell S5
+freecell C3
+newstack C3
+freecell H4
+newstack S5
+stack H4 S5
+freecell C3
+stack C3 H4
+newstack D3
+freecell C3
+freecell D3
+freecell H4
+freecell S5
+newstack H4
+newstack S5
+freecell H4
+stack H4 S5
+newstack D3
+stack C3 H4
+freecell D3
+freecell C3
+newstack C3
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+newstack D3
+freecell D3
+newstack H4
+freecell H4
+freecell C3
+newstack D3
+newstack C3
+freecell D3
+stack D3 S4
+freecell C3
+freecell H2
+newstack H4
+freecell H4
+newstack C2
+newstack H4
+newstack H2
+stack C3 H4
+freecell H2
+stack H2 C3
+newstack S5
+freecell H2
+freecell S5
+freecell C3
+newstack C3
+stack H2 C3
+freecell H2
+freecell C3
+newstack S5
+freecell S5
+newstack H2
+freecell H2
+newstack S5
+freecell S5
+freecell H4
+newstack S5
+newstack H4
+stack C3 H4
+stack H2 C3
+freecell S5
+freecell H2
+newstack H2
+freecell C3
+freecell H4
+newstack C3
+freecell C3
+newstack S5
+stack H4 S5
+stack C3 H4
+freecell H2
+stack H2 C3
+freecell C2
+stack C2 D3
+freecell H2
+newstack H2
+freecell C3
+newstack C3
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+freecell C3
+newstack H4
+newstack C3
+stack C3 H4
+newstack S5
+freecell C3
+freecell S5
+freecell H4
+newstack S5
+newstack H4
+stack C3 H4
+freecell S5
+freecell C3
+freecell H4
+freecell C2
+newstack C2
+newstack H4
+stack C3 H4
+freecell C2
+newstack S5
+source C2
+freecell C3
+source C3
+freecell H4
+stack H4 S5
+freecell H2
+freecell H4
+newstack H4
+newstack H2
+freecell S5
+freecell H2
+newstack H2
+newstack S5
+freecell H2
+freecell S5
+freecell H4
+newstack S5
+newstack H4
+newstack H2
+freecell H4
+stack H4 S5
+freecell H2
+newstack H2
+freecell H4
+newstack H4
+freecell H2
+freecell S5
+newstack H2
+freecell H4
+newstack H4
+newstack S5
+freecell H4
+stack H4 S5
+freecell H2
+freecell H4
+freecell S5
+newstack H2
+freecell H2
+newstack S5
+freecell S5
+freecell D3
+newstack D3
+newstack S5
+newstack H2
+stack H4 S5
+freecell H2
+freecell H4
+newstack H4
+freecell S5
+newstack H2
+freecell H4
+newstack S5
+stack H4 S5
+freecell H2
+freecell H4
+newstack H4
+freecell S5
+newstack H2
+freecell H2
+freecell H4
+freecell D3
+stack D3 S4
+freecell H3
+newstack H3
+newstack H4
+newstack H2
+freecell H4
+newstack S5
+stack H4 S5
+freecell H2
+freecell H4
+newstack H4
+freecell S5
+newstack H2
+freecell H4
+newstack S5
+stack H4 S5
+freecell H2
+freecell H4
+newstack H4
+freecell S5
+freecell H4
+freecell H3
+newstack H4
+newstack H3
+newstack S5
+freecell H3
+newstack H2
+freecell S5
+newstack H3
+freecell H3
+freecell H2
+newstack H3
+newstack H2
+freecell H3
+newstack S5
+freecell H2
+newstack H3
+freecell H3
+freecell S5
+freecell H4
+newstack S5
+newstack H4
+newstack H3
+freecell H4
+stack H4 S5
+newstack H2
+freecell H3
+freecell H2
+newstack H3
+newstack H2
+freecell H3
+freecell H4
+newstack H4
+freecell H2
+freecell H4
+newstack H2
+newstack H4
+freecell H2
+newstack H3
+freecell H4
+newstack H2
+freecell H2
+freecell S5
+newstack H2
+newstack S5
+stack H4 S5
+freecell H3
+freecell H4
+newstack H4
+freecell S5
+newstack H3
+freecell H3
+freecell H4
+newstack H3
+newstack H4
+freecell H3
+newstack S5
+freecell H4
+newstack H3
+stack H4 S5
+freecell H2
+freecell H3
+newstack H2
+freecell H2
+freecell D3
+stack D3 C4
+newstack H2
+newstack H3
+freecell H4
+freecell H3
+stack H3 S4
+newstack H4
+freecell S5
+freecell H4
+newstack H4
+newstack S5
+freecell H4
+stack H4 S5
+freecell H2
+freecell H4
+newstack H4
+newstack H2
+freecell S5
+freecell H2
+newstack S5
+newstack H2
+freecell S5
+freecell H4
+newstack S5
+newstack H4
+freecell H2
+freecell H4
+stack H4 S5
+newstack H2
+freecell H4
+newstack H4
+freecell H2
+freecell S5
+freecell H4
+newstack H4
+freecell H3
+newstack H3
+newstack S5
+freecell H3
+newstack H2
+freecell S5
+newstack H3
+freecell H3
+freecell H2
+newstack H3
+newstack H2
+freecell H3
+newstack S5
+freecell H2
+newstack H3
+freecell H3
+freecell S5
+freecell H4
+newstack S5
+newstack H4
+newstack H3
+freecell H4
+stack H4 S5
+newstack H2
+freecell H3
+freecell H2
+newstack H3
+newstack H2
+freecell H3
+stack H3 S4
+freecell D3
+newstack D3
+freecell H2
+freecell D3
+newstack H2
+newstack D3
+freecell H2
+freecell H4
+newstack H4
+freecell S5
+newstack H2
+freecell D3
+newstack S5
+freecell S5
+freecell H4
+newstack S5
+newstack H4
+stack H4 S5
+newstack D3
+stack D3 C4
+freecell H2
+freecell H4
+freecell S5
+newstack H2
+freecell H2
+newstack S5
+freecell S5
+freecell H3
+newstack H3
+newstack S5
+newstack H2
+stack H4 S5
+freecell H2
+freecell H4
+newstack H4
+freecell S5
+newstack H2
+freecell H4
+newstack S5
+stack H4 S5
+freecell H2
+freecell H4
+newstack H4
+freecell S5
+newstack H2
+freecell H2
+freecell H4
+freecell H3
+newstack H4
+freecell H4
+newstack H2
+newstack H4
+newstack H3
+freecell H4
+freecell H3
+newstack H3
+newstack H4
+freecell H3
+newstack S5
+freecell H4
+freecell S5
+newstack H4
+newstack S5
+freecell H4
+newstack H3
+stack H4 S5
+freecell H2
+freecell H3
+newstack H2
+freecell H2
+freecell H4
+newstack H4
+freecell S5
+freecell H4
+newstack S5
+newstack H4
+newstack H2
+freecell H4
+newstack H3
+freecell H2
+newstack H4
+freecell H4
+freecell H3
+stack H4 S5
+freecell S4
+newstack H3
+newstack S4
+freecell H3
+stack H3 S4
+newstack H2
+freecell H3
+freecell S4
+newstack H3
+freecell H3
+freecell H2
+newstack H3
+newstack H2
+freecell H3
+newstack S4
+stack H3 S4
+freecell H2
+newstack H3
+freecell H4
+freecell H3
+stack H3 S4
+newstack H4
+freecell H3
+freecell H4
+newstack H2
+stack H3 S4
+freecell H2
+freecell H3
+newstack H3
+freecell S4
+newstack H2
+stack S4 H5
+freecell H3
+newstack H4
+freecell H4
+freecell H2
+freecell S5
+newstack S4
+newstack S5
+newstack H2
+stack H4 S5
+stack H3 S4
+freecell H2
+freecell H4
+newstack H4
+freecell S5
+newstack H2
+freecell H4
+newstack S5
+stack H4 S5
+freecell H2
+freecell H4
+newstack H4
+freecell S5
+newstack H2
+freecell H2
+freecell H4
+freecell H3
+newstack H4
+newstack H3
+freecell H4
+newstack H2
+freecell H3
+newstack H4
+freecell H4
+newstack S5
+stack H4 S5
+freecell H2
+newstack H3
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+newstack H2
+freecell H2
+newstack H4
+freecell H4
+freecell S4
+stack S4 H5
+stack H3 S4
+freecell D3
+newstack D3
+newstack H4
+newstack H2
+freecell H4
+newstack S5
+stack H4 S5
+freecell H2
+freecell H4
+newstack H4
+freecell S5
+newstack H2
+freecell H4
+newstack S5
+stack H4 S5
+freecell H2
+freecell H4
+newstack H4
+freecell S5
+freecell H4
+freecell D3
+newstack H4
+newstack D3
+newstack S5
+freecell D3
+newstack H2
+freecell S5
+newstack D3
+freecell D3
+freecell H2
+newstack D3
+newstack H2
+freecell D3
+newstack S5
+freecell H2
+newstack D3
+freecell D3
+freecell S5
+freecell H4
+newstack S5
+newstack H4
+newstack H2
+freecell H2
+freecell H4
+stack H4 S5
+freecell H3
+newstack H3
+newstack H2
+freecell H3
+newstack D3
+stack H3 C4
+freecell H2
+freecell H4
+newstack H2
+freecell H2
+newstack H4
+freecell D3
+newstack H2
+freecell H4
+stack H4 S5
+newstack D3
+freecell H2
+freecell D3
+freecell H4
+newstack H4
+newstack D3
+freecell H4
+newstack H2
+freecell D3
+freecell H2
+newstack H4
+newstack H2
+freecell H4
+stack H4 S5
+freecell H2
+freecell H4
+freecell S5
+newstack H4
+newstack S5
+newstack H2
+freecell S5
+newstack D3
+freecell H2
+newstack S5
+freecell S5
+freecell H4
+newstack H2
+newstack H4
+freecell D3
+newstack S5
+freecell H4
+stack H4 S5
+newstack D3
+freecell H4
+freecell D3
+freecell S5
+newstack D3
+newstack S5
+stack H4 S5
+freecell D3
+freecell H4
+newstack H4
+freecell S5
+newstack D3
+freecell D3
+freecell H4
+freecell H2
+newstack H4
+newstack H2
+newstack D3
+freecell H2
+newstack S5
+freecell D3
+freecell S5
+newstack H2
+newstack S5
+freecell H2
+freecell H4
+stack H4 S5
+freecell S4
+newstack S4
+newstack H2
+stack D3 S4
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+freecell H2
+newstack H4
+newstack H2
+freecell H4
+newstack S5
+stack H4 S5
+freecell H2
+freecell H4
+newstack H4
+freecell S5
+freecell H4
+newstack H4
+newstack S5
+freecell H4
+stack H4 S5
+freecell D3
+newstack D3
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+newstack H2
+freecell H2
+newstack H4
+freecell H4
+freecell D3
+stack D3 S4
+freecell H5
+newstack H4
+newstack H5
+newstack H2
+freecell H5
+newstack S5
+freecell S5
+freecell H2
+newstack H2
+newstack S5
+freecell H2
+newstack H5
+freecell S5
+freecell H5
+newstack S5
+newstack H5
+freecell S5
+newstack H2
+freecell H5
+freecell H2
+newstack S5
+freecell S5
+freecell D3
+newstack D3
+newstack S5
+freecell D3
+newstack H2
+freecell S5
+newstack D3
+freecell D3
+freecell H2
+newstack D3
+newstack H2
+freecell D3
+newstack S5
+freecell H2
+newstack D3
+freecell D3
+newstack H5
+freecell H5
+newstack D3
+freecell D3
+freecell S5
+newstack D3
+newstack S5
+freecell D3
+stack D3 S4
+freecell S5
+freecell D3
+newstack H5
+newstack D3
+freecell H5
+newstack H2
+freecell D3
+newstack H5
+freecell H5
+newstack S5
+freecell S5
+newstack H5
+freecell H5
+freecell H2
+newstack H5
+newstack H2
+freecell H5
+newstack S5
+freecell H2
+newstack H5
+freecell H5
+freecell S5
+newstack H5
+newstack S5
+freecell H5
+freecell S4
+newstack H5
+newstack S4
+stack D3 S4
+freecell S5
+newstack H2
+freecell H2
+freecell D3
+newstack D3
+freecell S4
+stack S4 H5
+newstack H2
+freecell D3
+stack D3 S4
+newstack S5
+freecell H2
+freecell S5
+newstack S5
+newstack H2
+freecell S5
+freecell H2
+freecell D3
+newstack D3
+newstack H2
+freecell D3
+newstack S5
+freecell H2
+newstack D3
+freecell D3
+freecell S5
+newstack D3
+newstack S5
+freecell D3
+newstack H2
+freecell S5
+freecell H2
+freecell S4
+newstack H2
+newstack S4
+stack D3 S4
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack S5
+freecell S5
+newstack D3
+freecell D3
+freecell H2
+newstack D3
+newstack H2
+freecell D3
+newstack S5
+freecell H2
+newstack D3
+freecell D3
+newstack S4
+stack D3 S4
+freecell S5
+newstack D3
+freecell S4
+newstack S5
+freecell S5
+freecell D3
+newstack S5
+newstack D3
+freecell S5
+newstack S4
+freecell S4
+stack S4 H5
+freecell D3
+freecell S4
+newstack S5
+newstack H2
+freecell H2
+newstack S4
+freecell S4
+freecell S5
+stack S4 H5
+freecell S4
+newstack H3
+newstack S4
+stack D3 C4
+freecell S4
+stack S4 H5
+newstack S5
+freecell H3
+stack H3 S4
+newstack H2
+freecell S5
+freecell H2
+newstack S5
+newstack H2
+freecell S5
+freecell H3
+newstack H3
+freecell S4
+freecell H2
+newstack S4
+freecell S4
+newstack S5
+freecell S5
+newstack H2
+freecell H2
+newstack S5
+freecell S5
+freecell H3
+newstack S5
+newstack H3
+stack S4 H5
+freecell H3
+newstack H2
+freecell H2
+freecell S5
+newstack H2
+newstack S5
+freecell H2
+freecell S4
+newstack S4
+stack H3 S4
+freecell S5
+newstack H2
+freecell H2
+freecell H3
+newstack H3
+freecell S4
+stack S4 H5
+newstack H2
+freecell H3
+freecell H2
+newstack H3
+freecell H3
+freecell S4
+newstack S5
+newstack S4
+stack H3 S4
+freecell S5
+newstack H2
+freecell H3
+freecell H2
+newstack S5
+freecell S4
+newstack H2
+freecell H2
+freecell S5
+newstack S4
+newstack H2
+freecell H2
+freecell S4
+stack S4 H5
+freecell H4
+newstack H2
+newstack H4
+newstack S5
+stack H3 S4
+freecell S5
+freecell H4
+newstack S5
+newstack H4
+stack H4 S5
+freecell H3
+newstack H3
+freecell H4
+freecell H3
+newstack H4
+freecell H4
+freecell S5
+newstack H3
+newstack S5
+stack H4 S5
+freecell H3
+stack H3 S4
+freecell H4
+freecell S5
+freecell H3
+newstack H4
+newstack H3
+freecell H4
+freecell H3
+newstack H3
+newstack H4
+freecell H3
+stack H3 S4
+freecell H2
+newstack S5
+newstack H2
+freecell H4
+stack H4 S5
+freecell H2
+freecell H3
+newstack H3
+newstack H2
+freecell H3
+stack H3 S4
+freecell H4
+newstack H4
+freecell H2
+freecell H4
+freecell H3
+newstack H3
+newstack H4
+freecell H3
+newstack H2
+freecell H4
+newstack H3
+stack H4 S5
+freecell H2
+freecell S4
+newstack S4
+freecell H3
+stack H3 S4
+newstack H2
+freecell H3
+freecell H2
+freecell S4
+stack S4 H5
+newstack H2
+freecell S4
+newstack S4
+stack H3 S4
+freecell H2
+freecell H3
+newstack H3
+freecell S4
+newstack H2
+freecell H2
+freecell H5
+newstack H2
+newstack H5
+stack S4 H5
+freecell H3
+stack H3 S4
+freecell H2
+freecell H3
+newstack H3
+newstack H2
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+freecell H2
+newstack S4
+newstack H2
+freecell S4
+newstack H5
+stack S4 H5
+freecell H2
+freecell S4
+newstack S4
+freecell H5
+freecell H3
+stack H3 S4
+newstack H2
+newstack H5
+freecell H3
+freecell S4
+stack S4 H5
+newstack H3
+stack H3 S4
+freecell H2
+freecell H3
+freecell S4
+newstack S4
+newstack H3
+stack H3 S4
+newstack H2
+freecell H5
+freecell H2
+newstack H2
+newstack H5
+freecell H2
+freecell H5
+freecell H3
+newstack H2
+newstack H3
+freecell H2
+freecell H3
+newstack H3
+newstack H2
+freecell H3
+newstack H5
+freecell H2
+freecell H5
+newstack H2
+newstack H5
+freecell H2
+newstack H3
+freecell H5
+freecell S4
+newstack H2
+newstack S4
+freecell H3
+freecell S4
+newstack S4
+newstack H3
+stack H3 S4
+newstack H5
+freecell H3
+freecell H5
+freecell S4
+freecell H2
+newstack S4
+freecell S4
+newstack H3
+freecell H3
+newstack H2
+newstack H5
+newstack H3
+freecell H5
+freecell H3
+freecell H2
+newstack H3
+newstack H5
+freecell H5
+newstack S4
+newstack H5
+freecell S4
+freecell H5
+freecell H4
+newstack H4
+newstack H5
+stack S4 H5
+freecell H4
+newstack H2
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+newstack H4
+freecell H4
+newstack S4
+freecell S4
+freecell H2
+newstack S4
+newstack H2
+freecell S4
+newstack H4
+freecell H2
+newstack S4
+freecell S4
+freecell H4
+newstack S4
+newstack H4
+freecell S4
+newstack H5
+stack S4 H5
+freecell H4
+newstack H2
+freecell H2
+newstack S4
+freecell H5
+newstack H4
+freecell S4
+freecell H4
+stack H4 S5
+freecell H3
+newstack H5
+newstack H2
+newstack H3
+freecell H2
+freecell H3
+freecell H5
+newstack H2
+freecell H2
+newstack H5
+freecell H5
+newstack H4
+newstack H5
+newstack H2
+stack S4 H5
+stack H3 S4
+freecell H2
+freecell H3
+newstack H3
+freecell S4
+freecell H3
+newstack S4
+stack H3 S4
+freecell H5
+newstack H2
+freecell H3
+freecell S4
+newstack H3
+freecell H3
+newstack H5
+stack S4 H5
+stack H3 S4
+freecell H2
+freecell H3
+newstack H3
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+newstack H2
+freecell H2
+newstack S4
+freecell S4
+freecell H3
+newstack S4
+newstack H3
+stack H3 S4
+newstack H2
+freecell H3
+freecell H2
+newstack H5
+freecell H5
+newstack H2
+freecell H2
+freecell S4
+newstack H2
+newstack S4
+freecell H2
+newstack H5
+freecell S4
+stack S4 H5
+freecell H4
+stack H4 S5
+freecell S4
+freecell H5
+newstack H2
+freecell H2
+newstack H5
+freecell H5
+newstack H4
+newstack H5
+newstack H2
+freecell H5
+newstack H3
+freecell H2
+newstack H5
+freecell H5
+freecell H3
+newstack H5
+newstack H3
+freecell H5
+newstack H2
+freecell H3
+freecell H2
+newstack D3
+newstack H2
+stack H3 C4
+freecell H2
+newstack H5
+stack S4 H5
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+newstack H2
+freecell H2
+newstack S4
+freecell S4
+freecell H4
+stack H4 S5
+newstack S4
+newstack H2
+freecell D3
+stack D3 S4
+newstack H5
+freecell H2
+freecell H5
+newstack H2
+newstack H5
+freecell H2
+freecell D3
+newstack D3
+freecell H5
+freecell D3
+newstack H5
+newstack D3
+freecell H5
+newstack H2
+freecell D3
+newstack H5
+freecell H5
+freecell H2
+newstack H5
+newstack H2
+freecell H5
+freecell S4
+newstack H5
+newstack S4
+stack D3 S4
+freecell H2
+freecell D3
+newstack D3
+freecell S4
+stack S4 H5
+newstack H2
+freecell D3
+stack D3 S4
+freecell H2
+freecell D3
+newstack D3
+newstack H2
+freecell D3
+stack D3 S4
+freecell H4
+newstack H4
+freecell H2
+freecell H4
+newstack H2
+newstack H4
+freecell H2
+freecell D3
+newstack D3
+freecell H4
+newstack H2
+freecell H2
+freecell D3
+stack D3 S4
+freecell S5
+newstack H2
+newstack S5
+newstack H4
+stack H4 S5
+freecell D3
+freecell H4
+newstack H4
+freecell S5
+newstack D3
+freecell H4
+newstack S5
+stack H4 S5
+freecell D3
+stack D3 S4
+freecell H4
+newstack H4
+freecell S5
+freecell H4
+freecell D3
+newstack H4
+newstack D3
+freecell H4
+newstack S5
+stack H4 S5
+freecell S4
+freecell D3
+newstack S4
+stack D3 S4
+freecell H4
+freecell D3
+freecell S4
+stack S4 H5
+freecell S5
+newstack D3
+freecell D3
+freecell S4
+newstack S4
+newstack D3
+stack D3 S4
+newstack S5
+stack H4 S5
+freecell D3
+freecell H4
+freecell S5
+newstack H4
+stack D3 S4
+freecell H4
+freecell D3
+newstack D3
+freecell S4
+newstack H4
+freecell D3
+newstack S4
+stack D3 S4
+freecell H4
+freecell D3
+freecell S4
+newstack D3
+newstack S4
+freecell H5
+newstack H4
+freecell S4
+newstack H5
+stack S4 H5
+freecell D3
+stack D3 S4
+newstack S5
+freecell D3
+freecell S4
+freecell H5
+newstack S4
+stack D3 S4
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack H5
+freecell H5
+newstack D3
+freecell D3
+freecell S5
+newstack D3
+newstack S5
+freecell D3
+newstack H5
+stack S4 H5
+stack D3 S4
+freecell S5
+freecell D3
+newstack D3
+freecell S4
+freecell H5
+newstack S4
+freecell D3
+newstack H5
+stack D3 S4
+freecell H4
+newstack S5
+stack H4 S5
+freecell H5
+freecell D3
+newstack H5
+freecell H5
+newstack D3
+freecell S4
+newstack H5
+stack S4 H5
+freecell D3
+stack D3 S4
+freecell H4
+newstack H4
+freecell D3
+freecell S4
+freecell H4
+stack H4 S5
+newstack S4
+stack D3 S4
+freecell H5
+freecell D3
+newstack D3
+freecell S4
+newstack H5
+stack S4 H5
+freecell D3
+freecell S4
+freecell H5
+newstack D3
+freecell D3
+newstack H5
+freecell H5
+newstack H4
+newstack H5
+stack S4 H5
+stack D3 S4
+freecell H4
+stack H4 S5
+freecell H2
+freecell D3
+newstack D3
+newstack H2
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+freecell H2
+newstack S4
+newstack H2
+freecell S4
+newstack H5
+stack S4 H5
+freecell H2
+freecell S4
+newstack S4
+freecell H5
+freecell S4
+newstack S4
+newstack H5
+freecell S4
+freecell H5
+freecell H4
+newstack H5
+newstack H4
+stack S4 H5
+freecell H4
+newstack H2
+freecell H2
+freecell S4
+newstack S4
+freecell H5
+newstack H2
+freecell S4
+newstack H5
+stack S4 H5
+freecell H2
+newstack H4
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+newstack H2
+freecell H2
+newstack S4
+freecell S4
+stack H4 S5
+freecell D3
+newstack S4
+newstack D3
+newstack H2
+freecell D3
+stack D3 S4
+newstack H5
+freecell H2
+freecell H4
+newstack H4
+freecell H5
+newstack H2
+freecell H4
+stack H4 S5
+newstack H5
+freecell H2
+freecell H5
+freecell H4
+newstack H4
+newstack H5
+freecell H4
+newstack H2
+freecell H5
+freecell H2
+newstack H5
+newstack H2
+freecell H5
+newstack H4
+freecell H2
+freecell H4
+stack H4 S5
+freecell H3
+newstack H3
+newstack H2
+freecell H3
+newstack H5
+freecell H2
+newstack H3
+freecell H3
+freecell H5
+newstack H3
+newstack H5
+freecell H3
+newstack H2
+freecell H5
+newstack H3
+freecell H3
+freecell H2
+freecell H4
+newstack H2
+newstack H4
+freecell H2
+newstack H3
+freecell H4
+newstack H2
+freecell H2
+newstack H5
+freecell H5
+newstack H2
+freecell H2
+freecell S5
+newstack H2
+newstack S5
+stack H4 S5
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+freecell H3
+stack H3 C4
+newstack H4
+newstack S5
+freecell H4
+stack H4 S5
+newstack H5
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+freecell H5
+newstack H4
+newstack H5
+freecell H4
+newstack S5
+stack H4 S5
+freecell H5
+freecell H4
+newstack H4
+freecell S5
+freecell H2
+newstack S5
+freecell S5
+newstack H5
+newstack S5
+freecell H4
+newstack H2
+stack H4 S5
+freecell H2
+freecell H5
+freecell H4
+newstack H4
+newstack H5
+freecell S5
+newstack H2
+freecell H5
+newstack S5
+freecell S5
+freecell H2
+newstack S5
+newstack H2
+freecell S5
+newstack H5
+freecell H2
+newstack S5
+freecell S5
+freecell H4
+freecell H5
+newstack H5
+newstack H4
+newstack S5
+freecell H4
+newstack H2
+stack H4 S5
+freecell H5
+freecell H4
+freecell S5
+newstack H5
+newstack H4
+freecell H4
+freecell H2
+newstack H4
+newstack H2
+freecell H4
+freecell H5
+newstack H4
+freecell H2
+freecell H4
+newstack H2
+freecell H2
+newstack S5
+freecell S5
+newstack H2
+freecell H2
+newstack H5
+newstack S5
+freecell S5
+freecell H5
+newstack S5
+freecell S5
+newstack H2
+newstack S5
+freecell H2
+stack H4 S5
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+newstack H3
+newstack H4
+newstack S5
+freecell H4
+stack H4 S5
+newstack H2
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+newstack H5
+freecell H5
+newstack H4
+freecell H4
+freecell H2
+newstack H4
+newstack H2
+freecell H4
+newstack H5
+freecell H2
+newstack H4
+freecell H4
+newstack S5
+stack H4 S5
+freecell H5
+freecell H4
+freecell S5
+newstack S5
+newstack H4
+stack H4 S5
+newstack H5
+freecell H4
+freecell H5
+newstack H2
+stack H4 S5
+freecell H2
+freecell H4
+newstack H4
+freecell S5
+newstack H5
+freecell H4
+freecell H5
+newstack H4
+newstack H5
+freecell H4
+freecell H3
+stack H3 C4
+newstack S5
+freecell H5
+freecell S5
+newstack H5
+freecell H5
+newstack H2
+freecell H2
+newstack D3
+newstack H2
+newstack H5
+freecell H2
+newstack S5
+stack H4 S5
+freecell H5
+newstack H2
+freecell H2
+freecell H4
+newstack H4
+freecell S5
+newstack H2
+freecell H4
+newstack S5
+stack H4 S5
+freecell H2
+newstack H5
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+newstack H2
+freecell H2
+newstack H4
+freecell H4
+freecell H5
+newstack H4
+newstack H5
+freecell H4
+newstack H2
+freecell H5
+newstack H4
+freecell H4
+freecell H2
+newstack H4
+newstack H2
+freecell H4
+newstack S5
+freecell H2
+freecell S5
+newstack H2
+freecell H2
+newstack H4
+newstack H2
+freecell H4
+freecell H2
+newstack H3
+newstack H2
+freecell H3
+stack H3 S4
+newstack H4
+freecell H2
+newstack S5
+freecell S5
+newstack H5
+freecell H5
+newstack S5
+freecell S5
+freecell H4
+newstack S5
+newstack H4
+stack H4 S5
+newstack H5
+freecell D3
+newstack H2
+stack D3 C4
+freecell H5
+freecell H4
+newstack H4
+freecell S5
+newstack H5
+freecell H4
+newstack S5
+stack H4 S5
+freecell H5
+freecell H4
+newstack H4
+freecell S5
+newstack H5
+freecell H5
+freecell H4
+freecell H2
+newstack H4
+newstack H2
+newstack H5
+freecell H2
+newstack S5
+freecell H5
+newstack H2
+freecell H2
+freecell S5
+newstack H2
+newstack S5
+freecell H2
+newstack H5
+freecell S5
+newstack H2
+freecell H2
+freecell H5
+freecell H4
+newstack H5
+newstack H4
+newstack H2
+freecell H4
+newstack S5
+stack H4 S5
+freecell H2
+freecell H4
+newstack H4
+freecell S5
+newstack H2
+freecell H4
+newstack S5
+stack H4 S5
+freecell H2
+freecell H4
+newstack H4
+freecell S5
+freecell H4
+freecell H5
+newstack H4
+freecell H4
+newstack S5
+newstack H4
+newstack H5
+freecell H4
+stack H4 S5
+newstack H2
+freecell H5
+freecell H2
+newstack H5
+newstack H2
+freecell H5
+freecell H4
+newstack H4
+freecell H2
+freecell H4
+newstack H2
+newstack H4
+freecell H2
+newstack H5
+freecell H4
+newstack H2
+freecell H2
+freecell H5
+newstack H2
+newstack H5
+freecell H2
+freecell S5
+newstack H2
+newstack S5
+freecell H5
+freecell S5
+newstack H5
+freecell H5
+freecell H2
+newstack H5
+newstack H2
+freecell H3
+newstack H3
+freecell H2
+newstack S5
+stack H4 S5
+freecell H3
+newstack H2
+freecell H2
+freecell H4
+newstack H4
+freecell S5
+newstack H2
+freecell H4
+newstack S5
+stack H4 S5
+freecell H2
+newstack H3
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+newstack H2
+freecell H2
+newstack H4
+freecell H4
+freecell H3
+newstack H4
+newstack H3
+freecell H4
+newstack H2
+freecell H3
+newstack H4
+freecell H4
+freecell H2
+newstack H4
+newstack H2
+freecell H4
+newstack S5
+freecell S5
+newstack H4
+freecell H2
+newstack S5
+freecell S5
+newstack H3
+freecell H3
+newstack S5
+freecell S5
+freecell S4
+stack S4 H5
+newstack S5
+newstack H3
+freecell H4
+freecell S4
+newstack S4
+freecell H3
+stack H3 S4
+newstack H4
+freecell H3
+freecell H4
+newstack H2
+stack H3 S4
+freecell H2
+freecell H3
+newstack H3
+freecell S4
+stack S4 H5
+freecell H3
+newstack H3
+newstack H2
+freecell H3
+newstack H4
+freecell H2
+freecell H4
+newstack S4
+newstack H4
+freecell S4
+stack S4 H5
+freecell S5
+newstack H2
+freecell S4
+newstack S4
+stack H3 S4
+freecell H4
+newstack S5
+stack H4 S5
+freecell H3
+freecell H4
+freecell S5
+newstack H3
+freecell H3
+newstack S5
+freecell S5
+stack S4 H5
+freecell H2
+newstack S5
+newstack H2
+freecell S4
+newstack S4
+stack H3 S4
+freecell H2
+newstack H4
+freecell H3
+freecell S4
+newstack H3
+freecell H3
+newstack H2
+freecell H2
+newstack H3
+freecell H3
+freecell H4
+newstack H3
+newstack H4
+freecell H3
+newstack H2
+freecell H4
+newstack H3
+freecell H3
+freecell H2
+newstack H3
+newstack H2
+freecell H3
+stack H4 S5
+freecell H5
+newstack H3
+freecell H3
+freecell H4
+newstack H4
+freecell S5
+newstack H3
+newstack S5
+freecell H2
+newstack H5
+stack S4 H5
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+newstack H2
+freecell H2
+newstack S4
+freecell S4
+freecell S5
+newstack S4
+newstack S5
+freecell S4
+newstack H2
+freecell S5
+newstack S4
+freecell S4
+freecell H2
+newstack S4
+newstack H2
+freecell S4
+newstack H5
+stack S4 H5
+freecell H2
+newstack S5
+freecell S5
+newstack S4
+freecell H5
+newstack H2
+freecell S4
+newstack H5
+stack S4 H5
+freecell H2
+freecell S4
+newstack S4
+freecell H5
+newstack H2
+freecell H2
+freecell H4
+newstack H2
+newstack H4
+freecell S4
+newstack H5
+stack S4 H5
+freecell H4
+newstack S5
+stack H4 S5
+freecell S4
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+newstack S4
+freecell S4
+newstack S5
+freecell S5
+newstack S4
+freecell S4
+stack S4 H5
+freecell H2
+newstack S5
+newstack H2
+stack H4 S5
+freecell H2
+freecell S4
+newstack H2
+freecell H2
+freecell H5
+newstack H2
+newstack H5
+stack S4 H5
+freecell H2
+freecell S4
+newstack S4
+freecell H5
+newstack H2
+freecell H2
+freecell H4
+newstack H4
+freecell S4
+newstack H2
+freecell H4
+stack H4 S5
+newstack S4
+freecell H2
+newstack H5
+freecell H5
+freecell S4
+newstack H4
+newstack S4
+freecell H4
+newstack H5
+freecell S4
+stack S4 H5
+newstack H4
+freecell S4
+freecell H4
+newstack H2
+freecell H2
+newstack H4
+freecell H4
+freecell H5
+newstack H4
+newstack H5
+stack S4 H5
+freecell S4
+freecell H5
+newstack H2
+freecell H2
+newstack S4
+freecell S4
+newstack H2
+freecell H2
+freecell H4
+stack H4 S5
+freecell H3
+newstack H2
+newstack H3
+newstack S4
+freecell H3
+stack H3 S4
+newstack H5
+freecell H3
+freecell S4
+stack S4 H5
+newstack H3
+stack H3 S4
+freecell H4
+newstack H4
+freecell H3
+freecell H4
+newstack H3
+freecell H3
+freecell S4
+newstack S4
+stack H3 S4
+freecell H5
+newstack H4
+freecell H3
+freecell S4
+newstack H3
+freecell H3
+newstack H5
+stack S4 H5
+stack H3 S4
+freecell H4
+freecell H3
+newstack H3
+stack H4 S5
+freecell S4
+freecell H5
+freecell H3
+newstack H5
+newstack H3
+freecell H5
+newstack S4
+freecell H3
+stack H3 S4
+newstack H5
+freecell H3
+freecell H5
+freecell S4
+freecell H4
+newstack H4
+newstack S4
+freecell H4
+stack H4 S5
+freecell H2
+newstack H5
+freecell S4
+newstack S4
+freecell H4
+newstack H4
+freecell S4
+stack S4 H5
+freecell S5
+newstack H2
+freecell H4
+freecell H2
+newstack H4
+freecell H4
+newstack S4
+newstack H4
+newstack H2
+freecell H4
+stack H3 S4
+newstack S5
+freecell H2
+freecell S5
+newstack H2
+freecell H2
+freecell H3
+newstack H3
+newstack H2
+freecell H3
+stack H3 S4
+freecell H5
+newstack S5
+newstack H5
+freecell H2
+newstack H4
+freecell H4
+freecell H5
+newstack H4
+newstack H5
+freecell H4
+newstack H2
+freecell H5
+newstack H4
+freecell H4
+freecell H2
+newstack H4
+newstack H2
+freecell H4
+freecell H3
+newstack H4
+freecell H2
+newstack H3
+freecell H3
+newstack H5
+freecell H5
+newstack H3
+freecell H3
+freecell H4
+newstack H3
+newstack H4
+freecell H3
+stack H3 S4
+freecell H4
+freecell H3
+newstack H5
+newstack H3
+freecell H5
+stack H4 S5
+freecell S4
+newstack H2
+freecell H2
+freecell H3
+newstack H4
+newstack D3
+newstack H3
+freecell D3
+newstack H2
+freecell H3
+stack H3 C4
+newstack D3
+freecell H2
+newstack S4
+freecell D3
+stack D3 S4
+newstack H2
+freecell D3
+freecell H2
+newstack H5
+stack D3 S4
+freecell H5
+freecell D3
+newstack D3
+freecell S4
+newstack H5
+stack S4 H5
+freecell D3
+stack D3 S4
+newstack H2
+freecell D3
+freecell H2
+freecell S4
+newstack S4
+stack D3 S4
+freecell D3
+freecell S4
+newstack H2
+freecell H2
+newstack D3
+freecell D3
+newstack H2
+freecell H2
+freecell H5
+newstack H2
+newstack H5
+stack S4 H5
+stack D3 S4
+freecell H2
+freecell D3
+freecell S4
+newstack S4
+freecell H5
+newstack H2
+freecell H2
+freecell S4
+newstack H2
+newstack S4
+stack D3 S4
+freecell D3
+freecell S4
+newstack H5
+freecell H5
+newstack D3
+freecell D3
+freecell H2
+stack H4 S5
+newstack H2
+newstack D3
+newstack H5
+stack S4 H5
+freecell D3
+stack D3 S4
+freecell H2
+newstack D3
+newstack H2
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+freecell H2
+newstack S4
+newstack H2
+freecell S4
+newstack H5
+stack S4 H5
+freecell H2
+freecell S4
+freecell H5
+newstack S4
+newstack H5
+freecell S4
+freecell D3
+stack S4 H5
+freecell S4
+newstack H2
+newstack S4
+stack D3 S4
+freecell H5
+freecell D3
+freecell S4
+newstack D3
+newstack S4
+freecell D3
+newstack H5
+stack D3 S4
+freecell H5
+freecell H2
+newstack H5
+newstack H2
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+freecell H2
+newstack D3
+newstack H2
+freecell D3
+freecell H5
+newstack D3
+freecell H2
+newstack H5
+newstack S4
+freecell H5
+freecell S4
+freecell D3
+newstack H5
+newstack D3
+newstack S4
+freecell D3
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+newstack H2
+newstack S4
+newstack D3
+freecell S4
+newstack H5
+stack S4 H5
+freecell D3
+stack D3 S4
+freecell H2
+freecell D3
+freecell S4
+newstack H2
+freecell H5
+freecell H2
+newstack H5
+newstack S4
+freecell S4
+stack S4 H5
+freecell H4
+newstack H4
+newstack H2
+freecell H4
+freecell H2
+newstack H2
+newstack H4
+freecell H2
+freecell S4
+newstack H2
+freecell H4
+newstack S4
+stack D3 S4
+freecell D3
+stack S4 H5
+newstack D3
+freecell H2
+newstack H4
+freecell D3
+freecell H4
+freecell S4
+newstack S4
+newstack H4
+stack D3 S4
+freecell H4
+newstack H2
+freecell H2
+freecell D3
+newstack D3
+freecell S4
+newstack H2
+freecell D3
+newstack H4
+freecell H4
+newstack D3
+freecell D3
+freecell H2
+newstack D3
+newstack H2
+freecell D3
+newstack H4
+freecell H2
+newstack D3
+freecell D3
+newstack S4
+stack D3 S4
+freecell H4
+freecell D3
+newstack D3
+freecell S4
+newstack H4
+freecell H4
+freecell H5
+stack H4 S5
+freecell D3
+newstack H4
+newstack H5
+freecell H5
+stack H4 S5
+newstack H2
+newstack H5
+freecell H2
+stack S4 H5
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+newstack H4
+newstack S4
+freecell H4
+stack H4 S5
+stack D3 S4
+freecell D3
+freecell S4
+newstack H4
+newstack H3
+newstack S4
+stack D3 S4
+freecell H3
+stack H3 C4
+freecell D3
+freecell H4
+stack D3 S4
+stack H4 S5
+freecell D3
+freecell H3
+stack H3 S4
+newstack D3
+newstack H5
+freecell H3
+freecell S4
+newstack H3
+stack S4 H5
+stack H3 S4
+newstack H2
+freecell H3
+freecell S4
+freecell H2
+newstack S4
+freecell S4
+freecell H5
+newstack S4
+newstack H5
+stack H3 S4
+freecell H5
+newstack H2
+freecell H2
+freecell H3
+newstack H3
+freecell S4
+newstack H2
+freecell H3
+newstack S4
+stack H3 S4
+freecell H2
+freecell H3
+newstack H3
+freecell S4
+newstack H2
+freecell H2
+newstack H5
+stack S4 H5
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+freecell H4
+newstack H4
+freecell H3
+stack H3 C4
+newstack S4
+freecell H4
+newstack H5
+freecell H5
+newstack H2
+freecell H2
+newstack H5
+freecell H5
+freecell D3
+stack D3 S4
+newstack H2
+newstack H5
+freecell D3
+freecell H5
+newstack D3
+freecell D3
+newstack H4
+stack D3 S4
+freecell H4
+freecell D3
+newstack D3
+freecell S4
+newstack H4
+freecell D3
+newstack S4
+stack D3 S4
+freecell H4
+newstack H5
+freecell D3
+freecell S4
+stack S4 H5
+newstack D3
+stack D3 S4
+newstack H4
+freecell D3
+freecell H4
+freecell S4
+newstack H4
+freecell H4
+newstack D3
+freecell D3
+newstack H4
+freecell H4
+freecell H5
+newstack H4
+newstack H5
+stack S4 H5
+stack D3 S4
+freecell H4
+freecell D3
+freecell S4
+newstack D3
+stack S4 H5
+freecell H2
+stack H4 S5
+freecell S4
+freecell H4
+stack S4 H5
+freecell S4
+newstack S4
+freecell H5
+newstack H4
+freecell H4
+newstack H2
+freecell H2
+newstack H4
+freecell H4
+freecell D3
+stack D3 S4
+newstack H4
+newstack H2
+freecell H4
+newstack H5
+freecell H2
+newstack H4
+freecell H4
+freecell H5
+newstack H4
+newstack H5
+freecell H4
+newstack H2
+freecell H5
+newstack H4
+freecell H4
+freecell H2
+stack H4 S5
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack H2
+freecell H2
+newstack S4
+freecell S4
+newstack H4
+newstack H3
+newstack S4
+stack D3 S4
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack H2
+freecell H2
+newstack D3
+freecell D3
+newstack H5
+stack S4 H5
+stack D3 S4
+freecell H3
+newstack H2
+freecell D3
+stack H3 S4
+freecell H3
+freecell S4
+stack D3 C4
+freecell H5
+freecell H2
+newstack D3
+newstack H2
+freecell D3
+newstack H5
+stack S4 H5
+stack D3 S4
+freecell H2
+newstack H3
+freecell H3
+freecell D3
+newstack D3
+stack H3 S4
+freecell D3
+newstack H2
+freecell H2
+freecell H3
+newstack H2
+freecell H2
+newstack D3
+freecell D3
+newstack H3
+freecell H3
+freecell S4
+newstack S4
+stack H3 S4
+freecell H5
+newstack D3
+freecell H3
+freecell S4
+newstack H3
+freecell H3
+newstack H5
+stack S4 H5
+stack H3 S4
+freecell D3
+freecell H3
+freecell S4
+newstack S4
+stack H3 S4
+stack D3 C4
+freecell H5
+freecell H3
+newstack H3
+freecell S4
+freecell H3
+newstack D2
+newstack H3
+freecell D2
+newstack S4
+freecell H3
+newstack D2
+stack H3 S4
+freecell D2
+newstack H5
+freecell H5
+newstack H2
+freecell H2
+newstack H5
+freecell H5
+freecell H3
+newstack H3
+freecell S4
+newstack H5
+stack S4 H5
+freecell H3
+stack H3 S4
+newstack H2
+freecell H3
+freecell H2
+newstack D2
+stack H3 S4
+freecell D2
+newstack H3
+freecell S4
+freecell H3
+newstack S4
+stack H3 S4
+freecell H5
+newstack D2
+freecell H3
+freecell S4
+newstack H5
+stack S4 H5
+stack H3 S4
+freecell D2
+newstack H2
+freecell H3
+freecell S4
+freecell H5
+newstack S4
+stack H3 S4
+freecell H3
+freecell S4
+newstack H3
+freecell H3
+newstack H5
+freecell H5
+newstack H3
+freecell H3
+newstack D2
+freecell D2
+newstack H3
+freecell H3
+newstack H5
+freecell H5
+newstack H3
+freecell H3
+stack H4 S5
+newstack H3
+newstack H5
+stack S4 H5
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+newstack D2
+freecell D2
+newstack S4
+freecell S4
+freecell H2
+newstack S4
+newstack H2
+freecell S4
+newstack D2
+freecell H2
+newstack S4
+freecell S4
+newstack H5
+stack S4 H5
+freecell D2
+freecell S4
+newstack S4
+freecell H5
+newstack D2
+freecell D2
+freecell S4
+newstack D2
+newstack S4
+freecell D2
+newstack H5
+freecell S4
+stack S4 H5
+newstack D2
+freecell S4
+freecell D2
+newstack H2
+stack S4 H5
+freecell H2
+freecell S4
+newstack S4
+freecell H5
+freecell S4
+newstack S4
+newstack H5
+freecell S4
+stack S4 H5
+freecell H3
+stack H3 S4
+newstack H2
+newstack D2
+freecell H3
+freecell S4
+freecell H5
+newstack S4
+stack H3 S4
+freecell H3
+freecell S4
+newstack H3
+freecell H3
+newstack H5
+freecell H5
+newstack H3
+freecell H3
+freecell D2
+newstack H3
+newstack D2
+freecell H3
+newstack H5
+stack S4 H5
+stack H3 S4
+freecell D2
+freecell H3
+newstack H3
+freecell S4
+freecell H3
+newstack S4
+stack H3 S4
+freecell H5
+freecell H3
+newstack H3
+freecell S4
+newstack H5
+stack S4 H5
+freecell H3
+newstack S4
+stack H3 S4
+freecell H5
+newstack D2
+freecell D2
+freecell H3
+newstack D2
+freecell D2
+newstack H3
+freecell S4
+freecell H3
+newstack H3
+newstack S4
+freecell H3
+stack H3 S4
+freecell H2
+newstack D2
+newstack H2
+freecell H3
+freecell S4
+newstack H3
+freecell H3
+newstack H5
+stack S4 H5
+stack H3 S4
+freecell H2
+freecell H3
+newstack H3
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+newstack H2
+freecell H2
+newstack S4
+freecell S4
+freecell H3
+newstack S4
+newstack H3
+stack H3 S4
+newstack H2
+freecell H3
+freecell H2
+newstack H5
+stack H3 S4
+freecell H5
+freecell H3
+newstack H3
+freecell S4
+newstack H5
+stack S4 H5
+freecell H3
+stack H3 S4
+newstack H2
+freecell H3
+freecell H2
+newstack S4
+stack H3 S4
+freecell H3
+freecell H5
+stack H3 S4
+freecell H3
+freecell S4
+newstack H5
+newstack H2
+freecell H2
+newstack H3
+freecell H3
+newstack H2
+freecell H2
+freecell H5
+newstack H2
+newstack H3
+freecell H3
+freecell H2
+newstack H3
+newstack H2
+freecell H3
+freecell D2
+newstack H3
+newstack D2
+freecell H2
+newstack H5
+freecell H5
+freecell D2
+newstack H5
+newstack D2
+freecell H5
+newstack H2
+freecell D2
+freecell H2
+newstack H5
+freecell H5
+newstack H4
+newstack H5
+stack S4 H5
+freecell S4
+freecell H5
+newstack H2
+freecell H2
+newstack H5
+freecell H5
+newstack D2
+freecell D2
+newstack H5
+stack S4 H5
+freecell S4
+freecell H5
+newstack D2
+freecell D2
+newstack H5
+freecell H5
+stack H4 S5
+newstack D2
+freecell D2
+newstack D3
+newstack D2
+freecell D3
+stack D3 C4
+freecell H3
+newstack H5
+newstack H3
+stack S4 H5
+freecell D2
+newstack H2
+freecell H2
+freecell H3
+newstack H2
+newstack H3
+stack H3 S4
+newstack D2
+freecell H2
+freecell D2
+newstack D2
+newstack H2
+freecell D2
+freecell H2
+freecell H4
+newstack H4
+newstack H2
+freecell H4
+newstack D2
+freecell H2
+freecell D2
+newstack H2
+newstack D2
+freecell H2
+newstack H4
+freecell D2
+freecell H4
+newstack D2
+newstack H4
+freecell D2
+newstack H2
+freecell H4
+freecell H2
+freecell H3
+newstack H3
+newstack H2
+freecell H3
+newstack H4
+freecell H2
+newstack H3
+freecell H3
+newstack D2
+freecell D2
+newstack H3
+freecell H3
+freecell H4
+newstack H3
+newstack H4
+freecell H3
+newstack D2
+freecell H4
+stack H4 S5
+newstack H3
+freecell D2
+freecell H3
+freecell S4
+newstack S4
+newstack H3
+stack H3 S4
+newstack D2
+freecell H3
+freecell D2
+newstack H2
+stack H3 S4
+freecell H2
+freecell H3
+newstack H3
+freecell S4
+newstack H2
+freecell H3
+newstack S4
+stack H3 S4
+freecell H2
+newstack D2
+freecell H3
+freecell S4
+newstack H3
+freecell H3
+newstack H2
+stack S4 H5
+freecell H2
+freecell D2
+newstack H2
+newstack D2
+freecell H2
+freecell S4
+newstack S4
+freecell D2
+freecell S4
+newstack D2
+newstack S4
+freecell D2
+newstack H2
+freecell S4
+newstack D2
+freecell D2
+newstack H3
+freecell H3
+newstack D2
+freecell D2
+freecell H2
+newstack D2
+newstack H3
+freecell H3
+freecell D2
+newstack H3
+newstack D2
+freecell H3
+stack S4 H5
+freecell D2
+freecell S4
+newstack H3
+newstack S4
+freecell H3
+freecell H5
+stack H3 S4
+newstack H5
+freecell H4
+newstack H4
+freecell H3
+freecell S4
+newstack H3
+freecell H3
+newstack D2
+freecell D2
+newstack H3
+freecell H3
+newstack H2
+freecell H2
+newstack H3
+freecell H3
+newstack D2
+freecell D2
+newstack H3
+freecell H3
+stack H4 S5
+newstack D3
+newstack H3
+stack S4 H5
+freecell H3
+stack H3 S4
+newstack D2
+freecell D3
+newstack H2
+freecell D2
+newstack D3
+freecell D3
+freecell H3
+newstack H3
+stack D3 S4
+freecell H3
+stack H3 C4
+newstack D2
+freecell H2
+freecell D2
+newstack D2
+newstack H2
+freecell D2
+freecell H2
+freecell D3
+newstack H2
+newstack D3
+freecell H2
+newstack D2
+freecell D3
+newstack H2
+freecell H2
+freecell D2
+newstack H2
+newstack D2
+freecell H2
+newstack D3
+freecell D2
+newstack H2
+freecell H2
+freecell S4
+newstack S4
+freecell D3
+stack D3 S4
+newstack H2
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack D2
+freecell D2
+newstack D3
+freecell D3
+freecell H2
+newstack D3
+newstack H2
+freecell D3
+newstack D2
+freecell H2
+newstack D3
+freecell D3
+newstack S4
+stack D3 S4
+freecell D2
+freecell D3
+freecell S4
+newstack S4
+newstack D3
+stack D3 S4
+newstack D2
+freecell D3
+freecell D2
+newstack H2
+freecell H2
+newstack D2
+freecell D2
+freecell S4
+newstack D2
+newstack S4
+freecell D2
+newstack H2
+freecell S4
+newstack D2
+freecell D2
+freecell H2
+newstack D2
+newstack H2
+freecell D2
+stack S4 H5
+freecell H2
+freecell S4
+newstack H4
+newstack S4
+stack D3 S4
+freecell D3
+freecell S4
+stack S4 H5
+newstack D3
+stack D3 S4
+newstack H2
+freecell H4
+newstack D2
+freecell H2
+newstack H4
+freecell H4
+freecell D2
+newstack H4
+newstack D2
+freecell H4
+newstack H2
+freecell D2
+newstack H4
+freecell H4
+freecell H2
+freecell D3
+newstack D3
+newstack H2
+freecell D3
+newstack H4
+freecell H2
+newstack D2
+freecell D2
+newstack H2
+freecell H2
+freecell H4
+newstack H2
+newstack H4
+freecell H2
+newstack D2
+freecell H4
+newstack H2
+freecell H2
+newstack D3
+freecell D3
+newstack H2
+freecell H2
+freecell D2
+newstack H2
+newstack D2
+freecell H2
+newstack D3
+freecell D2
+newstack H2
+freecell H2
+newstack H4
+freecell H4
+newstack D2
+freecell D2
+newstack H4
+freecell H4
+freecell D3
+stack D3 S4
+freecell S5
+newstack H4
+newstack S5
+newstack D2
+freecell S5
+newstack H2
+freecell D2
+newstack S5
+freecell S5
+freecell H2
+newstack S5
+newstack H2
+freecell S5
+newstack D2
+freecell H2
+newstack S5
+freecell S5
+freecell D2
+freecell D3
+newstack D2
+newstack D3
+freecell D2
+newstack S5
+freecell D3
+newstack D2
+freecell D2
+newstack H2
+freecell H2
+newstack D2
+freecell D2
+freecell S5
+newstack D2
+newstack S5
+freecell D2
+newstack H2
+freecell S5
+newstack D2
+freecell D2
+newstack D3
+freecell D3
+newstack D2
+freecell D2
+freecell S4
+newstack S4
+stack D3 S4
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack D2
+freecell D2
+newstack D3
+freecell D3
+newstack S5
+stack S4 H5
+freecell S5
+newstack D3
+freecell D3
+freecell H2
+newstack D3
+newstack H2
+freecell D3
+newstack S5
+freecell S5
+newstack D2
+freecell H2
+newstack D3
+freecell D3
+newstack H2
+freecell H2
+freecell D2
+newstack D3
+newstack D2
+freecell D3
+stack D3 S4
+freecell D2
+freecell D3
+newstack S4
+newstack D3
+stack D3 S4
+newstack D2
+freecell D3
+freecell D2
+newstack H2
+stack D3 S4
+freecell H2
+newstack S5
+freecell S5
+newstack H2
+freecell H2
+newstack D3
+freecell S4
+stack S4 H5
+newstack S5
+freecell D3
+freecell S5
+newstack D3
+newstack S5
+freecell D3
+stack D3 S4
+freecell S5
+freecell D3
+newstack H3
+newstack D3
+stack D3 S4
+newstack S5
+freecell H3
+newstack H2
+freecell S5
+newstack H3
+freecell H3
+freecell H2
+newstack H3
+newstack H2
+freecell H3
+newstack S5
+freecell H2
+newstack H3
+freecell H3
+newstack D2
+freecell D2
+newstack H3
+freecell H3
+freecell S5
+newstack H3
+newstack S5
+freecell H3
+stack H3 C4
+freecell D3
+newstack D3
+freecell S5
+newstack D2
+freecell D2
+newstack H2
+freecell H2
+freecell D3
+stack D3 S4
+freecell H4
+newstack H2
+newstack H4
+newstack D2
+freecell H4
+newstack S5
+stack H4 S5
+freecell D2
+freecell H4
+newstack H4
+freecell S5
+newstack D2
+freecell H4
+newstack S5
+stack H4 S5
+freecell D2
+freecell H4
+newstack H4
+freecell S5
+freecell H4
+freecell D3
+newstack D3
+newstack H4
+freecell D3
+newstack S5
+freecell H4
+stack H4 S5
+newstack D3
+freecell H4
+freecell D3
+newstack D2
+stack H4 S5
+freecell D2
+freecell H4
+newstack H4
+freecell S5
+newstack D2
+freecell H4
+newstack S5
+stack H4 S5
+freecell D2
+newstack D3
+freecell H4
+freecell S5
+newstack D2
+freecell D2
+newstack S5
+freecell S5
+freecell D3
+newstack S5
+newstack D3
+freecell S5
+newstack D2
+freecell D3
+newstack S5
+freecell S5
+freecell D2
+newstack S5
+stack D3 S4
+freecell H2
+newstack D2
+newstack H2
+stack H4 S5
+freecell H2
+freecell H4
+newstack H4
+freecell S5
+newstack H2
+freecell H4
+newstack S5
+stack H4 S5
+freecell H2
+freecell H4
+newstack H4
+freecell S5
+newstack H2
+freecell H2
+freecell H4
+freecell D3
+newstack H4
+newstack D3
+freecell H4
+newstack H2
+freecell H2
+newstack S5
+stack H4 S5
+freecell D3
+newstack H2
+freecell H2
+freecell H4
+newstack H4
+freecell S5
+newstack H2
+freecell H4
+newstack S5
+stack H4 S5
+freecell H2
+newstack D3
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+newstack H2
+freecell H2
+newstack H4
+freecell H4
+freecell S4
+newstack S4
+freecell D3
+stack D3 S4
+newstack H4
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack H2
+stack S4 H5
+freecell H2
+newstack S5
+freecell S5
+newstack H2
+freecell H2
+freecell H4
+newstack S4
+newstack H4
+stack D3 S4
+freecell H4
+newstack H2
+freecell H2
+newstack S5
+stack H4 S5
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+freecell D3
+newstack H4
+freecell H4
+newstack D3
+freecell S4
+stack S4 H5
+newstack H4
+freecell D3
+newstack S5
+freecell S5
+freecell H4
+newstack S5
+newstack H4
+freecell S5
+freecell S4
+newstack S4
+freecell H4
+newstack S5
+stack H4 S5
+freecell S4
+stack S4 H5
+freecell H4
+freecell S5
+stack D3 S4
+newstack H2
+freecell H2
+freecell D3
+newstack D3
+newstack H2
+freecell D3
+stack D3 S4
+freecell D2
+newstack S5
+freecell H2
+freecell D3
+newstack H2
+newstack D3
+freecell H2
+freecell S4
+newstack S4
+stack H4 S5
+freecell D3
+stack D3 S4
+newstack H2
+freecell D3
+freecell H2
+freecell S4
+stack S4 H5
+freecell H4
+newstack H2
+newstack H4
+freecell H2
+stack D3 S4
+freecell H4
+freecell D3
+newstack H2
+newstack D3
+freecell H2
+freecell S4
+newstack H2
+freecell D3
+newstack S4
+stack D3 S4
+freecell H2
+newstack D2
+freecell D3
+freecell S4
+newstack D3
+stack H4 S5
+freecell D3
+freecell D2
+newstack D3
+newstack D2
+freecell D3
+stack S4 H5
+freecell D2
+freecell S4
+newstack D2
+freecell D2
+newstack H3
+newstack D2
+stack S4 H5
+stack D3 S4
+freecell D2
+newstack H2
+freecell H2
+freecell H3
+newstack D2
+newstack H3
+freecell D2
+freecell H3
+freecell D3
+newstack H3
+newstack D3
+freecell H3
+stack H3 S4
+newstack D2
+freecell D3
+newstack H2
+freecell H2
+freecell D2
+freecell H3
+newstack H3
+newstack D2
+freecell H3
+stack H3 S4
+freecell H4
+newstack H2
+freecell D2
+newstack H4
+freecell H4
+newstack D3
+freecell D3
+newstack H4
+freecell H4
+freecell H3
+newstack H3
+stack D3 S4
+freecell H3
+newstack H4
+freecell H4
+freecell H2
+newstack H4
+newstack H2
+freecell H4
+stack H4 S5
+newstack D2
+freecell H2
+freecell D2
+newstack H2
+newstack D2
+freecell H2
+freecell D3
+newstack D3
+freecell D2
+newstack H2
+stack H3 S4
+freecell H2
+freecell D3
+freecell H3
+newstack H3
+newstack D3
+freecell H3
+newstack H2
+freecell D3
+freecell H2
+newstack D3
+newstack H2
+freecell D3
+stack D3 C4
+freecell H2
+freecell S4
+newstack S4
+newstack H2
+freecell S4
+newstack H3
+freecell H2
+newstack S4
+freecell S4
+freecell H3
+newstack H4
+newstack H3
+freecell H4
+newstack S4
+freecell H3
+stack H3 S4
+newstack H4
+freecell H3
+freecell H4
+newstack H2
+stack H3 S4
+freecell H2
+newstack D2
+freecell D2
+newstack H2
+freecell H2
+freecell H3
+newstack D2
+freecell D2
+newstack H4
+stack H3 S4
+freecell H4
+newstack D2
+freecell D2
+freecell H3
+newstack H3
+freecell S4
+stack S4 H5
+newstack D2
+freecell H3
+newstack H2
+freecell H2
+newstack H3
+freecell H3
+freecell D2
+newstack H3
+newstack D2
+freecell H3
+newstack H2
+freecell D2
+newstack H3
+freecell H3
+newstack H4
+freecell H4
+newstack H3
+freecell H3
+freecell H2
+newstack S4
+newstack H2
+freecell S4
+newstack H3
+freecell H2
+newstack S4
+freecell S4
+newstack H4
+stack S4 H5
+freecell H4
+newstack D2
+freecell D2
+newstack H2
+freecell H2
+freecell H3
+stack H3 S4
+freecell S5
+newstack H2
+newstack S5
+newstack D2
+stack H4 S5
+freecell D2
+freecell H4
+newstack H4
+freecell S5
+newstack D2
+freecell H4
+newstack S5
+stack H4 S5
+freecell D2
+freecell H4
+newstack H4
+freecell S5
+newstack D2
+freecell D2
+freecell H4
+freecell H3
+newstack H4
+newstack H3
+freecell H4
+newstack D2
+freecell H3
+newstack H4
+freecell H4
+newstack S5
+stack H4 S5
+freecell D2
+newstack H3
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+newstack D2
+freecell D2
+newstack H4
+freecell H4
+newstack S4
+freecell H3
+stack H3 S4
+newstack H4
+freecell H3
+freecell S4
+newstack H3
+freecell H3
+newstack D2
+stack S4 H5
+freecell D2
+newstack S5
+freecell S5
+newstack D2
+freecell D2
+freecell H4
+newstack D2
+newstack H4
+freecell D2
+newstack S5
+freecell H4
+stack H4 S5
+newstack D2
+freecell S4
+freecell D2
+newstack S4
+stack H3 S4
+freecell H3
+freecell S4
+stack S4 H5
+newstack H3
+freecell H4
+freecell H3
+newstack H4
+freecell H4
+newstack D2
+freecell D2
+newstack H3
+freecell H3
+newstack D2
+freecell D2
+freecell S5
+newstack D2
+newstack S5
+freecell D2
+newstack H3
+freecell S5
+newstack D2
+freecell D2
+freecell H3
+stack H3 S4
+newstack D2
+newstack H3
+freecell D2
+freecell S4
+newstack S4
+freecell H3
+stack H3 S4
+newstack D2
+freecell H3
+freecell D2
+newstack S5
+stack H3 S4
+stack H4 S5
+freecell H4
+freecell H3
+freecell S5
+newstack H3
+freecell H3
+stack H3 S4
+newstack H4
+freecell H4
+newstack D2
+freecell D2
+newstack H4
+freecell H4
+freecell H3
+newstack H3
+freecell S4
+newstack D2
+freecell H3
+newstack S4
+stack H3 S4
+freecell D2
+newstack S5
+freecell H3
+freecell S4
+newstack H3
+stack H4 S5
+freecell H3
+newstack D2
+freecell D2
+newstack H3
+freecell H3
+freecell H4
+newstack H4
+freecell S5
+newstack H3
+freecell H4
+newstack S5
+stack H4 S5
+freecell H3
+newstack D2
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+newstack H3
+freecell H3
+newstack H4
+freecell H4
+newstack S4
+freecell S4
+newstack H4
+freecell H4
+newstack H3
+freecell H3
+newstack H4
+freecell H4
+newstack D3
+stack H3 C4
+stack S4 H5
+freecell D3
+newstack H4
+freecell H4
+freecell D2
+newstack H4
+newstack D2
+freecell H4
+newstack D3
+freecell D2
+newstack H4
+freecell H4
+freecell D3
+newstack H4
+newstack D3
+freecell H4
+freecell S4
+newstack S4
+freecell D3
+stack D3 S4
+newstack H4
+freecell D3
+freecell H4
+newstack D2
+stack D3 S4
+freecell D2
+newstack S5
+stack H4 S5
+freecell H4
+freecell D3
+freecell S4
+stack S4 H5
+stack H4 S5
+freecell H4
+newstack H4
+freecell S5
+newstack D3
+freecell D3
+freecell H4
+newstack S4
+newstack H4
+stack D3 S4
+freecell H4
+freecell D3
+newstack D2
+freecell D2
+newstack D3
+freecell D3
+newstack S5
+stack H4 S5
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+newstack D3
+freecell S4
+newstack H4
+freecell D3
+newstack S4
+stack D3 S4
+freecell H4
+newstack S5
+stack H4 S5
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack D2
+freecell D2
+newstack D3
+freecell D3
+freecell H4
+newstack D3
+freecell D3
+newstack D2
+freecell D2
+newstack D3
+freecell D3
+newstack H4
+freecell S5
+newstack D3
+freecell H4
+newstack S5
+stack H4 S5
+freecell D3
+newstack D2
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+newstack D3
+freecell D3
+newstack H4
+freecell H4
+newstack H3
+stack S4 H5
+stack D3 S4
+freecell H3
+newstack H4
+freecell H4
+newstack S5
+stack H4 S5
+freecell D2
+newstack H3
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+newstack D2
+freecell D2
+newstack H4
+freecell H4
+freecell H3
+newstack H4
+newstack H3
+freecell H4
+newstack S5
+stack H4 S5
+freecell H3
+newstack D2
+freecell D2
+freecell H4
+newstack H4
+freecell S5
+newstack D2
+freecell H4
+freecell D2
+newstack H4
+newstack D2
+freecell H4
+newstack S5
+freecell D2
+newstack H3
+freecell H3
+newstack D2
+freecell D2
+freecell S5
+newstack D2
+newstack S5
+freecell D2
+newstack H3
+freecell S5
+newstack D2
+freecell D2
+freecell H3
+stack H3 C4
+newstack D2
+freecell H2
+freecell D2
+newstack S5
+freecell D3
+newstack H4
+newstack D3
+freecell H4
+stack H4 S5
+freecell D3
+freecell H4
+newstack D2
+newstack H4
+freecell D2
+stack D3 S4
+freecell D3
+freecell S4
+newstack D3
+freecell H4
+newstack S4
+stack H4 S5
+freecell S4
+newstack H2
+freecell H2
+newstack D2
+freecell D2
+freecell D3
+newstack H4
+newstack D3
+freecell H4
+stack H4 S5
+freecell H5
+newstack D2
+newstack H5
+stack S4 H5
+freecell D3
+stack D3 S4
+newstack H2
+freecell D3
+freecell H2
+freecell S4
+newstack S4
+stack D3 S4
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+freecell H5
+newstack D3
+newstack H5
+stack S4 H5
+freecell D3
+newstack H2
+stack D3 S4
+freecell D2
+freecell D3
+newstack D3
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+newstack D2
+freecell D2
+newstack S4
+freecell S4
+freecell H2
+newstack S4
+newstack H2
+freecell S4
+newstack D2
+freecell H2
+newstack S4
+freecell S4
+newstack H5
+stack S4 H5
+freecell D2
+freecell S4
+newstack S4
+freecell H5
+newstack D2
+freecell D2
+freecell S4
+newstack D2
+newstack S4
+freecell D2
+newstack H5
+freecell S4
+stack S4 H5
+newstack D2
+freecell S4
+freecell D2
+newstack H2
+freecell H2
+newstack D2
+freecell D2
+freecell H5
+newstack D2
+newstack H5
+freecell D2
+newstack H2
+freecell H5
+newstack D2
+freecell D2
+freecell H2
+newstack D2
+newstack H2
+freecell D2
+freecell D3
+newstack D2
+newstack D3
+freecell H2
+newstack H5
+freecell H5
+newstack S4
+freecell S4
+newstack H2
+freecell H2
+newstack S4
+freecell S4
+freecell D2
+newstack S4
+newstack D2
+freecell D3
+stack D3 S4
+newstack H2
+freecell D2
+newstack H5
+freecell H5
+freecell H2
+newstack H5
+newstack H2
+freecell H5
+newstack D2
+freecell H2
+newstack H5
+freecell H5
+freecell D2
+newstack H5
+newstack D2
+freecell H5
+freecell D3
+newstack H5
+freecell D2
+newstack D3
+freecell D3
+newstack H2
+freecell H2
+newstack D3
+freecell D3
+freecell H5
+newstack D3
+newstack H5
+freecell D3
+stack D3 S4
+freecell H5
+freecell D3
+newstack H2
+newstack D3
+freecell H2
+newstack D2
+freecell D3
+newstack H2
+freecell H2
+newstack H5
+freecell H5
+newstack H2
+freecell H2
+freecell S4
+newstack H2
+newstack S4
+stack D3 S4
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack H5
+stack S4 H5
+stack D3 S4
+freecell D2
+freecell D3
+newstack D3
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+newstack D2
+freecell D2
+newstack S4
+freecell S4
+freecell H4
+newstack H4
+freecell D3
+newstack S4
+stack D3 S4
+freecell H4
+stack H4 S5
+newstack D2
+freecell D3
+freecell D2
+newstack D3
+freecell D3
+newstack H5
+stack D3 S4
+freecell H5
+freecell D3
+freecell S4
+newstack H5
+newstack S4
+stack D3 S4
+freecell H5
+freecell D3
+freecell H2
+stack D3 S4
+newstack D2
+newstack H2
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack H5
+freecell H5
+newstack D3
+freecell D3
+freecell H2
+newstack H5
+newstack H2
+freecell H5
+newstack S4
+stack D3 S4
+freecell H2
+newstack H5
+freecell H5
+freecell D3
+newstack D3
+freecell S4
+freecell D2
+newstack S4
+newstack D2
+freecell D3
+newstack H5
+freecell H5
+freecell D2
+newstack D3
+newstack D2
+freecell S4
+freecell D2
+newstack H4
+newstack D2
+freecell D3
+newstack S4
+stack D3 S4
+freecell D2
+newstack H5
+freecell H5
+newstack H2
+freecell H2
+newstack H5
+freecell H5
+freecell D3
+newstack D3
+freecell S4
+newstack H5
+stack S4 H5
+freecell D3
+stack D3 S4
+newstack H2
+freecell D3
+freecell H2
+newstack D2
+stack D3 S4
+freecell D2
+freecell D3
+newstack D3
+freecell S4
+freecell D3
+newstack S4
+stack D3 S4
+freecell H5
+newstack D2
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack H5
+stack S4 H5
+stack D3 S4
+freecell D2
+newstack H2
+freecell D3
+freecell S4
+freecell H5
+newstack S4
+stack D3 S4
+freecell D3
+freecell S4
+newstack D2
+freecell D2
+newstack S4
+stack D3 S4
+freecell D3
+freecell S4
+stack H4 S5
+newstack S4
+newstack D3
+freecell H2
+freecell D3
+newstack D3
+newstack H2
+freecell D3
+freecell H2
+stack D3 S4
+freecell H4
+newstack H4
+newstack H2
+freecell H4
+stack H4 S5
+freecell H3
+newstack D2
+freecell H2
+newstack H3
+freecell H3
+newstack H5
+freecell H5
+newstack H3
+freecell H3
+freecell D2
+newstack H3
+newstack D2
+freecell H3
+newstack H5
+freecell D2
+newstack H3
+freecell H3
+newstack H2
+freecell H2
+newstack H3
+freecell H3
+freecell H5
+newstack H3
+newstack H5
+freecell H3
+newstack H2
+freecell H5
+newstack H3
+freecell H3
+newstack D2
+freecell D2
+newstack H3
+freecell H3
+freecell H2
+newstack H3
+newstack H2
+freecell D3
+stack D3 C4
+freecell H3
+stack H3 S4
+newstack D2
+freecell H2
+newstack H5
+freecell H5
+freecell D2
+newstack H5
+newstack D2
+freecell H5
+newstack H2
+freecell D2
+newstack H5
+freecell H5
+freecell H2
+newstack H5
+newstack H2
+freecell H5
+freecell H3
+newstack H3
+freecell S4
+freecell H2
+newstack H4
+newstack H2
+freecell H3
+newstack S4
+freecell H2
+newstack H3
+freecell H3
+newstack H5
+freecell H5
+newstack H2
+freecell H2
+newstack H5
+freecell H5
+newstack D2
+freecell D2
+newstack H5
+freecell H5
+newstack H2
+freecell H2
+newstack H5
+freecell H5
+stack H4 S5
+newstack H5
+freecell S4
+stack S4 H5
+freecell H4
+newstack H2
+newstack H4
+freecell H2
+newstack D2
+freecell H4
+newstack H2
+freecell H2
+freecell D2
+newstack H2
+newstack D2
+freecell H2
+newstack H4
+freecell D2
+newstack H2
+freecell H2
+freecell S4
+newstack S4
+stack H3 S4
+freecell H3
+freecell S4
+newstack H2
+freecell H2
+newstack S4
+freecell S4
+newstack D2
+freecell D2
+newstack S4
+freecell S4
+newstack H2
+freecell H2
+newstack D2
+freecell D2
+newstack H2
+freecell H2
+newstack D3
+stack S4 H5
+stack H3 S4
+freecell D3
+newstack H2
+freecell H2
+newstack D2
+freecell D2
+newstack H2
+freecell H2
+freecell H4
+newstack D2
+newstack H4
+freecell D2
+newstack D3
+freecell H4
+newstack D2
+freecell D2
+newstack H2
+freecell H2
+newstack D2
+freecell D2
+freecell H3
+newstack H3
+freecell D3
+stack D3 S4
+newstack D2
+freecell H3
+newstack H2
+freecell H2
+newstack H4
+freecell H4
+newstack H2
+freecell H2
+freecell D2
+newstack H2
+newstack D2
+freecell H2
+newstack H4
+freecell D2
+newstack H2
+freecell H2
+newstack H3
+freecell H3
+newstack D2
+freecell D2
+newstack H3
+freecell H3
+freecell H4
+newstack H3
+newstack H4
+freecell H3
+newstack D2
+freecell H4
+newstack H3
+freecell H3
+freecell D2
+newstack H3
+newstack D2
+freecell H3
+stack H4 S5
+freecell D2
+freecell D3
+newstack D3
+newstack D2
+freecell D3
+newstack H2
+freecell D2
+newstack D3
+freecell D3
+freecell H2
+newstack D3
+newstack H3
+freecell H3
+freecell D3
+newstack D2
+newstack D3
+freecell D2
+freecell S4
+newstack D2
+freecell D3
+newstack S4
+stack D3 S4
+freecell D2
+newstack H3
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack D2
+freecell D2
+newstack D3
+freecell D3
+stack D3 C4
+newstack H2
+freecell H2
+freecell H3
+newstack D3
+newstack H3
+freecell D3
+newstack H2
+freecell H3
+newstack D3
+freecell D3
+newstack D2
+freecell D2
+newstack D3
+freecell D3
+newstack S4
+stack D3 S4
+freecell H2
+newstack D2
+freecell D3
+stack H3 S4
+freecell H3
+freecell S4
+stack S4 H5
+newstack H3
+freecell D2
+newstack H2
+freecell H3
+newstack D2
+freecell D2
+freecell H2
+newstack D2
+newstack H2
+freecell D2
+newstack H3
+freecell H2
+freecell H3
+stack H3 S4
+freecell C4
+source C4
+newstack H2
+newstack D2
+newstack D3
+freecell D2
+freecell D3
+newstack D3
+newstack D2
+freecell D3
+freecell H3
+newstack H3
+stack D3 S4
+freecell D2
+freecell H3
+newstack D2
+newstack H3
+freecell D2
+freecell D3
+newstack D3
+freecell H3
+newstack D2
+freecell D2
+freecell D3
+stack D3 S4
+freecell H4
+newstack H4
+newstack D2
+freecell H4
+stack H4 S5
+freecell D3
+freecell D2
+newstack D2
+newstack D3
+freecell D2
+newstack H3
+freecell D3
+freecell H3
+newstack D2
+newstack H3
+freecell D2
+freecell H3
+newstack H3
+freecell S4
+newstack S4
+stack D3 S4
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+freecell H3
+newstack D3
+newstack H3
+freecell D3
+newstack S4
+stack D3 S4
+freecell H3
+newstack D2
+freecell D2
+freecell D3
+newstack D3
+stack H3 S4
+freecell D3
+newstack D2
+freecell D2
+freecell H3
+newstack H3
+freecell S4
+newstack D2
+freecell H3
+newstack S4
+stack H3 S4
+freecell D2
+newstack D3
+freecell H3
+freecell S4
+newstack D2
+freecell D2
+newstack S4
+freecell S4
+freecell D3
+newstack D2
+newstack D3
+freecell D2
+newstack H3
+freecell D3
+newstack D2
+freecell D2
+freecell H3
+newstack D2
+newstack H3
+freecell D2
+newstack D3
+freecell H3
+newstack D2
+freecell D2
+freecell D3
+newstack D2
+newstack D3
+freecell D2
+freecell H5
+newstack D2
+newstack H5
+stack S4 H5
+stack H3 S4
+freecell D3
+freecell H3
+newstack H3
+stack D3 S4
+freecell H3
+freecell D3
+freecell S4
+newstack S4
+stack D3 S4
+freecell H5
+newstack H3
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack H5
+stack S4 H5
+stack D3 S4
+freecell H3
+freecell D3
+newstack D3
+stack H3 S4
+freecell D3
+freecell H3
+freecell S4
+newstack S4
+stack H3 S4
+freecell H5
+newstack D3
+freecell D3
+freecell H3
+newstack H3
+stack D3 S4
+freecell H3
+newstack H5
+freecell H5
+freecell D3
+newstack D3
+freecell S4
+newstack H5
+freecell D3
+newstack H3
+freecell H3
+newstack S4
+stack H3 S4
+freecell H5
+newstack D3
+freecell H3
+freecell S4
+newstack H3
+freecell H3
+newstack H5
+freecell H5
+newstack H3
+freecell H3
+freecell D3
+newstack H3
+newstack D3
+freecell H3
+newstack S4
+freecell D3
+newstack H5
+freecell H5
+newstack H3
+freecell H3
+freecell S4
+newstack H3
+newstack S4
+freecell H3
+stack D3 S4
+freecell D3
+stack H3 S4
+freecell H3
+freecell S4
+newstack H5
+newstack H3
+freecell H3
+freecell H5
+newstack H3
+newstack H5
+freecell H3
+freecell D2
+newstack H3
+newstack D2
+stack S4 H5
+stack D3 S4
+freecell D2
+freecell D3
+newstack D3
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+newstack D2
+freecell D2
+newstack S4
+freecell S4
+freecell D3
+newstack S4
+newstack D3
+stack D3 S4
+newstack D2
+freecell D3
+freecell D2
+newstack H5
+stack D3 S4
+freecell H5
+freecell D3
+newstack H5
+freecell H5
+newstack D3
+freecell S4
+newstack H5
+stack S4 H5
+freecell D3
+stack D3 S4
+newstack D2
+freecell D3
+freecell D2
+freecell S4
+newstack S4
+stack D3 S4
+freecell D3
+freecell S4
+newstack D2
+freecell D2
+newstack D3
+freecell D3
+newstack D2
+freecell D2
+freecell H5
+newstack D2
+newstack H5
+freecell D2
+newstack D3
+freecell H5
+newstack D2
+freecell D2
+freecell D3
+newstack D2
+newstack D3
+freecell D2
+freecell H3
+newstack H5
+newstack S4
+freecell D3
+newstack D2
+freecell D2
+freecell S4
+newstack D2
+newstack S4
+stack D3 S4
+freecell D2
+freecell D3
+stack H3 S4
+freecell H3
+stack D3 S4
+freecell D3
+freecell S4
+stack S4 H5
+freecell H4
+newstack H4
+newstack D3
+stack H3 S4
+freecell D3
+newstack D2
+freecell D2
+newstack H3
+stack D3 S4
+freecell H3
+freecell H4
+newstack H3
+newstack H4
+freecell H3
+newstack D2
+freecell H4
+newstack H3
+freecell H3
+freecell D2
+newstack H3
+newstack D2
+freecell H3
+freecell D3
+newstack D3
+stack H3 S4
+freecell D2
+newstack H4
+freecell H4
+freecell D3
+newstack D2
+newstack D3
+freecell D2
+freecell H3
+newstack H3
+freecell D3
+newstack H4
+freecell H4
+newstack D3
+freecell D3
+freecell S4
+newstack S4
+stack D3 S4
+freecell H3
+newstack H4
+freecell D3
+stack H3 S4
+freecell H3
+freecell S4
+stack S4 H5
+newstack H3
+freecell H4
+newstack D3
+freecell H3
+newstack H4
+freecell H4
+newstack D2
+freecell D2
+newstack H4
+freecell H4
+freecell S4
+newstack S4
+stack H3 S4
+freecell H3
+freecell S4
+newstack H3
+freecell H3
+newstack H4
+freecell H4
+newstack H3
+freecell H3
+newstack D2
+freecell D2
+newstack H3
+stack S4 H5
+freecell H3
+freecell D3
+stack D3 S4
+freecell S5
+newstack H3
+newstack S5
+newstack D2
+stack H4 S5
+freecell D2
+freecell H4
+newstack H4
+freecell S5
+newstack D2
+freecell H4
+newstack S5
+stack H4 S5
+freecell D2
+freecell H4
+freecell S5
+newstack H4
+newstack S5
+freecell D3
+freecell S5
+newstack D3
+freecell D3
+freecell H4
+newstack D3
+newstack H4
+freecell D3
+newstack S5
+freecell H4
+stack H4 S5
+newstack D3
+freecell H4
+freecell D3
+newstack D2
+stack H4 S5
+freecell D2
+freecell H4
+newstack H4
+freecell S5
+newstack D2
+freecell H4
+newstack S5
+stack H4 S5
+freecell D2
+newstack D3
+freecell H4
+freecell S5
+newstack D2
+freecell D2
+newstack S5
+freecell S5
+freecell D3
+newstack S5
+newstack D3
+freecell S5
+newstack D2
+stack D3 S4
+freecell D2
+newstack H4
+newstack D2
+freecell H4
+freecell D2
+freecell D3
+newstack D3
+newstack D2
+freecell D3
+newstack H4
+freecell D2
+newstack D3
+freecell D3
+freecell H4
+newstack D3
+newstack H4
+freecell D3
+stack D3 S4
+freecell H4
+freecell D3
+newstack D2
+newstack D3
+freecell D2
+freecell S4
+newstack S4
+freecell D3
+stack D3 S4
+newstack D2
+freecell D3
+freecell D2
+newstack H4
+stack D3 S4
+freecell H4
+newstack S5
+stack H4 S5
+freecell D3
+freecell H4
+freecell S5
+newstack H4
+stack D3 S4
+freecell H4
+freecell D3
+newstack D3
+freecell S4
+stack S4 H5
+freecell D3
+stack D3 S4
+freecell H3
+newstack H4
+newstack H3
+newstack S5
+freecell H3
+newstack D2
+freecell S5
+newstack H3
+freecell H3
+freecell D2
+newstack H3
+newstack D2
+freecell H3
+newstack S5
+freecell D2
+newstack H3
+freecell H3
+freecell D3
+newstack D3
+stack H3 S4
+freecell D3
+newstack D2
+freecell D2
+freecell S5
+newstack D2
+newstack S5
+freecell D2
+newstack D3
+freecell S5
+newstack D2
+freecell D2
+freecell D3
+newstack D2
+newstack D3
+freecell D2
+freecell H3
+newstack H3
+freecell D3
+newstack D2
+freecell D2
+newstack S5
+freecell S5
+newstack D2
+freecell D2
+freecell H3
+stack H3 S4
+freecell H4
+newstack D2
+newstack H4
+newstack S5
+freecell H4
+stack H4 S5
+newstack D3
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+freecell D3
+newstack H4
+newstack D3
+freecell H4
+newstack S5
+stack H4 S5
+freecell D3
+newstack H4
+freecell S5
+freecell H3
+newstack H3
+stack D3 S4
+freecell H4
+newstack S5
+stack H4 S5
+freecell H3
+freecell H4
+newstack H4
+freecell S5
+newstack H3
+freecell H3
+freecell D3
+newstack D3
+freecell H4
+newstack H3
+freecell D3
+newstack H4
+freecell H4
+newstack S5
+stack H4 S5
+freecell H3
+newstack D3
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+newstack H3
+freecell H3
+newstack H4
+freecell H4
+freecell D3
+stack D3 S4
+newstack S5
+newstack H4
+stack H4 S5
+newstack H3
+freecell H4
+freecell H3
+freecell S5
+newstack H3
+freecell H3
+freecell D3
+newstack D3
+newstack H3
+freecell D3
+stack D3 S4
+freecell D2
+newstack S5
+freecell D3
+newstack D2
+freecell H3
+newstack D3
+freecell D3
+newstack H4
+stack H3 S4
+freecell H4
+freecell D2
+freecell H3
+newstack H3
+newstack D2
+freecell H3
+stack H3 S4
+freecell S5
+newstack H4
+freecell H3
+newstack S5
+freecell D2
+newstack H3
+freecell H3
+freecell S5
+newstack D2
+newstack S5
+freecell D2
+newstack D3
+freecell S5
+newstack D2
+freecell D2
+newstack H3
+freecell H3
+newstack D2
+freecell D2
+freecell D3
+newstack D2
+newstack D3
+freecell D2
+newstack S5
+freecell D3
+newstack D2
+freecell D2
+freecell S5
+newstack D2
+newstack S5
+freecell D2
+stack D3 S4
+freecell S5
+freecell D3
+newstack D2
+newstack D3
+freecell D2
+freecell D3
+newstack S4
+newstack D3
+stack H3 S4
+freecell D3
+newstack D2
+freecell D2
+newstack S5
+freecell S5
+newstack D2
+freecell D2
+freecell H3
+newstack H3
+stack D3 S4
+freecell H3
+newstack D2
+freecell D2
+newstack S5
+freecell S5
+newstack D2
+freecell D2
+freecell H5
+newstack D2
+newstack H5
+freecell D3
+stack H3 S4
+freecell H5
+newstack D3
+freecell D3
+newstack S5
+freecell S5
+newstack D3
+freecell D3
+freecell H3
+newstack H3
+stack D3 S4
+freecell H3
+newstack S5
+freecell S5
+freecell D3
+newstack D3
+freecell S4
+newstack S5
+freecell D3
+newstack S4
+stack D3 S4
+freecell S5
+newstack H3
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack S5
+freecell S5
+newstack D3
+freecell D3
+newstack H5
+stack S4 H5
+stack D3 S4
+freecell H3
+newstack S5
+freecell D3
+stack H3 S4
+freecell H3
+freecell S4
+freecell H5
+newstack S4
+stack H3 S4
+freecell H3
+freecell S4
+newstack H3
+freecell H3
+newstack H5
+freecell H5
+newstack H3
+freecell H3
+newstack D3
+freecell D3
+newstack H3
+freecell H3
+newstack H5
+freecell H5
+newstack H3
+freecell H3
+stack H4 S5
+newstack H3
+newstack H5
+stack S4 H5
+stack D3 S4
+freecell H4
+freecell D3
+freecell S4
+stack H4 S5
+freecell H5
+newstack S4
+stack D3 S4
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+freecell H4
+newstack H4
+freecell S5
+newstack D3
+freecell H4
+newstack S5
+stack H4 S5
+freecell D3
+newstack S4
+stack D3 S4
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+newstack H5
+freecell H5
+newstack H4
+freecell H4
+freecell D3
+newstack D3
+freecell S4
+newstack H4
+freecell D3
+newstack S4
+stack D3 S4
+freecell H4
+newstack H5
+freecell D3
+freecell S4
+stack S4 H5
+newstack D3
+stack D3 S4
+newstack H4
+freecell D3
+freecell H4
+newstack S5
+stack H4 S5
+stack D3 S4
+freecell H4
+freecell S5
+freecell D3
+newstack D3
+freecell S4
+freecell D3
+newstack S4
+stack D3 S4
+freecell H5
+newstack S5
+freecell D3
+freecell S4
+newstack D3
+freecell D3
+newstack H5
+freecell H5
+newstack D3
+stack H4 S5
+freecell D3
+freecell H4
+newstack H4
+freecell S5
+newstack D3
+freecell H4
+newstack S5
+stack H4 S5
+freecell D3
+newstack H5
+freecell H4
+freecell S5
+newstack H4
+stack S4 H5
+freecell H4
+freecell S4
+newstack S4
+freecell H5
+newstack H4
+freecell S4
+newstack H5
+stack S4 H5
+stack D3 S4
+freecell D3
+freecell S4
+freecell H4
+newstack S4
+freecell H5
+newstack H4
+freecell H4
+stack H3 S4
+newstack H5
+newstack H4
+freecell H3
+stack D3 S4
+freecell H4
+newstack H3
+freecell H3
+newstack S5
+stack H4 S5
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+freecell D3
+newstack H4
+freecell H4
+newstack H3
+freecell H3
+stack S4 H5
+newstack H3
+newstack H4
+stack D3 S4
+freecell H4
+newstack S5
+stack H4 S5
+freecell H3
+freecell H4
+newstack H4
+freecell S5
+newstack H3
+freecell H3
+freecell H4
+newstack S5
+newstack H4
+stack H4 S5
+newstack H3
+freecell H4
+freecell H3
+freecell S5
+newstack H3
+freecell H3
+freecell D2
+newstack H3
+newstack D2
+newstack S5
+stack H4 S5
+freecell D2
+newstack H4
+freecell S5
+newstack D2
+freecell D2
+freecell H4
+newstack D2
+newstack H4
+freecell D2
+newstack S5
+freecell H4
+newstack D2
+stack H4 S5
+freecell D2
+freecell H3
+freecell H4
+newstack H4
+newstack H3
+freecell S5
+newstack D2
+freecell H3
+newstack S5
+freecell S5
+freecell D2
+newstack S5
+newstack D2
+freecell S5
+newstack H3
+freecell D2
+newstack S5
+freecell S5
+freecell H3
+freecell H4
+newstack H3
+freecell H3
+newstack S5
+newstack H3
+newstack H4
+stack H4 S5
+newstack D2
+freecell H3
+freecell D2
+newstack D2
+newstack H3
+freecell D2
+freecell H3
+freecell H4
+newstack H4
+newstack H3
+freecell H4
+newstack D2
+freecell H3
+newstack H4
+freecell H4
+freecell D2
+newstack H4
+newstack D2
+freecell H4
+newstack H3
+freecell D2
+freecell H3
+freecell S5
+newstack H3
+newstack S5
+freecell H3
+freecell D3
+newstack D3
+newstack H3
+stack H4 S5
+freecell H3
+newstack D2
+stack H3 S4
+freecell H4
+freecell D2
+newstack H4
+freecell H4
+stack H4 S5
+freecell D3
+newstack D2
+newstack D3
+freecell H4
+freecell D3
+newstack H4
+freecell H4
+freecell D2
+stack H4 S5
+freecell H4
+newstack H4
+newstack D2
+freecell S5
+newstack D3
+freecell D2
+newstack S5
+freecell S5
+freecell H4
+newstack S5
+newstack H4
+freecell D3
+newstack D2
+freecell H4
+stack H4 S5
+newstack D3
+freecell D2
+freecell D3
+newstack D3
+newstack D2
+freecell D3
+freecell D2
+freecell H4
+newstack H4
+newstack D2
+freecell H4
+newstack D3
+freecell D2
+freecell D3
+newstack D2
+newstack D3
+freecell D2
+newstack H4
+freecell D3
+freecell H4
+freecell S5
+newstack H4
+newstack S5
+newstack D3
+freecell S5
+newstack D2
+freecell D3
+newstack S5
+freecell S5
+freecell D2
+freecell H4
+newstack D2
+newstack H4
+newstack S5
+freecell H4
+newstack D3
+stack H4 S5
+freecell D2
+freecell H4
+freecell S5
+newstack D2
+newstack H4
+freecell H4
+freecell D3
+newstack H4
+newstack D3
+freecell H4
+freecell D2
+newstack H4
+freecell D3
+freecell H4
+newstack D3
+newstack H4
+newstack D2
+freecell H4
+freecell D2
+newstack D2
+newstack H4
+freecell D2
+freecell D3
+newstack D2
+freecell H4
+freecell D2
+newstack H4
+freecell H4
+newstack H3
+newstack H4
+newstack D2
+stack D3 S4
+freecell H4
+freecell D2
+freecell H3
+newstack D2
+freecell D2
+newstack H4
+freecell H4
+newstack S5
+freecell S5
+newstack H4
+freecell H4
+newstack D2
+freecell D2
+newstack D3
+newstack D2
+newstack H4
+freecell D2
+newstack S5
+freecell H4
+newstack D2
+freecell D2
+stack H4 S5
+freecell D3
+stack D3 S4
+freecell H4
+freecell D3
+newstack D2
+newstack D3
+stack H4 S5
+freecell D3
+newstack H3
+freecell H3
+freecell H4
+newstack H4
+freecell S5
+newstack H3
+freecell H4
+newstack S5
+stack H4 S5
+freecell H3
+stack H3 S4
+freecell D2
+newstack D3
+newstack D2
+freecell H4
+freecell S5
+freecell D2
+freecell D3
+newstack D2
+freecell D2
+newstack S5
+freecell S5
+newstack D2
+freecell D2
+newstack H3
+newstack D2
+newstack S5
+stack H4 S5
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+newstack D3
+freecell D3
+newstack H4
+freecell H4
+freecell D2
+newstack D3
+newstack D2
+freecell D3
+newstack S5
+stack H4 S5
+freecell D2
+newstack D3
+freecell D3
+freecell H4
+newstack H4
+freecell S5
+newstack D3
+freecell H4
+newstack S5
+stack H4 S5
+freecell D3
+freecell H4
+newstack H4
+freecell S5
+newstack D3
+freecell D3
+freecell H4
+stack H3 S4
+newstack H4
+freecell H3
+newstack H3
+newstack D3
+freecell H3
+newstack S5
+freecell D3
+newstack H3
+freecell H3
+newstack D2
+freecell D2
+newstack H3
+freecell H3
+freecell S5
+newstack H3
+newstack S5
+freecell H3
+stack H3 S4
+freecell S5
+freecell H4
+newstack D3
+newstack H4
+newstack S5
+freecell H4
+freecell S5
+freecell D3
+newstack S5
+freecell S5
+newstack H3
+newstack S5
+newstack D3
+freecell S5
+newstack D2
+freecell D3
+freecell D2
+newstack D3
+newstack D2
+freecell D3
+stack D3 S4
+freecell H3
+newstack S5
+freecell D2
+freecell S5
+newstack D3
+newstack S5
+newstack D2
+freecell S5
+newstack H3
+freecell D2
+newstack S5
+stack H4 S5
+freecell H4
+freecell S5
+newstack H4
+freecell H4
+newstack D2
+freecell D2
+newstack H4
+freecell H4
+freecell H3
+newstack H4
+newstack H3
+freecell H4
+newstack D2
+freecell H3
+newstack H4
+freecell H4
+newstack S5
+stack H4 S5
+freecell D2
+freecell H4
+newstack H4
+freecell S5
+newstack D2
+freecell D2
+freecell H4
+stack D3 S4
+source D1
+newstack H4
+newstack D2
+newstack S5
+freecell D2
+source D2
+newstack H3
+freecell S5
+freecell H3
+newstack S5
+newstack H3
+freecell S5
+freecell H4
+stack H4 C5
+newstack S5
+freecell H3
+newstack H3
+freecell S5
+freecell H3
+newstack H3
+newstack S5
+freecell H3
+freecell S5
+freecell D3
+newstack D3
+newstack S5
+newstack H3
+stack H3 S4
+freecell S5
+freecell D3
+source D3
+newstack S5
+freecell H3
+newstack H3
+freecell S5
+freecell H3
+newstack H3
+newstack S5
+freecell H3
+stack H3 S4
+freecell H2
+freecell S5
+newstack S5
+newstack H2
+freecell H3
+newstack H3
+freecell H2
+freecell H3
+freecell S4
+newstack S4
+newstack H3
+newstack H2
+freecell H3
+stack H3 S4
+freecell H2
+newstack H2
+freecell H3
+newstack H3
+freecell H2
+freecell S4
+stack S4 H5
+newstack H2
+freecell S4
+newstack S4
+freecell H3
+stack H3 S4
+freecell H2
+freecell H3
+newstack H3
+newstack H2
+freecell S4
+stack S4 H5
+freecell H2
+newstack H2
+freecell H3
+stack H3 S4
+freecell S5
+freecell H2
+freecell H3
+newstack H3
+newstack H2
+newstack S5
+freecell H2
+freecell S5
+newstack S5
+newstack H2
+freecell S5
+freecell S4
+newstack S5
+newstack S4
+freecell H2
+freecell S4
+newstack S4
+newstack H2
+freecell S4
+stack S4 H5
+freecell S5
+freecell S4
+newstack S4
+newstack S5
+freecell H2
+freecell S5
+freecell S4
+newstack H2
+newstack S4
+newstack S5
+freecell S4
+stack S4 H5
+freecell H2
+freecell S4
+newstack S4
+newstack H2
+freecell S4
+freecell S5
+freecell H2
+newstack H2
+newstack S5
+newstack S4
+freecell S5
+freecell H2
+freecell S4
+newstack S4
+freecell H5
+newstack H2
+newstack H5
+newstack S5
+freecell H5
+freecell S5
+newstack S5
+newstack H5
+freecell S5
+freecell S4
+stack S4 H5
+newstack S5
+freecell S4
+newstack S4
+freecell H5
+freecell S4
+newstack H5
+newstack S4
+stack S4 H5
+freecell S5
+freecell S4
+freecell H5
+newstack H5
+newstack S4
+newstack S5
+freecell S4
+stack S4 H5
+freecell S5
+newstack S5
+freecell S4
+newstack S4
+freecell S5
+freecell H5
+newstack S5
+freecell S5
+freecell S4
+freecell H2
+newstack S4
+newstack H2
+newstack S5
+newstack H5
+freecell S5
+freecell H5
+newstack H5
+newstack S5
+freecell H5
+freecell H2
+newstack H5
+newstack H2
+freecell S5
+freecell H2
+newstack S5
+newstack H2
+freecell S5
+freecell H5
+newstack S5
+newstack H5
+freecell H2
+freecell S5
+freecell H5
+newstack H5
+freecell S4
+stack S4 H5
+newstack S5
+newstack H2
+freecell S4
+newstack S4
+freecell H2
+freecell S4
+newstack S4
+newstack H2
+freecell S4
+stack S4 H5
+freecell S5
+freecell H2
+freecell S4
+freecell H5
+newstack S4
+newstack S5
+newstack H2
+newstack H5
+freecell H2
+freecell S5
+freecell S4
+newstack S5
+stack S4 H5
+newstack H2
+freecell S4
+newstack S4
+freecell H5
+freecell S4
+newstack H5
+newstack S4
+stack S4 H5
+freecell H2
+freecell S4
+newstack S4
+newstack H2
+freecell H5
+freecell S4
+freecell H2
+newstack S4
+newstack H2
+newstack H5
+freecell H2
+freecell H5
+freecell S4
+freecell S5
+newstack S4
+freecell S4
+newstack H4
+newstack S4
+newstack S5
+newstack H5
+freecell S5
+newstack H2
+freecell H5
+newstack S5
+freecell S5
+freecell H2
+newstack S5
+newstack H2
+freecell S5
+newstack H5
+freecell H2
+newstack S5
+freecell S5
+freecell H5
+freecell S4
+newstack H5
+newstack S4
+newstack S5
+freecell S4
+stack S4 H5
+newstack H2
+freecell S5
+freecell S4
+newstack S4
+freecell H2
+newstack S5
+freecell S4
+stack S4 H5
+newstack H2
+freecell S5
+freecell S4
+newstack S4
+freecell H2
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+newstack H2
+newstack S4
+newstack H5
+freecell S4
+stack S4 H5
+newstack S5
+freecell S4
+freecell H5
+newstack S4
+freecell S4
+freecell H2
+newstack H5
+newstack H2
+freecell S5
+freecell H2
+newstack H2
+newstack S5
+freecell H2
+freecell S5
+stack S4 H5
+freecell H4
+newstack S5
+newstack H4
+newstack H2
+freecell H4
+stack H4 S5
+freecell H2
+newstack H2
+freecell S4
+newstack S4
+freecell H2
+freecell S4
+newstack S4
+newstack H2
+freecell S4
+freecell H2
+freecell H5
+newstack H2
+newstack H5
+newstack S4
+stack S4 H5
+freecell H2
+freecell S4
+newstack S4
+newstack H2
+freecell H5
+freecell H2
+newstack H2
+newstack H5
+freecell H2
+freecell H5
+freecell S4
+newstack H2
+newstack S4
+newstack H5
+freecell S4
+stack S4 H5
+freecell H2
+freecell S4
+freecell H5
+freecell H4
+newstack H4
+newstack H5
+newstack S4
+stack S4 H5
+newstack H2
+freecell S4
+freecell H2
+freecell H5
+newstack H2
+newstack H5
+stack S4 H5
+freecell H2
+freecell S4
+newstack S4
+freecell H5
+newstack H2
+freecell H2
+freecell S4
+newstack H2
+newstack S4
+freecell H2
+freecell H4
+stack H4 S5
+newstack H2
+freecell H4
+newstack H4
+freecell S4
+newstack H5
+stack S4 H5
+freecell H4
+freecell S4
+freecell H5
+newstack H5
+newstack S4
+stack S4 H5
+newstack H4
+freecell S4
+freecell H4
+freecell H5
+newstack H4
+freecell H4
+stack H4 C5
+freecell H2
+newstack H5
+freecell H5
+freecell S5
+newstack H5
+newstack S5
+freecell H5
+newstack H2
+freecell S5
+newstack H5
+freecell H5
+freecell H2
+newstack S4
+newstack S5
+freecell S5
+freecell S4
+newstack S5
+freecell S5
+newstack H2
+freecell H2
+newstack H1
+newstack H2
+newstack S5
+newstack S4
+freecell S5
+newstack H5
+freecell S4
+stack S4 H5
+newstack S5
+freecell S4
+freecell S5
+freecell H5
+newstack S5
+newstack H5
+stack S4 H5
+freecell S5
+freecell S4
+newstack S4
+freecell H5
+newstack S5
+freecell S5
+freecell S4
+freecell H2
+newstack S4
+newstack H2
+newstack S5
+freecell H2
+newstack H5
+freecell S5
+newstack H2
+freecell H2
+freecell H5
+newstack H2
+newstack H5
+freecell H2
+newstack S5
+freecell H5
+newstack H2
+freecell H2
+freecell S5
+freecell S4
+newstack S5
+newstack S4
+newstack H2
+freecell S4
+newstack H5
+stack S4 H5
+freecell H2
+freecell S4
+newstack S4
+freecell H5
+newstack H2
+freecell S4
+newstack H5
+stack S4 H5
+freecell H2
+freecell S4
+newstack S4
+freecell H5
+freecell S4
+freecell S5
+newstack S4
+freecell S4
+newstack H5
+newstack S4
+newstack S5
+freecell S4
+stack S4 H5
+newstack H2
+freecell S5
+freecell H2
+newstack S5
+newstack H2
+freecell S5
+freecell S4
+newstack S4
+freecell H2
+freecell S4
+newstack H2
+newstack S4
+freecell H2
+newstack S5
+freecell S4
+newstack H2
+freecell H2
+freecell S5
+newstack H2
+newstack S5
+freecell H2
+freecell H5
+newstack H2
+freecell S5
+freecell H2
+newstack S5
+newstack H2
+freecell S5
+freecell H1
+stack H1 S2
+newstack S5
+freecell H3
+newstack H5
+newstack H3
+newstack S4
+stack S4 H5
+freecell H2
+freecell H3
+stack H3 S4
+newstack H2
+freecell S5
+freecell H2
+newstack H2
+newstack S5
+freecell H2
+freecell S5
+freecell H3
+newstack H3
+newstack S5
+newstack H2
+freecell S5
+freecell H2
+newstack H2
+newstack S5
+freecell H2
+freecell H3
+stack H3 S4
+newstack H2
+freecell H3
+newstack H3
+freecell S5
+freecell H3
+newstack S5
+newstack H3
+freecell S5
+freecell H2
+newstack S5
+newstack H2
+freecell H3
+freecell H2
+freecell S5
+newstack H2
+freecell H2
+freecell S4
+newstack S4
+newstack H2
+newstack S5
+newstack H3
+stack H3 S4
+freecell S5
+freecell H2
+newstack S5
+newstack H2
+freecell S5
+freecell H3
+newstack H3
+newstack S5
+freecell H2
+freecell S5
+newstack S5
+newstack H2
+freecell S5
+freecell H2
+freecell H3
+newstack H2
+newstack H3
+newstack S5
+freecell H3
+stack H3 S4
+freecell H2
+freecell S5
+freecell H3
+newstack S5
+newstack H3
+newstack H2
+freecell H3
+stack H3 S4
+freecell S5
+freecell H3
+freecell H2
+newstack S5
+newstack H2
+newstack H3
+freecell H2
+freecell S5
+newstack H2
+freecell H2
+freecell S4
+stack S4 H5
+newstack H2
+newstack S5
+freecell H2
+freecell H3
+freecell S5
+freecell S4
+newstack S5
+newstack S4
+newstack H3
+newstack H2
+freecell H3
+stack H3 S4
+freecell H2
+newstack H2
+freecell H3
+newstack H3
+freecell H2
+freecell S4
+stack S4 H5
+newstack H2
+freecell S5
+freecell H3
+freecell H2
+freecell S4
+newstack H2
+newstack S4
+newstack H3
+newstack S5
+freecell H3
+stack H3 S4
+freecell S5
+newstack S5
+freecell H3
+newstack H3
+freecell S5
+freecell S4
+newstack S5
+newstack S4
+freecell H3
+stack H3 S4
+freecell S5
+freecell H3
+newstack H3
+newstack S5
+freecell S4
+stack S4 H5
+freecell H3
+stack H3 S4
+freecell H2
+freecell H3
+newstack H3
+newstack H2
+freecell H3
+stack H3 S4
+freecell H4
+stack H4 S5
+newstack H4
+freecell S5
+newstack S5
+freecell H2
+freecell S5
+newstack S5
+newstack H2
+freecell S5
+freecell H2
+freecell H4
+newstack H2
+newstack H4
+newstack S5
+freecell H4
+stack H4 S5
+freecell H2
+freecell H4
+freecell S5
+newstack S5
+newstack H4
+newstack H2
+freecell H4
+stack H4 S5
+freecell H2
+newstack H2
+freecell H4
+newstack H4
+freecell H2
+freecell S5
+newstack H2
+newstack S5
+freecell H4
+freecell S5
+freecell H2
+newstack S5
+freecell S5
+freecell H3
+newstack H3
+newstack S5
+newstack H2
+newstack H4
+stack H4 S5
+freecell H2
+freecell H4
+newstack H4
+newstack H2
+freecell H4
+stack H4 S5
+stack H4 C5
+freecell S5
+freecell H3
+stack H3 S4
+newstack S5
+freecell H3
+newstack H3
+freecell S5
+freecell H2
+freecell H3
+freecell S4
+newstack H3
+newstack S4
+newstack H2
+newstack S5
+freecell H2
+freecell S5
+newstack S5
+newstack H2
+freecell S5
+freecell S4
+newstack S5
+newstack S4
+freecell H2
+freecell S4
+newstack H2
+newstack S4
+freecell H2
+freecell S5
+newstack H2
+newstack S5
+freecell S4
+freecell S5
+newstack S4
+newstack S5
+freecell S4
+freecell H2
+freecell S5
+newstack S5
+freecell H3
+newstack H2
+newstack H3
+newstack S4
+freecell H3
+stack H3 S4
+freecell S5
+freecell H3
+newstack H3
+newstack S5
+freecell S4
+freecell S5
+freecell H3
+freecell H2
+newstack H3
+freecell H3
+newstack S5
+newstack H3
+newstack S4
+newstack H2
+freecell S4
+freecell H3
+freecell H2
+newstack H2
+newstack H3
+newstack S4
+freecell H3
+stack H3 S4
+freecell H2
+freecell H3
+newstack H3
+freecell S4
+freecell H3
+freecell S5
+newstack H3
+freecell H3
+newstack H4
+newstack H3
+newstack S5
+newstack S4
+stack S4 H5
+newstack H2
+freecell S5
+freecell H2
+newstack H2
+newstack S5
+freecell H2
+freecell S5
+freecell H3
+newstack S5
+newstack H3
+newstack H2
+freecell H3
+stack H3 S4
+freecell S5
+freecell H4
+newstack S5
+newstack H4
+stack H4 S5
+freecell H3
+newstack H3
+freecell H2
+newstack H2
+freecell H3
+freecell H2
+newstack H2
+newstack H3
+freecell H2
+freecell H3
+freecell H4
+newstack H4
+newstack H3
+newstack H2
+freecell H3
+freecell H2
+newstack H2
+newstack H3
+freecell H2
+freecell H4
+stack H4 S5
+newstack H2
+freecell H4
+freecell H3
+newstack H3
+newstack H4
+freecell H3
+stack H3 S4
+freecell H2
+freecell S5
+newstack H2
+newstack S5
+stack H4 S5
+freecell H2
+freecell H4
+freecell H3
+stack H4 S5
+newstack H2
+newstack H3
+freecell H4
+newstack H4
+freecell H3
+freecell H4
+newstack H4
+newstack H3
+freecell H4
+stack H4 S5
+freecell H2
+freecell H4
+newstack H4
+newstack H2
+freecell H3
+freecell H2
+freecell S5
+newstack H2
+newstack S5
+newstack H3
+freecell S5
+freecell H3
+newstack H3
+newstack S5
+freecell H3
+freecell H2
+stack H3 S4
+freecell H4
+stack H4 S5
+newstack H2
+freecell H4
+newstack H4
+freecell H2
+freecell S5
+freecell H4
+freecell H3
+newstack S5
+newstack H3
+newstack H4
+newstack H2
+freecell H4
+freecell H2
+newstack H2
+newstack H4
+freecell H2
+freecell H3
+freecell S5
+newstack H3
+newstack S5
+freecell H3
+stack H3 S4
+freecell C5
+source C5
+newstack H2
+freecell H4
+stack H4 S5
+newstack H4
+freecell S5
+freecell H4
+newstack S5
+newstack H4
+stack H4 S5
+freecell H3
+newstack H3
+freecell H4
+newstack H4
+freecell H3
+stack H3 S4
+freecell S5
+freecell H3
+newstack H3
+newstack S5
+freecell H4
+stack H4 S5
+freecell H3
+freecell H4
+newstack H4
+newstack H3
+freecell S5
+freecell H3
+newstack H3
+newstack S5
+freecell H3
+stack H3 S4
+freecell H4
+stack H4 S5
+freecell H3
+newstack H3
+freecell H4
+newstack H4
+freecell S5
+freecell H4
+freecell H3
+newstack S5
+newstack H4
+newstack H3
+freecell H4
+stack H4 S5
+freecell S4
+newstack S4
+freecell H3
+stack H3 S4
+freecell H4
+newstack H4
+freecell H3
+freecell H4
+newstack H3
+newstack H4
+freecell H3
+stack H3 S4
+freecell S5
+freecell H4
+newstack H4
+newstack S5
+freecell H3
+newstack H3
+freecell S5
+freecell H3
+newstack H3
+newstack S5
+freecell H3
+stack H3 S4
+freecell H4
+stack H4 S5
+newstack H3
+freecell H4
+freecell S5
+newstack S5
+newstack H4
+stack H4 S5
+freecell S4
+freecell H4
+newstack H4
+newstack S4
+freecell S5
+freecell S4
+newstack S4
+newstack S5
+freecell S4
+stack S4 H5
+freecell H4
+stack H4 S5
+freecell H3
+stack H3 S4
+freecell H4
+newstack H4
+freecell H3
+freecell S5
+freecell H4
+newstack S5
+freecell S5
+newstack H3
+freecell H3
+stack H3 S4
+freecell H2
+newstack S5
+newstack H2
+newstack H4
+stack H4 S5
+freecell H2
+freecell H3
+newstack H3
+newstack H2
+freecell H3
+stack H3 S4
+freecell H4
+newstack H4
+freecell H2
+freecell H4
+freecell H3
+newstack H3
+newstack H4
+newstack H2
+freecell H4
+stack H4 S5
+freecell H3
+stack H3 S4
+newstack H4
+freecell H4
+freecell H3
+newstack H4
+newstack H3
+freecell H2
+freecell H3
+newstack H2
+newstack H3
+freecell H2
+freecell H4
+stack H4 S5
+newstack H2
+freecell H3
+newstack H3
+freecell H2
+freecell S4
+newstack S4
+newstack H2
+freecell H3
+freecell H2
+newstack H2
+newstack H3
+stack H3 S4
+freecell H2
+freecell H3
+freecell S4
+newstack H3
+newstack S4
+newstack H2
+freecell S4
+freecell H2
+newstack H2
+newstack S4
+freecell H2
+freecell H3
+stack H3 S4
+newstack H2
+freecell H3
+newstack H3
+freecell S4
+freecell H3
+newstack S4
+newstack H3
+stack H3 S4
+freecell H2
+freecell H3
+freecell H5
+stack H3 S4
+newstack H2
+newstack H5
+freecell H3
+newstack H3
+freecell S4
+stack S4 H5
+freecell H3
+newstack H3
+stack H3 S4
+freecell H2
+freecell H3
+newstack H3
+newstack H2
+freecell S4
+newstack S4
+freecell H2
+freecell S4
+newstack S4
+newstack H2
+freecell S4
+stack S4 H5
+freecell H3
+stack H3 S4
+freecell H4
+newstack H4
+freecell H2
+newstack H2
+freecell H3
+newstack H3
+freecell H2
+freecell H3
+newstack H3
+newstack H2
+freecell H3
+freecell H2
+freecell S4
+newstack S4
+newstack H3
+newstack H2
+freecell H3
+stack H3 S4
+freecell H2
+newstack H2
+freecell H3
+newstack H3
+freecell H2
+freecell H3
+freecell S4
+newstack H3
+newstack S4
+newstack H2
+freecell S4
+stack S4 H5
+freecell H3
+stack H3 S4
+freecell H4
+stack H4 S5
+freecell H3
+newstack H3
+freecell S4
+newstack S4
+freecell H5
+freecell H2
+newstack H2
+newstack H5
+freecell S4
+stack S4 H5
+freecell H2
+freecell S4
+newstack S4
+newstack H2
+freecell H5
+freecell H2
+newstack H5
+newstack H2
+freecell H5
+freecell S4
+freecell H2
+newstack H2
+newstack H5
+newstack S4
+stack S4 H5
+freecell H2
+freecell H3
+stack H3 S4
+newstack H2
+freecell H3
+newstack H3
+freecell S4
+freecell H5
+newstack S4
+newstack H5
+freecell S4
+stack S4 H5
+freecell H3
+stack H3 S4
+freecell H2
+freecell H3
+freecell S4
+newstack S4
+newstack H3
+newstack H2
+freecell H5
+freecell H2
+newstack H5
+newstack H2
+freecell H5
+freecell H3
+stack H3 S4
+newstack H5
+freecell H2
+newstack H2
+freecell H5
+freecell H3
+newstack H5
+freecell H2
+newstack H3
+newstack H2
+freecell H3
+freecell H5
+freecell H2
+newstack H2
+newstack H5
+newstack H3
+stack H3 S4
+freecell H5
+freecell H2
+freecell H3
+newstack H2
+newstack H3
+newstack H5
+freecell H3
+stack H3 S4
+freecell H2
+freecell H5
+freecell H3
+newstack H5
+freecell H5
+newstack H3
+freecell S4
+newstack H2
+freecell H3
+newstack S4
+newstack H3
+newstack H5
+freecell H3
+stack H3 S4
+freecell H2
+freecell H5
+freecell H3
+newstack H3
+freecell S4
+freecell H3
+newstack H5
+freecell H5
+newstack H3
+newstack H2
+freecell H2
+newstack H5
+freecell H5
+freecell H3
+newstack H5
+freecell H5
+newstack H2
+newstack H5
+newstack H3
+newstack S4
+freecell H3
+stack H3 S4
+freecell H5
+freecell H3
+newstack H3
+newstack H5
+freecell H3
+stack H3 S4
+freecell H2
+freecell H3
+newstack H3
+freecell S4
+freecell H3
+newstack S4
+stack H3 S4
+freecell H4
+newstack H4
+newstack H2
+freecell H5
+freecell H2
+newstack H2
+newstack H5
+freecell H2
+freecell H5
+freecell H4
+newstack H5
+newstack H4
+newstack H2
+freecell H4
+freecell H2
+newstack H2
+newstack H4
+freecell H2
+freecell H5
+newstack H2
+newstack H5
+freecell H2
+freecell H3
+newstack H3
+newstack H2
+freecell H4
+freecell H2
+newstack H2
+newstack H4
+freecell H2
+freecell H4
+freecell H3
+newstack H4
+newstack H3
+newstack H2
+freecell H3
+stack H3 S4
+freecell H5
+freecell H4
+stack H4 S5
+newstack H5
+freecell H3
+newstack H3
+freecell H5
+freecell H2
+freecell S4
+newstack H2
+freecell H2
+newstack H5
+newstack S4
+freecell H5
+freecell S4
+newstack S4
+newstack H4
+newstack H5
+newstack H2
+freecell H5
+freecell H2
+newstack H2
+newstack H5
+freecell H2
+freecell H3
+stack H3 S4
+newstack H2
+freecell H4
+stack H4 S5
+freecell H2
+newstack H2
+freecell H3
+newstack H3
+freecell H2
+freecell H3
+newstack H3
+newstack H2
+freecell H3
+freecell H5
+freecell S4
+newstack H5
+newstack S4
+freecell H5
+stack H3 S4
+freecell H2
+newstack H2
+newstack H5
+freecell H3
+newstack H3
+freecell H5
+freecell S4
+freecell H2
+newstack S4
+newstack H2
+freecell S4
+newstack H5
+freecell H2
+newstack S4
+freecell S4
+freecell H5
+newstack S4
+newstack H5
+newstack H2
+freecell H5
+freecell S4
+newstack H5
+stack S4 H5
+freecell H4
+freecell H3
+newstack H3
+newstack H4
+freecell H2
+freecell H3
+stack H3 S4
+newstack H2
+freecell H3
+newstack H3
+freecell H4
+freecell H3
+newstack H4
+newstack H3
+freecell H4
+freecell H2
+freecell S4
+newstack S4
+newstack H2
+newstack H4
+freecell H3
+stack H3 S4
+freecell H4
+newstack H4
+freecell H2
+freecell H3
+newstack H3
+newstack H2
+freecell H4
+stack H4 S5
+freecell H3
+stack H3 S4
+freecell H5
+freecell H3
+freecell H2
+freecell S4
+newstack S4
+freecell H4
+newstack H4
+newstack H2
+newstack H3
+newstack H5
+freecell H3
+freecell H5
+newstack H5
+newstack H3
+freecell H5
+freecell H2
+newstack H5
+newstack H2
+freecell H3
+freecell H2
+freecell H5
+freecell H4
+stack H4 S5
+freecell S4
+newstack H5
+stack S4 H5
+newstack H4
+freecell S4
+newstack S4
+newstack H2
+newstack H3
+stack H3 S4
+freecell H2
+freecell H3
+newstack H3
+newstack H2
+freecell H3
+stack H3 S4
+freecell H4
+stack H4 S5
+freecell H3
+newstack H3
+freecell S4
+stack S4 H5
+stack H3 S4
+freecell H4
+newstack H4
+freecell H3
+newstack H3
+freecell H4
+stack H4 S5
+freecell S4
+freecell H2
+freecell H5
+newstack H2
+freecell H3
+freecell H2
+newstack H5
+freecell H5
+newstack H4
+newstack H5
+newstack H2
+newstack H3
+newstack S4
+freecell H3
+stack H3 S4
+freecell H2
+freecell H3
+newstack H3
+newstack H2
+freecell S4
+freecell H2
+freecell H3
+freecell H5
+newstack H3
+newstack H5
+newstack H2
+newstack S4
+stack S4 H5
+freecell H2
+freecell S4
+newstack S4
+newstack H2
+freecell S4
+stack S4 H5
+freecell H3
+stack H3 S4
+freecell H2
+newstack H2
+freecell H3
+freecell S4
+newstack S4
+newstack H3
+stack H3 S4
+freecell H5
+freecell H3
+newstack H3
+newstack H5
+freecell S4
+stack S4 H5
+freecell H3
+stack H3 S4
+freecell H2
+freecell H3
+newstack H3
+newstack H2
+freecell S4
+freecell H5
+newstack H5
+newstack S4
+freecell H5
+freecell S4
+newstack S4
+newstack H5
+freecell H2
+freecell H5
+freecell S4
+newstack S4
+newstack H5
+newstack H2
+freecell H5
+freecell H2
+newstack H2
+newstack H5
+freecell H2
+freecell S4
+freecell H5
+freecell H3
+newstack H5
+freecell H5
+newstack S4
+newstack H5
+newstack H3
+newstack H2
+freecell H3
+stack H3 S4
+freecell H2
+newstack H2
+freecell H5
+freecell H2
+newstack H2
+newstack H5
+freecell H2
+freecell H5
+freecell H3
+newstack H2
+newstack H3
+newstack H5
+freecell H3
+stack H3 S4
+freecell H2
+newstack H3
+newstack H2
+freecell H5
+freecell H2
+newstack H5
+newstack H2
+freecell H5
+freecell H3
+stack H3 S4
+freecell H4
+newstack H5
+newstack H4
+freecell H2
+newstack H2
+freecell H4
+stack H4 S5
+freecell H5
+freecell H3
+freecell S4
+newstack H5
+freecell H2
+newstack H2
+freecell H5
+freecell H2
+newstack H2
+newstack H5
+freecell H2
+stack S4 H5
+freecell S4
+freecell H5
+newstack H4
+newstack S4
+newstack H5
+newstack H2
+newstack H3
+freecell H2
+freecell H5
+newstack H2
+newstack H5
+freecell H3
+freecell H5
+freecell H2
+freecell S4
+newstack H2
+newstack S4
+newstack H5
+newstack H3
+stack H3 S4
+freecell H5
+freecell H3
+newstack H3
+newstack H5
+freecell H3
+stack H3 S4
+freecell H2
+freecell H5
+freecell H3
+freecell S4
+newstack H2
+newstack H3
+newstack H5
+newstack S4
+stack S4 H5
+freecell H3
+stack H3 S4
+freecell H2
+freecell H3
+newstack H3
+newstack H2
+freecell H3
+stack H3 S4
+freecell H4
+stack H4 S5
+freecell H3
+newstack H3
+freecell S4
+freecell H5
+freecell H3
+newstack H5
+newstack S4
+freecell H4
+newstack H4
+newstack H3
+freecell H4
+freecell H3
+freecell H2
+newstack H3
+newstack H2
+newstack H4
+freecell H2
+freecell H4
+freecell H3
+stack H3 S4
+freecell H5
+newstack H2
+newstack H5
+newstack H4
+freecell H5
+freecell H4
+newstack H4
+newstack H5
+freecell H4
+freecell H3
+newstack H3
+newstack H4
+freecell H5
+freecell H4
+newstack H4
+newstack H5
+freecell H4
+freecell H5
+freecell H3
+newstack H5
+newstack H3
+newstack H4
+freecell H3
+stack H3 S4
+freecell H5
+freecell H3
+freecell H4
+newstack H4
+newstack H3
+newstack H5
+freecell H3
+stack H3 S4
+freecell H4
+stack H4 S5
+newstack H3
+freecell H3
+freecell H5
+freecell S4
+freecell H2
+newstack H4
+newstack H5
+newstack H2
+newstack S4
+newstack H3
+stack H3 S4
+freecell H2
+freecell H3
+freecell H5
+stack H3 S4
+freecell H3
+freecell H4
+stack H4 S5
+stack H3 S4
+newstack H3
+newstack H2
+freecell H2
+freecell S4
+freecell H3
+newstack H4
+newstack H3
+freecell H4
+newstack S4
+newstack H4
+newstack H2
+newstack H5
+freecell H2
+freecell H5
+newstack H5
+newstack H2
+freecell H5
+freecell H4
+stack H4 S5
+newstack H5
+freecell H3
+freecell H2
+freecell S4
+stack S4 H5
+stack H3 S4
+freecell H4
+newstack H2
+newstack H4
+freecell H3
+freecell S4
+newstack S4
+newstack H3
+stack H3 S4
+freecell H5
+freecell H3
+freecell S4
+newstack S4
+newstack H3
+newstack H5
+freecell H3
+stack H3 S4
+freecell H5
+newstack H5
+freecell H3
+newstack H3
+freecell H5
+freecell S4
+newstack H5
+stack S4 H5
+freecell H4
+stack H4 S5
+freecell S4
+newstack S4
+freecell H5
+freecell S4
+newstack H5
+newstack S4
+stack S4 H5
+freecell H2
+freecell S4
+newstack S4
+newstack H2
+freecell H5
+freecell H2
+newstack H2
+newstack H5
+freecell H2
+freecell H5
+freecell S4
+newstack H5
+newstack S4
+newstack H2
+freecell S4
+stack S4 H5
+freecell H2
+newstack H2
+freecell S4
+newstack S4
+freecell H2
+freecell H5
+newstack H2
+freecell H3
+freecell S4
+freecell H2
+newstack H4
+newstack S4
+freecell S4
+newstack H1
+newstack S4
+newstack H2
+newstack H3
+stack H3 S4
+newstack H5
+freecell H2
+freecell H5
+newstack H5
+newstack H2
+freecell H5
+freecell H2
+freecell H3
+newstack H3
+newstack H2
+freecell H3
+newstack H5
+freecell H2
+newstack H3
+freecell H3
+freecell H5
+newstack H3
+newstack H5
+freecell H3
+newstack H2
+freecell H5
+freecell H2
+freecell S4
+newstack H2
+newstack S4
+newstack H5
+stack H3 S4
+freecell H2
+freecell H5
+newstack H5
+newstack H2
+freecell H3
+freecell H2
+newstack H3
+freecell H3
+freecell S4
+newstack H3
+newstack S4
+stack S4 H5
+newstack H2
+freecell H3
+stack H3 S4
+freecell H2
+newstack H2
+freecell H3
+freecell H2
+freecell S4
+newstack H2
+newstack S4
+stack H3 S4
+freecell H2
+freecell H3
+stack S4 H5
+freecell H1
+stack H1 S2
+freecell S4
+freecell H5
+newstack H2
+newstack H3
+freecell H3
+newstack H5
+newstack H3
+newstack S4
+stack S4 H5
+freecell H2
+freecell S4
+freecell H3
+freecell H4
+newstack H3
+newstack H4
+newstack S4
+newstack H2
+freecell S4
+stack S4 H5
+freecell H2
+newstack H2
+freecell S4
+newstack S4
+freecell H2
+freecell H5
+newstack H2
+newstack H5
+freecell S4
+stack S4 H5
+freecell H2
+freecell S4
+newstack S4
+newstack H2
+freecell H5
+freecell H2
+newstack H2
+newstack H5
+freecell H2
+freecell H5
+freecell S4
+newstack H2
+newstack S4
+newstack H5
+freecell S4
+stack S4 H5
+freecell H2
+freecell H4
+stack H4 S5
+newstack H2
+freecell S4
+newstack S4
+freecell H2
+freecell H5
+freecell H3
+freecell S4
+newstack H1
+newstack S4
+newstack H3
+newstack H5
+newstack H2
+freecell H5
+freecell H2
+newstack H2
+newstack H5
+freecell H2
+freecell H3
+stack H3 S4
+newstack H2
+freecell H5
+newstack H5
+freecell H2
+freecell H5
+newstack H5
+newstack H2
+freecell H5
+freecell H2
+freecell H3
+newstack H2
+newstack H3
+newstack H5
+freecell H3
+freecell H5
+newstack H5
+newstack H3
+freecell H5
+freecell H2
+newstack H5
+newstack H2
+freecell H3
+freecell H2
+newstack H3
+newstack H2
+freecell H3
+stack H3 S4
+freecell H5
+freecell H3
+freecell H2
+freecell S4
+newstack H2
+newstack S4
+newstack H3
+newstack H5
+freecell H3
+freecell H5
+newstack H5
+newstack H3
+stack H3 S4
+freecell H5
+freecell H2
+newstack H5
+newstack H2
+freecell H3
+newstack H3
+freecell H2
+freecell H3
+newstack H3
+newstack H2
+freecell H3
+stack H3 S4
+freecell H5
+freecell H3
+newstack H3
+newstack H5
+freecell H2
+freecell H5
+newstack H2
+newstack H5
+freecell H2
+freecell S4
+stack S4 H5
+newstack H2
+freecell S4
+newstack S4
+freecell H5
+freecell S4
+newstack H5
+newstack S4
+stack S4 H5
+freecell H2
+freecell S4
+freecell H5
+newstack H5
+newstack S4
+newstack H2
+freecell S4
+stack S4 H5
+freecell H2
+newstack H2
+freecell S4
+newstack S4
+freecell H2
+freecell H5
+newstack H2
+freecell H2
+freecell S4
+newstack S4
+freecell H3
+freecell H1
+stack H1 S2
+stack H3 S4
+freecell H4
+newstack H2
+newstack H5
+newstack H4
+freecell H3
+newstack H3
+freecell H4
+freecell H3
+newstack H3
+newstack H4
+freecell H3
+stack H3 S4
+freecell H5
+freecell H3
+newstack H3
+newstack H5
+freecell H4
+freecell H5
+newstack H4
+newstack H5
+freecell H4
+stack H4 S5
+freecell S4
+stack S4 H5
+freecell H3
+freecell S4
+freecell H2
+stack S4 H5
+stack H3 S4
+newstack H2
+freecell H4
+newstack H4
+freecell H3
+newstack H3
+freecell S4
+newstack S4
+freecell H5
+freecell S4
+newstack H5
+newstack S4
+stack S4 H5
+freecell H3
+stack H3 S4
+freecell H4
+freecell H3
+newstack H3
+newstack H4
+freecell S4
+freecell H5
+newstack S4
+newstack H5
+freecell S4
+stack S4 H5
+freecell H4
+freecell S4
+freecell H5
+newstack H5
+newstack S4
+newstack H4
+freecell S4
+stack S4 H5
+freecell H4
+newstack H4
+freecell S4
+newstack S4
+freecell H4
+freecell H5
+newstack H4
+newstack H5
+freecell H4
+stack H4 S5
+freecell H5
+newstack H5
+freecell H3
+stack H3 S4
+freecell H5
+newstack H5
+freecell H3
+newstack H3
+freecell H5
+freecell H3
+freecell H2
+stack H3 S4
+newstack H5
+newstack H2
+freecell H3
+newstack H3
+freecell H2
+freecell H5
+freecell H3
+stack H3 S4
+newstack H3
+newstack H5
+newstack H2
+freecell H5
+freecell S4
+freecell H3
+newstack H5
+freecell H5
+freecell H2
+newstack H4
+newstack H2
+freecell H4
+stack H4 S5
+freecell H1
+newstack H1
+newstack H5
+newstack H3
+newstack S4
+stack S4 H5
+freecell H3
+stack H3 S4
+freecell H2
+freecell H3
+freecell S4
+newstack S4
+freecell H5
+freecell S4
+newstack H5
+stack S4 H5
+newstack H3
+newstack H2
+freecell H3
+stack H3 S4
+freecell H2
+newstack H2
+freecell H3
+newstack H3
+freecell H2
+freecell S4
+newstack H2
+newstack S4
+freecell H3
+freecell H2
+stack H3 S4
+newstack H2
+freecell H5
+freecell H3
+freecell S4
+freecell H2
+newstack H3
+newstack H5
+freecell H5
+newstack H2
+freecell H2
+freecell H3
+newstack H2
+newstack H3
+newstack H5
+newstack S4
+stack S4 H5
+freecell H3
+freecell S4
+freecell H5
+newstack H5
+newstack S4
+newstack H3
+stack H3 S4
+freecell H5
+freecell H3
+newstack H3
+newstack H5
+freecell S4
+stack S4 H5
+freecell H3
+stack H3 S4
+freecell H2
+freecell H3
+freecell S4
+newstack H2
+freecell H2
+stack S4 H5
+freecell S4
+newstack S4
+freecell H5
+freecell S4
+newstack H5
+newstack S4
+stack S4 H5
+freecell H1
+source H1
+newstack H2
+newstack H3
+stack H3 S4
+freecell H2
+source H2
+freecell H3
+newstack H3
+freecell S4
+freecell H5
+newstack S4
+newstack H5
+freecell S4
+stack S4 H5
+freecell H3
+stack H3 S4
+freecell H4
+newstack H4
+freecell H3
+newstack H3
+freecell S4
+newstack S4
+freecell H5
+freecell S4
+newstack S4
+newstack H5
+freecell S4
+stack S4 H5
+freecell H3
+stack H3 S4
+source H3
+freecell S4
+newstack S4
+freecell H5
+newstack H5
+freecell S4
+stack S4 H5
+freecell H4
+source H4
+newstack S4
+freecell H5
+newstack H5
+source H5
+freecell S4
+freecell S5
+newstack S4
+newstack S5
+freecell S4
+freecell S2
+newstack S2
+newstack S4
+freecell S5
+freecell S4
+newstack S4
+newstack S5
+freecell S4
+stack S4 D5
+freecell S2
+freecell S5
+newstack S5
+newstack S2
+freecell S5
+freecell S2
+newstack S2
+newstack S5
+freecell S2
+freecell S4
+newstack S4
+newstack S2
+freecell S5
+freecell S2
+newstack S2
+newstack S5
+freecell S2
+freecell S5
+freecell S4
+newstack S5
+newstack S4
+newstack S2
+freecell S4
+stack S4 D5
+freecell S5
+freecell S4
+freecell S2
+newstack S5
+newstack S2
+newstack S4
+freecell S2
+freecell S5
+freecell D5
+newstack D5
+newstack S5
+newstack S2
+freecell S4
+stack S4 D5
+freecell S2
+newstack S2
+freecell S5
+freecell S4
+newstack S4
+newstack S5
+freecell S2
+freecell S5
+newstack S5
+newstack S2
+freecell S5
+freecell S2
+freecell S4
+newstack S2
+newstack S4
+newstack S5
+freecell S4
+stack S4 D5
+freecell S5
+newstack S5
+freecell S2
+freecell S4
+freecell S5
+newstack S5
+newstack S2
+newstack S4
+freecell S2
+freecell S5
+newstack S2
+newstack S5
+freecell S4
+freecell S5
+freecell S2
+newstack S5
+freecell S5
+freecell D5
+newstack S5
+newstack D5
+newstack S2
+newstack S4
+stack S4 D5
+freecell S2
+freecell S4
+freecell D5
+newstack S4
+newstack D5
+newstack S2
+freecell D5
+freecell S2
+freecell S4
+newstack S2
+newstack S4
+newstack D5
+freecell S4
+freecell D5
+newstack D5
+newstack S4
+stack S4 D5
+freecell S2
+freecell S4
+freecell S5
+stack S4 D5
+newstack S2
+newstack S5
+freecell S4
+newstack S4
+freecell D5
+freecell S4
+newstack S4
+newstack D5
+freecell S4
+freecell D5
+freecell S5
+newstack D5
+newstack S5
+newstack S4
+stack S4 D5
+freecell S5
+freecell S4
+newstack S4
+newstack S5
+freecell S4
+stack S4 D5
+freecell S2
+freecell S5
+freecell S4
+newstack S4
+newstack S5
+newstack S2
+freecell S5
+freecell S2
+newstack S2
+newstack S5
+freecell S2
+freecell D5
+newstack S2
+newstack D5
+freecell S5
+freecell D5
+newstack S5
+newstack D5
+freecell S5
+freecell S2
+newstack S5
+newstack S2
+freecell D5
+freecell S2
+newstack D5
+newstack S2
+freecell D5
+freecell S5
+freecell S2
+newstack S2
+freecell S4
+freecell S2
+newstack S2
+newstack S4
+newstack S5
+newstack D5
+freecell S5
+freecell D5
+newstack D5
+newstack S5
+freecell D5
+freecell S4
+freecell S5
+freecell S2
+newstack S5
+freecell S5
+newstack S4
+freecell S4
+newstack D5
+freecell D5
+newstack S4
+newstack S5
+freecell S5
+freecell S4
+newstack S5
+freecell S5
+newstack S0
+newstack S5
+newstack S4
+newstack D5
+newstack S2
+freecell D5
+freecell S2
+newstack S2
+newstack D5
+freecell S2
+freecell S4
+stack S4 D5
+newstack S2
+freecell S4
+newstack S4
+freecell D5
+freecell S4
+newstack D5
+newstack S4
+stack S4 D5
+freecell S2
+freecell S4
+freecell D5
+newstack D5
+newstack S4
+newstack S2
+freecell S4
+stack S4 D5
+freecell S2
+newstack S2
+freecell S4
+newstack S4
+freecell S2
+freecell D5
+newstack S2
+freecell S2
+freecell S4
+freecell S5
+newstack S4
+newstack S5
+newstack S2
+newstack D5
+freecell S2
+freecell D5
+newstack D5
+newstack S2
+freecell D5
+freecell S5
+newstack D5
+newstack S5
+freecell S2
+freecell S5
+newstack S2
+newstack S5
+freecell S2
+freecell D5
+newstack S2
+newstack D5
+freecell S5
+freecell D5
+newstack S5
+newstack D5
+freecell S5
+freecell S2
+freecell D5
+newstack D5
+freecell S4
+stack S4 D5
+newstack S2
+newstack S5
+freecell S4
+newstack S4
+freecell S5
+freecell D5
+newstack S5
+newstack D5
+freecell S4
+stack S4 D5
+freecell S5
+freecell S4
+newstack S4
+newstack S5
+freecell D5
+freecell S5
+newstack S5
+newstack D5
+freecell S5
+freecell D5
+freecell S4
+newstack D5
+newstack S4
+newstack S5
+freecell S4
+stack S4 D5
+freecell S2
+freecell S5
+freecell S4
+freecell D5
+newstack D5
+newstack S4
+newstack S5
+newstack S2
+freecell S5
+freecell S2
+newstack S2
+newstack S5
+freecell S2
+freecell S4
+stack S4 D5
+newstack S2
+freecell S5
+newstack S5
+freecell S2
+freecell S5
+newstack S5
+newstack S2
+freecell S5
+freecell S2
+freecell S4
+newstack S2
+newstack S4
+newstack S5
+freecell S4
+freecell S5
+newstack S5
+newstack S4
+freecell S5
+freecell S2
+newstack S5
+newstack S2
+freecell S4
+freecell S2
+newstack S4
+newstack S2
+freecell S4
+freecell S5
+stack S4 D5
+freecell S4
+freecell S2
+freecell D5
+newstack S2
+newstack S5
+newstack S4
+newstack D5
+freecell S4
+stack S4 D5
+freecell S5
+freecell S4
+freecell S2
+stack S4 D5
+freecell S4
+freecell D5
+source S0
+newstack D5
+newstack S4
+newstack S2
+newstack S5
+freecell S2
+freecell S5
+newstack S5
+newstack S2
+freecell S5
+freecell S4
+stack S4 D5
+newstack S5
+freecell S2
+newstack S2
+freecell S5
+freecell S4
+newstack S5
+newstack S4
+freecell S2
+freecell S4
+newstack S4
+newstack S2
+freecell S4
+freecell S2
+freecell S5
+newstack S2
+newstack S5
+newstack S4
+freecell S5
+freecell S4
+newstack S4
+newstack S5
+freecell S4
+stack S4 D5
+freecell S5
+newstack S5
+freecell S2
+freecell S5
+freecell S4
+freecell D5
+newstack S4
+newstack D5
+newstack S5
+newstack S2
+freecell S5
+freecell S2
+newstack S2
+newstack S5
+freecell S2
+freecell D5
+newstack S2
+newstack D5
+freecell S5
+freecell D5
+newstack S5
+newstack D5
+freecell S5
+freecell S2
+newstack S5
+newstack S2
+freecell D5
+freecell S2
+newstack D5
+newstack S2
+freecell D5
+freecell S5
+freecell S2
+newstack S2
+freecell S4
+newstack S5
+newstack S4
+newstack D5
+freecell S4
+stack S4 D5
+freecell S2
+freecell S4
+newstack S4
+newstack S2
+freecell D5
+freecell S4
+newstack D5
+newstack S4
+stack S4 D5
+freecell S2
+freecell S4
+newstack S4
+newstack S2
+freecell S4
+stack S4 D5
+freecell S5
+freecell S2
+newstack S2
+newstack S5
+freecell S4
+newstack S4
+freecell S5
+freecell S4
+newstack S4
+newstack S5
+freecell S4
+stack S4 D5
+freecell S2
+freecell S5
+freecell S4
+freecell S1
+source S1
+stack S4 D5
+newstack S5
+newstack S2
+freecell S4
+freecell D5
+newstack S4
+newstack D5
+freecell S4
+freecell S2
+source S2
+stack S4 D5
+newstack S4
+freecell D5
+newstack D5
+freecell S4
+freecell D5
+newstack D5
+newstack S4
+stack S4 D5
+freecell S5
+freecell S4
+newstack S4
+newstack S5
+freecell D5
+freecell S5
+newstack S5
+newstack D5
+freecell S5
+freecell D5
+freecell S4
+newstack D5
+newstack S4
+newstack S5
+freecell S4
+stack S4 D5
+freecell S5
+newstack S5
+freecell S4
+freecell S5
+freecell D5
+freecell S3
+newstack S3
+newstack D5
+newstack S5
+newstack S4
+stack S4 D5
+freecell S3
+source S3
+freecell S5
+newstack S5
+freecell S4
+newstack S4
+source S4
+freecell D5
+freecell S5
+source S5
+newstack D5
+freecell D4
+source D4
+freecell D5
+newstack D5
+source D5

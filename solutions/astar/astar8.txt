@@ -1,0 +1,34 @@
+33
+source S0
+source H0
+stack D3 S4
+source D0
+stack D2 S3
+source D1
+source D2
+source D3
+stack H3 S4
+source C0
+stack H2 S3
+source C1
+newstack C3
+source C2
+source C3
+source C4
+newstack S2
+newstack D5
+source S1
+source S2
+newstack H2
+source S3
+source D4
+newstack H3
+source S4
+source S5
+source H1
+source H2
+source H3
+source H4
+source C5
+source D5
+source H5

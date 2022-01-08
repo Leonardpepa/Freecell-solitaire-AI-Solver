@@ -1,0 +1,14 @@
+13
+freecell C0
+source C0
+freecell D0
+source D0
+freecell S0
+freecell H0
+newstack S0
+newstack H0
+freecell S0
+source S0
+freecell H0
+newstack H0
+source H0

@@ -1,0 +1,29 @@
+28
+source S0
+freecell D1
+source C0
+source C1
+source S1
+source C2
+stack D2 S3
+source S2
+source D0
+source D1
+source D2
+source S3
+source D3
+source S4
+newstack H1
+source D4
+source H0
+source H1
+source H2
+source H3
+source H4
+source S5
+newstack C4
+source C3
+source C4
+source C5
+source D5
+source H5

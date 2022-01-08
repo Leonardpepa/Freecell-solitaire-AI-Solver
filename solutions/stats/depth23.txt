@@ -1,0 +1,6 @@
+Statistics
+Steps: 0
+Time: 30.0 seconds
+Nodes visited: 441564
+Nodes: expanded: 441564
+Nodes in the frontier: 11717
