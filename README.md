@@ -27,6 +27,7 @@ sample execution:
   generator.exe test 1 1
 ```
 sample results:
+\ntest1.txt
  ```terminal
 D0 D8 H7 H9 D2 H3
 S7 C8 C1 S1 C2 S0
