@@ -41,3 +41,9 @@ S11 C6 C1 H2 H7 C9
 S7 D0 D4 C4 S0 H4
 C7 C12 D3 H3 C5 H10 
 ```
+# Instalation and Execution
+```termianl
+git clone https://github.com/Leonardpepa/Freecell-solitaire-AI-Solver.git
+cd Freecell-solitaire-AI-Solver 
+```
+
