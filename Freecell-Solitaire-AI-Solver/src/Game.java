@@ -18,6 +18,7 @@ import java.util.Stack;
 // call the gameLoop() function
 //
 // if you want to play the moves the solution file generated 
+// fist initialise the state with the deck that generated the solution
 // then call the playFromFile(String filename) pass it the file that contains the solution moves
 // format of the file:
 // K the number of moves new line
