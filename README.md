@@ -19,8 +19,8 @@ along with the project a c program in provided by the instuctor to generate rand
 # How to use the Generator
 compile: gcc generator.c -o generator <br/> 
 run:
-* windows: generator.exe <prefix> <id1> <id2>
-* linux: ./generator.exe <prefix> <id1> <id2>
+* windows: (generator.exe <prefix> <id1> <id2>)
+* linux: (./generator.exe <prefix> <id1> <id2>)
  
 <br /> the reuslt will be generated files from id1 to id2 with the name given in prefix
 
