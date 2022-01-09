@@ -18,16 +18,16 @@ along with the project a c program in provided by the instuctor to generate rand
 
 # How to use the Generator
 compile: gcc generator.c -o generator
-run: * windows: generator.exe <prefix> <id1> <id2>
-     * linux: ./generator.exe <prefix> <id1> <id2>
+run:
+* windows: generator.exe <prefix> <id1> <id2>
+* linux: ./generator.exe <prefix> <id1> <id2>
 the reuslt will be generated files from id1 to id2 with the name given in prefix
 sample execution:
 ```terminal
   gcc generator.c -o generator
   generator.exe test 1 1
 ```
-sample results:
-\ntest1.txt
+sample results: test1.txt
  ```terminal
 D0 D8 H7 H9 D2 H3
 S7 C8 C1 S1 C2 S0
