@@ -6,7 +6,7 @@
 # Purpose
 this project is created to solve the well known game Freecell solitaire by using famous path finding algorithms
 
-# Algorthims use
+# Algorthims used
 
 * Breadth First Search
 * Depth first Search
@@ -14,13 +14,13 @@ this project is created to solve the well known game Freecell solitaire by using
 * A* Search
 
 # Generator
-along with the project a c program in provided by the instuctor to generate random decks of size N
+along with the project a c program is provided by the instuctor to generate random decks of size N
 
 # How to use the Generator
 compile: gcc generator.c -o generator <br/> 
 run:
 * windows: generator.exe prefix id1 id2
-* linux: ./generator.exe prefix id1 id2
+* linux/mac: ./generator prefix id1 id2
  
 <br /> the reuslt will be generated files from id1 to id2 with the name given in prefix
 
